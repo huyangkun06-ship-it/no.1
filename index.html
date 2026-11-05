@@ -4188,7 +4188,7 @@ html.temporary-pen-active{-webkit-user-select:none;user-select:none;-webkit-touc
 const LIFE=3000,canvas=document.createElement('canvas'),bar=document.createElement('div');
 canvas.id='temporary-ink';canvas.setAttribute('aria-hidden','true');
 bar.id='temporary-pen-tools';bar.setAttribute('role','toolbar');bar.setAttribute('aria-label','三秒临时画笔');
-bar.innerHTML='<span id="temporary-pen-note">写完 3 秒自动消失</span><div><button id="temporary-pen-toggle" type="button" aria-pressed="false">✎ 临时画笔</button><label id="temporary-pen-color-label" hidden><span class="pen-sr-only">笔迹颜色</span><input id="temporary-pen-color" type="color" value="#ed4245" aria-label="笔迹颜色"></label><button id="temporary-pen-clear" type="button" hidden>清除</button></div>';
+bar.innerHTML='<span id="temporary-pen-note">停笔 3 秒全部消失</span><div><button id="temporary-pen-toggle" type="button" aria-pressed="false">✎ 临时画笔</button><label id="temporary-pen-color-label" hidden><span class="pen-sr-only">笔迹颜色</span><input id="temporary-pen-color" type="color" value="#ed4245" aria-label="笔迹颜色"></label><button id="temporary-pen-clear" type="button" hidden>清除</button></div>';
 document.body.append(canvas,bar);
 const toggle=bar.querySelector('#temporary-pen-toggle'),colorInput=bar.querySelector('input'),clear=bar.querySelector('#temporary-pen-clear'),colorLabel=bar.querySelector('label'),note=bar.querySelector('#temporary-pen-note');
 const ctx=canvas.getContext('2d');let enabled=false,current=null,strokes=[],frame=0,timer=0;
@@ -4203,24 +4203,24 @@ function paint(){
     if(s.points.length===1){const p=s.points[0];ctx.arc(p.x-scrollX,p.y-scrollY,2,0,Math.PI*2);ctx.fill()}else ctx.stroke();
   }
 }
-function expire(){clearTimeout(timer);const now=performance.now();strokes=strokes.filter(s=>s.until>now);redraw();if(strokes.length)timer=setTimeout(expire,Math.max(1,Math.min(...strokes.map(s=>s.until))-now))}
+function scheduleErase(){clearTimeout(timer);timer=setTimeout(()=>{timer=0;if(current)return;strokes=[];redraw()},LIFE)}
 function point(e){return {x:e.clientX+scrollX,y:e.clientY+scrollY}}
 function append(e){const p=point(e),last=current.points.at(-1);if(!last||p.x!==last.x||p.y!==last.y)current.points.push(p)}
 function finish(e){
   if(!current||(e&&e.pointerId!==current.pointer))return;
   if(e?.type==='pointerup')append(e);
   const s=current;current=null;try{if(canvas.hasPointerCapture(s.pointer))canvas.releasePointerCapture(s.pointer)}catch{}
-  s.until=performance.now()+LIFE;strokes.push(s);expire();
+  strokes.push(s);scheduleErase();
 }
 function setEnabled(on){
   finish();enabled=on;canvas.classList.toggle('writing',on);document.documentElement.classList.toggle('temporary-pen-active',on);
   toggle.textContent=on?'退出写字 · 可滑动':'✎ 临时画笔';toggle.setAttribute('aria-pressed',String(on));
-  colorLabel.hidden=!on;clear.hidden=!on;note.textContent=on?'全屏可写 · 停笔 3 秒消失':'写完 3 秒自动消失';
+  colorLabel.hidden=!on;clear.hidden=!on;note.textContent=on?'全屏可写 · 停笔 3 秒全部消失':'停笔 3 秒全部消失';
 }
 toggle.addEventListener('click',()=>setEnabled(!enabled));
 clear.addEventListener('click',()=>{finish();strokes=[];clearTimeout(timer);redraw()});
 canvas.addEventListener('pointerdown',e=>{
-  if(!enabled||current||e.button>0)return;e.preventDefault();getSelection()?.removeAllRanges();
+  if(!enabled||current||e.button>0)return;e.preventDefault();clearTimeout(timer);timer=0;getSelection()?.removeAllRanges();
   current={pointer:e.pointerId,color:colorInput.value,points:[point(e)]};
   try{canvas.setPointerCapture(e.pointerId)}catch{}
   redraw();
