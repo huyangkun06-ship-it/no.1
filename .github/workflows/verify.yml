@@ -1,0 +1,94 @@
+name: Verify published study site
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Deploy static site to GitHub Pages]
+    types: [completed]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Install isolated browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/pages-check" playwright@1.58.2
+          node "$RUNNER_TEMP/pages-check/node_modules/playwright/cli.js" install --with-deps chromium webkit
+      - name: Check HTTPS content and main interactions
+        env:
+          NODE_PATH: ${{ runner.temp }}/pages-check/node_modules
+          PAGE_URL: https://huyangkun06-ship-it.github.io/no.1/
+        run: |
+          node <<'JS'
+          const {chromium, webkit} = require('playwright');
+          const assert = require('node:assert/strict');
+          (async () => {
+            for (const [engine, launcher] of Object.entries({chromium, webkit})) {
+              const browser = await launcher.launch();
+              for (const width of [375, 768, 1440]) {
+                const page = await browser.newPage({viewport:{width,height:1000},hasTouch:width<1000});
+                page.setDefaultTimeout(20000);
+                const errors=[];
+                page.on('pageerror',e=>errors.push(e.message));
+                const response=await page.goto(process.env.PAGE_URL,{waitUntil:'networkidle'});
+                assert.equal(response.status(),200);
+                assert.equal(new URL(page.url()).protocol,'https:');
+                assert.equal(await page.locator('.topic-card').count(),83);
+                assert.equal(await page.locator('.sentence-item').count(),101);
+                assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width);
+                assert.equal(await page.evaluate(()=>studyItems.length),184);
+                await page.locator('.mask').first().click();
+                assert(await page.locator('.mask').first().evaluate(e=>e.classList.contains('revealed')));
+                for (const [mode,cls] of [['reveal-all','show-all'],['mask-sentences','mask-sentences-only'],['mask-hints','mask-hints-only']]) {
+                  await page.evaluate(m=>setMode(m),mode);
+                  assert(await page.locator('body').evaluate((e,c)=>e.classList.contains(c),cls));
+                }
+                await page.locator('#studyScope').selectOption('topics');
+                await page.locator('#showHintBtn').click();
+                assert(await page.locator('#studyHint').isVisible());
+                await page.locator('#showAnswerBtn').click();
+                assert(await page.locator('#studyAnswer').isVisible());
+                const id=await page.evaluate(()=>currentStudyItem.id);
+                await page.locator('#favoriteBtn').click();
+                for (const grade of ['again','hard','known']) {
+                  const gradedId=await page.evaluate(()=>currentStudyItem.id);
+                  await page.locator(`[onclick="gradeStudy('${grade}')"]`).click();
+                  assert.equal(await page.evaluate(id=>progress[id].grade,gradedId),grade);
+                }
+                const downloaded=page.waitForEvent('download');
+                await page.locator('button[onclick="exportProgress()"]').click();
+                const download=await downloaded;
+                const backup=JSON.parse(require('node:fs').readFileSync(await download.path(),'utf8'));
+                assert(backup.progress[id].favorite);
+                await page.reload();
+                assert(await page.evaluate(id=>progress[id].favorite,id));
+                await page.evaluate(()=>{progress={};saveProgress()});
+                const imported=new Promise(resolve=>page.once('dialog',async d=>{assert.match(d.message(),/成功/);await d.accept();resolve()}));
+                await page.locator('#importProgressFile').setInputFiles({name:'progress.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+                await imported;
+                assert(await page.evaluate(id=>progress[id].favorite,id));
+                await page.locator('#searchInput').fill('绿色出行');
+                assert.equal(await page.locator('.topic-card:visible').count(),1);
+                await page.locator('#searchInput').fill('');
+                await page.locator('#compactToggle').click();
+                assert(await page.locator('header').evaluate(e=>e.classList.contains('compact')));
+                await page.locator('.compact-nav-action').first().click();
+                await page.locator('.write-nav details summary').last().click();
+                await page.locator('.write-nav a[href="#topic-83"]').click();
+                await page.waitForFunction(()=>location.hash==='#topic-83');
+                await page.locator('#backToTop').click();
+                await page.waitForFunction(()=>scrollY<2);
+                for (const asset of ['manifest.webmanifest','icon-192.png','icon-512.png']) {
+                  const result=await page.request.get(new URL(asset,process.env.PAGE_URL).href);
+                  assert.equal(result.status(),200);
+                }
+                assert.deepEqual(errors,[]);
+                console.log(`PASS ${engine} width=${width}: HTTPS, 83 topics, 101 patterns, masks, study, grades, favorites, localStorage, JSON export/import, navigation, assets; no JS errors`);
+                await page.close();
+              }
+              await browser.close();
+            }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS

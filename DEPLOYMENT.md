@@ -4,15 +4,13 @@
 
 ## 当前部署状态
 
-代码与 GitHub 官方 Pages Actions 工作流已准备。仓库原为私有仓库，尚不能据此声称网站已经上线。免费账户请先将此专用仓库改为 Public，再开启 Pages。
+仓库已设为公开，Pages 已启用 GitHub Actions，官方部署任务已成功发布。
 
-1. 仓库 Settings → General → Danger Zone → Change repository visibility → Public。
-2. Settings → Pages → Build and deployment → Source 选择 **GitHub Actions**。
-3. Actions → Deploy static site to GitHub Pages → Run workflow → main。
-4. 等待工作流成功，以 Pages 设置页或部署任务给出的 HTTPS 链接为准。预期地址为 `https://huyangkun06-ship-it.github.io/no.1/`，在部署成功前该地址不是已验证的网站。
-5. Pages 设置中确认 Enforce HTTPS 已开启（github.io 默认域名支持 HTTPS）。
+网站 HTTPS 地址： https://huyangkun06-ship-it.github.io/no.1/
 
 工作流位于 `.github/workflows/pages.yml`，使用 GitHub 官方 checkout / configure-pages / upload-pages-artifact / deploy-pages，发布白名单中的 HTML、manifest 和两个图标文件。
+
+`.github/workflows/verify.yml` 在部署成功后自动使用隔离的 Chromium / WebKit 测试 HTTPS 页面、83 个话题及主要交互；测试工具只安装在临时 CI 环境，不会加入网站或增加访问时的依赖。最近一次检查结果见仓库 Actions 的 Verify published study site。
 
 ## 更新网站
 
@@ -44,4 +42,4 @@
 
 Chromium 中检查 320 / 375 / 768 / 1024 / 1440 像素宽度。原话题卡片与句型卡片逐项对比，教学 HTML 完整一致；83 个话题和 101 条句型进入抽背题库。遮挡、显隐模式、中文提示、英文答案、随机抽背、三档评分、收藏、刷新持久化、JSON 导入导出、搜索、折叠导航、锚点和回到顶部均完成本地验收，无页面 JavaScript 错误及横向溢出。
 
-当前环境无法下载 WebKit 测试运行时，因此尚未完成真实 iPad Safari 或安卓真机验证。线上 HTTPS 首页验收必须在 Pages 开启并部署后进行。
+本地环境未能安装 WebKit，因此已将线上 Chromium / WebKit 验证交给 GitHub Actions。浏览器引擎及尺寸测试不能代替真实 iPad Safari 或安卓真机验证。
