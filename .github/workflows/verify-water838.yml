@@ -1,0 +1,25 @@
+name: Verify published water838 study site
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Deploy static site to GitHub Pages]
+    types: [completed]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install isolated browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/pages-check" playwright@1.58.2
+          node "$RUNNER_TEMP/pages-check/node_modules/playwright/cli.js" install --with-deps chromium webkit
+      - name: Check published 211-question study site
+        env:
+          NODE_PATH: ${{ runner.temp }}/pages-check/node_modules
+          PAGE_URL: https://huyangkun06-ship-it.github.io/no.1/water838/
+        run: node .github/scripts/water838-check.cjs
