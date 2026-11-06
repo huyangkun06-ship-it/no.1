@@ -22,4 +22,6 @@ jobs:
         env:
           NODE_PATH: ${{ runner.temp }}/pages-check/node_modules
           PAGE_URL: https://huyangkun06-ship-it.github.io/no.1/water838/
-        run: node .github/scripts/water838-check.cjs
+        run: |
+          node .github/scripts/water838-check.cjs
+          node .github/scripts/water838-workbench-check.cjs

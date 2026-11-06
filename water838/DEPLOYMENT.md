@@ -1,31 +1,48 @@
-# 川大838水控背诵网站
+# 838 · 背诵系统
 
-访问地址：https://huyangkun06-ship-it.github.io/no.1/water838/
+项目地址：https://huyangkun06-ship-it.github.io/no.1/water838/
 
-以上传的《川大838水控全题库_顺序背诵版.html》为首页 `water838/index.html`，保留原题库第9—20章的211条题目与全部原始 JavaScript。仅增加主屏幕 metadata / manifest，和长公式、题库列表、文件选择控件在窄屏下的 CSS 兼容修复。
+这是无运行时依赖的静态学习工作台，继续由原 GitHub Pages 工作流发布。根目录英语站点保持原有功能。提交到 `main` 后，Pages 工作流先校验，再发布 `water838/` 整个目录；线上验收工作流随后在 Chromium 和 WebKit 中运行。
 
-GitHub 官方 Pages 工作流将英语首页及 `water838` 子目录同时发布，原英语网站地址不变。无需后端、数据库、登录、付费服务或应用框架。
+## 文件
 
-## 验证
+- `index.html`：五模块页面与原始 211 条 OCR 数据，覆盖第9—20章。
+- `styles.css`：米白 / 鼠尾草绿设计、深色主题、电脑侧栏、平板布局、手机底栏与触控适配。
+- `app.js`：背诵、题库、复习记录、录题、CSV / JSON、PDF、本地记录兼容与界面逻辑。
+- `sw.js`：仅缓存本项目学习页面、脚本、样式、manifest 和图标。
+- `manifest.webmanifest`、`icon.svg`：838 品牌与安装配置；原 Apple 图标仍引用上级目录资源。
 
-`.github/workflows/verify-water838.yml` 在发布后以 Chromium、WebKit 检查375、768、1440像素布局，题目数量与原始内容、顺序和随机背诵、提示与答案、四档评分、收藏、复习筛选、题目增删改、刷新持久化、JSON/CSV导入导出，以及本机PDF选择。测试只在隔离临时环境运行，不会为网站添加依赖。结果见仓库 Actions。引擎测试不能代替真实 iPad / 安卓真机验证。
+## 数据兼容
 
-## 学习记录与迁移
+继续使用 `yanxicang_838_water_v1`，题目 ID、`bundledVersion` 和原题库结构保持兼容。已有编辑、收藏、自定义题、历史作答、掌握状态和复习间隔不会因界面更新重置。原章节9旧 ID 的迁移逻辑保留。本次没有新增题库结构版本，也不把 OCR 内容标为已核对。
 
-题库和学习记录仍使用原存储键 `yanxicang_838_water_v1`，与英语网站的存储键不同。记录保存在当前浏览器，不同设备不会自动同步。原本地HTML的记录不会自动迁移到HTTPS网站，请在原页面“导出完整备份”，再到新网站“导入与备份”导入JSON。
+复习算法保持：完全不会1天、需要提示2天、有少量遗漏3天、独立完整回答首次5天；已有间隔至少4天时翻倍并四舍五入，最长45天。跳过不写入评分。
 
-JSON完整备份保留题目、复习历史、评分与收藏；CSV仅用于题库交换，不能替代学习记录的JSON备份。清理浏览器数据可能丢失记录，应定期备份。
+新界面偏好单独使用 `838.theme` 和 `838.lastQuestion`，不混入题库。存储内容无法解析时，阻止默认题库覆盖旧记录，工具中可下载原始记录后恢复。JSON 完整备份仍包含题库与历史；CSV 是题库交换格式，现包含 ID，合并同题时保留原历史、间隔与收藏。勾选替换会在确认后显式替换现有题库。
 
-## 更新
+## 离线与更新
 
-在 GitHub 打开 `water838/index.html` 编辑并提交，或上传同名HTML替换。官方Pages工作流会自动部署，再运行线上验收。保留原存储键、题目ID和备份结构，以便继续使用已有记录。
+首次必须联网打开，学习首页显示“离线缓存已就绪”后才可断网刷新。已缓存的学习、评分、收藏、编辑和导入导出可离线使用。原 PDF 外链仍需联网；本机选择 PDF 不上传，不纳入 Service Worker 缓存，重新打开页面时需重新选择。
 
-## 主屏幕和离线使用
+Service Worker 限定于 `water838/`，不会接管根目录英语站点。缓存采用完整版本，不混合不同版本的脚本与页面。后续修改发布资源时应同步递增 `sw.js` 的 `CACHE` 名称；新缓存安装完整后才激活，旧缓存随后清理，localStorage 不受缓存更新影响。
 
-iPad Safari：分享 → 添加到主屏幕。安卓浏览器：菜单 → 添加到主屏幕。manifest和图标路径支持 `/no.1/water838/` 子目录。
+## 构建与测试
 
-原文件是可在本机打开的自包含HTML；网页托管不等于首次访问后离线缓存。本次未添加Service Worker，不承诺网站断网仍可打开。需要离线时可以保存原HTML本机使用，并用JSON迁移记录。
+无需 npm 安装或前端打包。校验与静态产物组装命令：
 
-原PDF外链和本机PDF选择功能均保留。服务器没有存放该PDF；外链是否可访问取决于原文件的共享权限与网络条件。本机选择的PDF不会上传。
+```sh
+node .github/scripts/water838-build.cjs --out /tmp/838-pages-build
+```
 
-题干、答案和OCR待核对标记均沿用上传文件，本次部署不表示已人工核对题库内容。
+构建校验锁定原始题库 SHA-256，检查211条唯一ID、12章、待核对标记、名称、相对资源路径、manifest和JavaScript语法。产物同时保留原英语首页。
+
+浏览器测试工具只在开发 / CI 中安装，不随站点发布：
+
+```sh
+PAGE_URL=https://huyangkun06-ship-it.github.io/no.1/water838/ node .github/scripts/water838-check.cjs
+PAGE_URL=https://huyangkun06-ship-it.github.io/no.1/water838/ node .github/scripts/water838-workbench-check.cjs
+```
+
+本地可设置 `LOCAL_CHROME=/usr/bin/chromium` 使用系统 Chromium。完整测试覆盖320、375、390、768、820、1024、1440像素，原有功能、数据兼容、旧ID迁移、答案折叠、主题记忆、复习历史、沉浸模式、断网刷新和离线评分持久化。
+
+本次本地未能下载 WebKit（环境网络策略拒绝浏览器下载域名）；已更新 GitHub Actions 保留 Chromium / WebKit 双引擎验收。浏览器引擎与尺寸模拟不替代 iPhone、iPad 和安卓真机测试。
