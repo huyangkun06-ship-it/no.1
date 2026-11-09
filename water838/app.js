@@ -899,6 +899,46 @@
       next(-1);
     }
   });
+  const FONT_KEY = "838.fontSizes";
+  const fontFields = {
+    Question: { property: "--reading-question", target: "qText", min: 22, max: 48 },
+    Answer: { property: "--reading-answer", target: "answer", min: 16, max: 32 },
+    Auxiliary: { property: "--reading-auxiliary", target: "lastRecall", min: 10, max: 18 },
+  };
+  let fontSizes = {};
+  try {
+    const stored = JSON.parse(localStorage.getItem(FONT_KEY));
+    for (const [name, config] of Object.entries(fontFields)) {
+      const value = stored?.[name];
+      if (Number.isInteger(value) && value >= config.min && value <= config.max)
+        fontSizes[name] = value;
+    }
+  } catch (_) {}
+  function renderFontSizes() {
+    for (const [name, config] of Object.entries(fontFields)) {
+      if (fontSizes[name] !== undefined)
+        document.documentElement.style.setProperty(config.property, fontSizes[name] + "px");
+      else document.documentElement.style.removeProperty(config.property);
+      const value = fontSizes[name] ?? Math.round(parseFloat(getComputedStyle($(config.target)).fontSize));
+      $("font" + name).value = value;
+      $("font" + name + "Value").textContent = value + " px";
+    }
+  }
+  for (const name of Object.keys(fontFields)) {
+    $("font" + name).addEventListener("input", (event) => {
+      const value = Number(event.target.value), config = fontFields[name];
+      if (!Number.isInteger(value) || value < config.min || value > config.max) return;
+      fontSizes[name] = value;
+      renderFontSizes();
+      try { localStorage.setItem(FONT_KEY, JSON.stringify(fontSizes)); } catch (_) {}
+    });
+  }
+  $("resetFonts").onclick = () => {
+    fontSizes = {};
+    try { localStorage.removeItem(FONT_KEY); } catch (_) {}
+    renderFontSizes();
+  };
+  renderFontSizes();
   function updateTheme() {
     const dark = document.documentElement.dataset.theme === "dark";
     $("themeToggle").textContent = dark ? "切换浅色模式" : "切换深色模式";

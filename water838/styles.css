@@ -973,3 +973,24 @@ button, .btn, select, input { font-size: 12px; }
 .num, .mastery strong, .today h3 { font-size: 16px; }
 h1 { font-size: 18px; }
 .tool-card > span { font-size: 18px; }
+
+/* Local reading preferences; absent overrides retain responsive defaults. */
+.question, .font-preview-question { font-size: var(--reading-question, clamp(28px, 3.6vw, 38px)); }
+#bankItems .title { font-size: var(--reading-question, clamp(22px, 2.6vw, 28px)); }
+.answer, .answer-text, .font-preview-answer { font-size: var(--reading-answer, 21px); }
+body { font-size: var(--reading-auxiliary, 13px); }
+.mini, .muted, label, .last-recall, .answer-sources { font-size: var(--reading-auxiliary, 11px); }
+#meta { font-size: var(--reading-auxiliary, 10px); }
+button, .btn, select, input, .source-excerpts summary, .bank-answer > summary { font-size: var(--reading-auxiliary, 12px); }
+.font-size-control { display: grid; grid-template-columns: 5em minmax(0, 1fr) 4em; gap: 12px; align-items: center; margin: 16px 0; }
+.font-size-control label { margin: 0; }
+.font-size-control input[type="range"] { width: 100%; padding: 0; min-width: 0; accent-color: var(--accent); }
+.font-size-control output { font-size: 12px; text-align: right; color: var(--muted); }
+.font-preview { padding-top: 16px; border-top: 1px solid var(--line); overflow-wrap: anywhere; }
+.font-preview-question { font-weight: 700; line-height: 1.5; }
+.font-preview-answer { margin: 10px 0; line-height: 1.8; }
+@media (max-width:700px) {
+  .question, .font-preview-question { font-size: var(--reading-question, 28px); }
+  .answer, .answer-text, .font-preview-answer { font-size: var(--reading-answer, 19px); }
+  .study-actions .btn { font-size: var(--reading-auxiliary, 12px); }
+}

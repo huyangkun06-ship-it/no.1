@@ -1,5 +1,5 @@
 "use strict";
-const CACHE = "838-workbench-exercise-answers-v3";
+const CACHE = "838-workbench-font-settings-v4";
 const CORE = [
   "./",
   "./index.html",
