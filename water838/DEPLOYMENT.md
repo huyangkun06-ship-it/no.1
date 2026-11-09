@@ -46,3 +46,8 @@ PAGE_URL=https://huyangkun06-ship-it.github.io/no.1/water838/ node .github/scrip
 本地可设置 `LOCAL_CHROME=/usr/bin/chromium` 使用系统 Chromium。完整测试覆盖320、375、390、768、820、1024、1440像素，原有功能、数据兼容、旧ID迁移、答案折叠、主题记忆、复习历史、沉浸模式、断网刷新和离线评分持久化。
 
 本次本地未能下载 WebKit（环境网络策略拒绝浏览器下载域名）；已更新 GitHub Actions 保留 Chromium / WebKit 双引擎验收。浏览器引擎与尺寸模拟不替代 iPhone、iPad 和安卓真机测试。
+
+
+## 环境学导论资料扩充
+
+本次新增资料、统计、待核对清单与复现命令见 [ENVIRONMENT_IMPORT.md](./ENVIRONMENT_IMPORT.md)。原211题与旧存储键保持兼容，使用独立环境题库版本进行增量导入。

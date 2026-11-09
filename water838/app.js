@@ -47,6 +47,16 @@
       alert("浏览器空间不足，题库已加载但进度可能无法永久保存，请导出备份。");
     }
   }
+  // Additive migration, independent of the preserved water bundle and its IDs.
+  if (storageReadable && state.environmentVersion !== ENVIRONMENT_VERSION) {
+    const ids = new Set(state.items.map((x) => x.id));
+    for (const item of ENVIRONMENT_SEED) {
+      if (!ids.has(item.id)) state.items.push(structuredClone(item));
+    }
+    state.environmentVersion = ENVIRONMENT_VERSION;
+    try { localStorage.setItem(KEY, JSON.stringify(state)); }
+    catch (_) { alert("题库已加载，浏览器空间不足，请导出备份以保留记录。"); }
+  }
   let current = null,
     queue = [],
     pdfUrl = null;
@@ -72,7 +82,7 @@
     const v = { ...x };
     v.chapter = String(x.chapter || x["章节"] || "未分类").trim();
     v.type = String(x.type || x["题型"] || "简答题").trim();
-    v.question = String(x.question || x["题目"] || x["原题"] || "").trim();
+    v.question = String(x.question || x.title || x["题目"] || x["原题"] || "").trim();
     v.answer = String(x.answer || x["答案"] || "").trim();
     v.topic = String(x.topic || x["知识点"] || "").trim();
     v.source = String(x.source || x["来源"] || "").trim();
@@ -80,6 +90,11 @@
     v.verified =
       x.verified === true || x.verified === "true" || x["已核对"] === true;
     v.id = x.id || unique();
+    for (const field of ["pastExamYears", "reviewReasons", "excerpts", "references", "additionalSources", "replaces"]) {
+      if (typeof v[field] === "string" && v[field]) { try { v[field] = JSON.parse(v[field]); } catch (_) { v[field] = []; } }
+    }
+    if (v.needsReview === "true") v.needsReview = true;
+    if (v.needsReview === "false") v.needsReview = false;
     v.history = Array.isArray(x.history) ? x.history : [];
     v.next = Number(x.next) || 0;
     v.interval = Number(x.interval) || 0;
@@ -94,8 +109,19 @@
       !/选择题|单项选择|多项选择|单选|多选/.test(x.type)
     );
   }
-  function chapters() {
-    return [...new Set(state.items.map((x) => x.chapter))].sort((a, b) =>
+  const categoryNames = { knowledge: "知识点背诵", exercise: "课后习题", supplement: "新版新增" };
+  const subjectOf = (x) => x.subject || "水污染控制工程";
+  const categoryOf = (x) => x.category || (/课后习题/.test(x.section || "") ? "exercise" : "knowledge");
+  const archived = (x) => ["removed", "replaced", "original-only"].includes(x.version);
+  function scopeMatches(x, prefix) {
+    const subject = $(prefix + "Subject").value, category = $(prefix + "Category").value,
+      version = $(prefix + "Version").value;
+    return (!subject || subjectOf(x) === subject) && (!category || categoryOf(x) === category) &&
+      (version === "all" || (version === "current" && !archived(x)) ||
+       (version === "archive" && archived(x)) || (version === "original" && x.version !== "new"));
+  }
+  function chapters(prefix) {
+    return [...new Set(state.items.filter((x) => !prefix || scopeMatches(x, prefix)).map((x) => x.chapter))].sort((a, b) =>
       a.localeCompare(b, "zh-CN", { numeric: true }),
     );
   }
@@ -106,7 +132,7 @@
     option.value = "";
     option.textContent = all;
     el.append(option);
-    for (const c of chapters()) {
+    for (const c of chapters(el.id === "bankChapter" ? "bank" : "study")) {
       const o = document.createElement("option");
       o.value = c;
       o.textContent = c;
@@ -169,6 +195,7 @@
       now = Date.now();
     return state.items.filter(
       (x) =>
+        scopeMatches(x, "study") &&
         (!ch || x.chapter === ch) &&
         (!ty || x.type === ty) &&
         (m === "all" ||
@@ -219,11 +246,13 @@
     $("studyEmpty").classList.add("hidden");
     $("qArea").classList.remove("hidden");
     $("meta").textContent = [
+      subjectOf(x), categoryNames[categoryOf(x)], archived(x) ? "旧版保留" : "",
+      x.importance == null ? "" : "★".repeat(x.importance), (x.pastExamYears || []).join("、"),
       x.chapter,
       x.type,
       x.topic,
       x.source,
-      x.verified ? "已核对" : "OCR待核对",
+      x.verified ? "已核对" : x.subject ? (x.needsReview ? "待核对" : "原文提取") : "OCR待核对",
     ]
       .filter(Boolean)
       .join(" · ");
@@ -231,13 +260,11 @@
     const pg = document.getElementById("pageJump");
     if (pg) {
       pg.href =
-        "https://drive.google.com/file/d/1WTmRkDTVCt8E8jOl35EtkEe0UWXHWeM7/view#page=" +
+        (x.sourceUrl || "https://drive.google.com/file/d/1WTmRkDTVCt8E8jOl35EtkEe0UWXHWeM7/view") + "#page=" +
         (x.page || 1);
       pg.textContent = "查看原PDF第" + (x.page || "?") + "页（联网）";
     }
-    $("answer").textContent =
-      (x.verified ? "参考答案：" : "OCR识别参考答案（待对照原PDF核对）：\n") +
-      (x.answer || "原资料未提供答案或OCR未识别到答案。");
+    renderAnswer($("answer"), x);
     $("hint").textContent = x.hint || x.topic || "这道题暂无提示。";
     $("hint").classList.add("hidden");
     $("answer").classList.add("hidden");
@@ -327,6 +354,23 @@
     if (cls) e.className = cls;
     return e;
   }
+  function renderAnswer(root, x) {
+    root.replaceChildren(elt("div", (x.answerKind === "compiled" ? "整理答案：\n" :
+      x.answerKind === "unavailable" ? "待核对：\n" : "参考答案：\n") +
+      (x.answer || "原资料未提供答案，待核对。")));
+    for (const note of x.reviewReasons || []) root.append(elt("p", "待核对：" + note, "mini"));
+    if (x.references?.length) root.append(elt("p", "教材关联：" + x.references.map((r) => r.title).join("；"), "mini"));
+    if (x.excerpts?.length) {
+      const details = elt("details", undefined, "source-excerpts");
+      details.append(elt("summary", "查看对应原文（含图片、公式与表格）"));
+      for (const excerpt of x.excerpts) {
+        const fig = elt("figure"), img = elt("img");
+        img.src = excerpt.src; img.alt = `${x.question} · 原PDF第${excerpt.page}页`; img.loading = "lazy";
+        fig.append(img, elt("figcaption", `原PDF第${excerpt.page}页`, "mini")); details.append(fig);
+      }
+      root.append(details);
+    }
+  }
   function renderBank() {
     const root = $("bankItems"),
       open = new Set(
@@ -341,10 +385,11 @@
       status = $("bankStatus").value;
     const arr = state.items.filter(
       (x) =>
+        scopeMatches(x, "bank") &&
         (!ch || x.chapter === ch) &&
         (!ty || x.type === ty) &&
         (!key ||
-          [x.question, x.chapter, x.topic, x.source]
+          [x.question, x.chapter, x.topic, x.source, ...(x.pastExamYears || [])]
             .join(" ")
             .toLowerCase()
             .includes(key)) &&
@@ -361,11 +406,11 @@
       root.append(elt("p", "没有匹配题目，请调整筛选条件。", "muted"));
       return;
     }
-    for (const chapter of [...new Set(arr.map((x) => x.chapter))]) {
+    for (const chapter of [...new Set(arr.map((x) => subjectOf(x) + " · " + x.chapter))]) {
       const group = elt("details");
       group.dataset.chapter = chapter;
       group.open = !!key || !!ch || open.has(chapter);
-      const items = arr.filter((x) => x.chapter === chapter);
+      const items = arr.filter((x) => subjectOf(x) + " · " + x.chapter === chapter);
       group.append(elt("summary", chapter + " · " + items.length + " 题"));
       for (const x of items) {
         const d = elt("div", undefined, "listItem"),
@@ -377,20 +422,34 @@
             "div",
             [
               x.type,
+              categoryNames[categoryOf(x)], archived(x) ? "旧版保留" : "",
               x.topic || "未标注知识点",
               x.master ? "已掌握" : x.history.length ? "学习中" : "未学习",
-              x.verified ? "已核对" : "OCR待核对",
+              x.verified ? "已核对" : x.subject ? (x.needsReview ? "待核对" : "原文提取") : "OCR待核对",
               x.source,
             ].join(" · "),
             "mini",
           ),
         );
+        const answerToggle = elt("details", undefined, "bank-answer");
+        answerToggle.append(elt("summary", "显示 / 隐藏答案"));
+        answerToggle.addEventListener("toggle", () => {
+          if (answerToggle.open && answerToggle.children.length === 1) {
+            const content = elt("div", undefined, "answer-text");
+            renderAnswer(content, x); answerToggle.append(content);
+          }
+        });
+        l.append(answerToggle);
         const b = elt("div", undefined, "actions"),
           study = elt("button", "背诵"),
           star = elt("button", x.star ? "★ 已收藏" : "☆ 收藏"),
           edit = elt("button", "编辑"),
           del = elt("button", "删除");
         study.onclick = () => {
+          $("studySubject").value = subjectOf(x);
+          $("studyCategory").value = categoryOf(x);
+          $("studyVersion").value = archived(x) ? "archive" : "current";
+          fillSelect($("chapterFilter")); $("chapterFilter").value = x.chapter;
           show("study");
           showQ(x);
         };
@@ -421,6 +480,14 @@
   $("bankStatus").onchange = renderBank;
   $("search").oninput = renderBank;
   $("bankChapter").onchange = renderBank;
+  for (const prefix of ["study", "bank"]) {
+    for (const field of ["Subject", "Category", "Version"]) {
+      $(prefix + field).onchange = () => {
+        fillSelect($(prefix === "study" ? "chapterFilter" : "bankChapter"));
+        if (prefix === "study") { current = null; next(); } else renderBank();
+      };
+    }
+  }
   function editItem(x) {
     $("qid").value = x.id;
     for (const [id, k] of [
@@ -527,6 +594,8 @@
         ) {
           const existing = merged.find(
             (y) =>
+              subjectOf(y) === subjectOf(x) && categoryOf(y) === categoryOf(x) &&
+              y.version === x.version && y.section === x.section &&
               y.chapter === x.chapter &&
               y.type === x.type &&
               y.question === x.question,
@@ -537,7 +606,7 @@
           const i = merged.findIndex((y) => y.id === x.id);
           merged[i] = file.name.toLowerCase().endsWith(".csv")
             ? {
-                ...x,
+                ...merged[i], ...x,
                 history: merged[i].history,
                 next: merged[i].next,
                 interval: merged[i].interval,
@@ -595,7 +664,9 @@
       "topic",
       "source",
       "hint",
-      "verified",
+      "verified", "subject", "section", "category", "version", "importance", "pastExamYears",
+      "needsReview", "reviewReasons", "answerKind", "sourceUrl", "page", "excerpts", "references",
+      "originalChapter", "originalSection", "additionalSources", "replacedBy", "replaces",
     ];
     const quote = (x) => '"' + String(x ?? "").replace(/"/g, '""') + '"';
     download(
@@ -603,7 +674,7 @@
       "\ufeff" +
         [
           cols.join(","),
-          ...state.items.map((x) => cols.map((k) => quote(x[k])).join(",")),
+          ...state.items.map((x) => cols.map((k) => quote(typeof x[k] === "object" ? JSON.stringify(x[k]) : x[k])).join(",")),
         ].join("\r\n"),
       "text/csv;charset=utf-8",
     );
@@ -671,7 +742,7 @@
         done = list.filter((x) => x.history.length).length,
         master = list.filter((x) => x.master).length;
       const row = elt("button", undefined, "chapter-row");
-      const title = elt("span", ch);
+      const title = elt("span", subjectOf(list[0]) + " · " + ch);
       const detail = elt(
         "span",
         `${done} / ${list.length} 已练习 · ${master} 已掌握`,
@@ -683,6 +754,9 @@
       bar.setAttribute("aria-label", ch + "练习进度");
       row.append(title, bar, detail);
       row.onclick = () => {
+        $("studySubject").value = subjectOf(list[0]);
+        $("studyCategory").value = ""; $("studyVersion").value = "current";
+        fillSelect($("chapterFilter"));
         $("chapterFilter").value = ch;
         $("typeFilter").value = "";
         $("modeFilter").value = "all";

@@ -1,10 +1,11 @@
 "use strict";
-const CACHE = "838-workbench-v1";
+const CACHE = "838-workbench-environment-v2";
 const CORE = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./data/environment.js",
   "./manifest.webmanifest",
   "./icon.svg",
   "../icon-192.png",
@@ -37,7 +38,8 @@ self.addEventListener("fetch", (event) => {
   if (
     event.request.method !== "GET" ||
     url.origin !== self.location.origin ||
-    !CORE.some((p) => new URL(p, self.registration.scope).href === url.href)
+    !(CORE.some((p) => new URL(p, self.registration.scope).href === url.href) ||
+      url.pathname.startsWith(new URL("./assets/environment/", self.registration.scope).pathname))
   )
     return;
   // A cache version contains a complete shell so offline loads never mix releases.
@@ -46,7 +48,10 @@ self.addEventListener("fetch", (event) => {
       .open(CACHE)
       .then(
         async (cache) =>
-          (await cache.match(event.request)) || fetch(event.request),
+          (await cache.match(event.request)) || fetch(event.request).then((response) => {
+            if (response.ok) cache.put(event.request, response.clone());
+            return response;
+          }),
       ),
   );
 });

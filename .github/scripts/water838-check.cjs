@@ -8,6 +8,8 @@ const source = fs.readFileSync(
 const seed = JSON.parse(
   source.split("const FULL_SEED=")[1].split(";const BUNDLE_VERSION=")[0],
 );
+const environment = JSON.parse(fs.readFileSync("water838/data/environment.json", "utf8")).items;
+const total = seed.length + environment.length;
 const key = "yanxicang_838_water_v1";
 (async () => {
   const engines = process.env.LOCAL_CHROME
@@ -40,10 +42,11 @@ const key = "yanxicang_838_water_v1";
         assert.equal(new URL(p.url()).protocol, "https:");
       const state = () =>
         p.evaluate((k) => JSON.parse(localStorage.getItem(k)), key);
-      assert.deepEqual((await state()).items, seed);
+      assert.deepEqual((await state()).items.slice(0, seed.length), seed);
+      assert.equal((await state()).items.length, total);
       assert.equal(seed.length, 211);
       assert.equal(new Set(seed.map((x) => x.chapter)).size, 12);
-      assert.equal(await p.locator("#sTotal").textContent(), "211");
+      assert.equal(await p.locator("#sTotal").textContent(), String(total));
       const noOverflow = async () =>
         assert.equal(
           await p.evaluate(() => document.documentElement.scrollWidth),
@@ -52,6 +55,8 @@ const key = "yanxicang_838_water_v1";
       await noOverflow();
       assert.equal(await p.title(), "838 · 背诵系统");
       await p.locator("nav [data-view=study]").click();
+      await p.locator("#studyFilters").evaluate((d) => d.open = true);
+      await p.locator("#studySubject").selectOption("水污染控制工程");
       assert.equal(await p.locator("#orderMode").inputValue(), "sequential");
       assert.equal(await p.locator("#qText").textContent(), seed[0].question);
       await p.locator("#next").click();
@@ -101,6 +106,7 @@ const key = "yanxicang_838_water_v1";
       await p.locator("#chapterFilter").selectOption("");
       await p.locator("#orderMode").selectOption("sequential");
       await p.locator('nav [data-view="bank"]').click();
+      await p.locator("#bankSubject").selectOption("水污染控制工程");
       assert.equal(await p.locator("#bankItems .listItem").count(), 211);
       await noOverflow();
       await p.locator("#search").fill("水质污染指标");
@@ -114,7 +120,7 @@ const key = "yanxicang_838_water_v1";
       await p.locator("#qAnswer").fill("临时参考答案");
       await p.locator('#qForm button[type="submit"]').click();
       await p.waitForFunction(
-        () => document.getElementById("sTotal").textContent === "212",
+        n => document.getElementById("sTotal").textContent === String(n), total + 1,
       );
       await p.locator("#search").fill("部署验收临时题目");
       await p.locator("#bankItems button").filter({ hasText: "编辑" }).click();
@@ -124,7 +130,7 @@ const key = "yanxicang_838_water_v1";
       await p.locator("#search").fill("部署验收临时题目");
       await p.locator("#bankItems button").filter({ hasText: "删除" }).click();
       await p.waitForFunction(
-        () => document.getElementById("sTotal").textContent === "211",
+        n => document.getElementById("sTotal").textContent === String(n), total,
       );
       await p.locator("nav [data-view=tools]").click();
       await p.locator('[data-view="data"]').click();
@@ -134,7 +140,7 @@ const key = "yanxicang_838_water_v1";
       const backup = JSON.parse(
         fs.readFileSync(await (await downloadPromise).path(), "utf8"),
       );
-      assert.equal(backup.items.length, 211);
+      assert.equal(backup.items.length, total);
       assert(backup.items[0].star);
       assert.equal(backup.items[0].history.length, 1);
       const csvPromise = p.waitForEvent("download");
@@ -172,7 +178,7 @@ const key = "yanxicang_838_water_v1";
       });
       await p.waitForTimeout(100);
       assert.equal((await state()).items[0].history.length, 1);
-      assert.equal((await state()).items.length, 211);
+      assert.equal((await state()).items.length, total);
       await p.locator("#replaceImport").check();
       await p.locator("#importFile").setInputFiles({
         name: "bank.csv",
@@ -184,7 +190,7 @@ const key = "yanxicang_838_water_v1";
           JSON.parse(localStorage.getItem(k)).items[0].history.length === 0,
         key,
       );
-      assert.equal((await state()).items.length, 211);
+      assert.equal((await state()).items.length, total);
       await p.locator("nav [data-view=tools]").click();
       await p.locator('[data-view="pdf"]').click();
       await noOverflow();

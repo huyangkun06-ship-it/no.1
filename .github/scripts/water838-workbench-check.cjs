@@ -9,6 +9,8 @@ const html = fs.readFileSync(
 const seed = JSON.parse(
   html.split("const FULL_SEED=")[1].split(";const BUNDLE_VERSION=")[0],
 );
+const envBundle = JSON.parse(fs.readFileSync("water838/data/environment.json", "utf8"));
+const total = 211 + envBundle.items.length;
 const KEY = "yanxicang_838_water_v1",
   url = process.env.PAGE_URL;
 const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
@@ -60,13 +62,13 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
     );
     await p.goto(url);
     await p.waitForFunction(
-      () => document.querySelector("#sTotal").textContent === "212",
+      n => document.querySelector("#sTotal").textContent === String(n), total + 1,
     );
     const state = () =>
       p.evaluate((k) => JSON.parse(localStorage.getItem(k)), KEY);
     assert.deepEqual(
-      await state(),
-      old,
+      { ...await state(), items: (await state()).items.slice(0, old.items.length), environmentVersion: undefined },
+      { ...old, environmentVersion: undefined },
       "Existing records must be byte-equivalent as parsed JSON",
     );
     await p.locator("#continueStudy").click();
@@ -85,10 +87,11 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
     await p.keyboard.press("Escape");
     assert(await p.locator("#sidebar").isVisible());
     await p.locator("nav [data-view=bank]").click();
-    assert.equal(await p.locator("#bankItems details").count(), 12);
+    await p.locator("#bankSubject").selectOption("水污染控制工程");
+    assert.equal(await p.locator("#bankItems > details").count(), 12);
     await p.locator("#bankStatus").selectOption("star");
     assert.equal(await p.locator("#bankItems .listItem").count(), 1);
-    await p.locator("#bankItems summary").click();
+    await p.locator("#bankItems > details > summary").click();
     await p
       .locator("#bankItems .actions button")
       .filter({ hasText: "已收藏" })
@@ -233,7 +236,7 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
       (k) => JSON.parse(localStorage.getItem(k)),
       KEY,
     );
-    assert.equal(migrated.items.length, 211);
+    assert.equal(migrated.items.length, total);
     assert.deepEqual(migrated.items[0].history, legacyItem.history);
     assert.equal(migrated.items[0].interval, 12);
     assert(migrated.items[0].star);

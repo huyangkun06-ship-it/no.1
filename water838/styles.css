@@ -938,3 +938,12 @@ main > section {
 :root[data-theme="dark"] .btn.danger {
   color: var(--danger);
 }
+
+/* Source material controls inherit the existing minimal layout. */
+.material-filters { margin-bottom: 12px; }
+.bank-answer { margin-top: 10px; }
+.answer-text { white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 12px; }
+.source-excerpts { white-space: normal; margin-top: 14px; }
+.source-excerpts figure { margin: 12px 0; }
+.source-excerpts img { display: block; max-width: 100%; height: auto; background: white; }
+.source-excerpts summary, .bank-answer summary { cursor: pointer; }
