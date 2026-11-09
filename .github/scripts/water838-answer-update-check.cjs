@@ -6,7 +6,7 @@ const env=JSON.parse(fs.readFileSync('water838/data/environment.json','utf8')).i
 const added=JSON.parse(fs.readFileSync('water838/data/exercise-answer-additions.json','utf8')).items;
 const key='yanxicang_838_water_v1';
 (async()=>{
- const browser=await chromium.launch({executablePath:process.env.LOCAL_CHROME||'/usr/bin/chromium',args:['--no-sandbox']});
+ const browser=await chromium.launch(process.env.LOCAL_CHROME ? {executablePath:process.env.LOCAL_CHROME,args:['--no-sandbox']} : {});
  const original=structuredClone([...water,...env]);
  const first=original.find(q=>q.id===added[0].id), edited=original.find(q=>q.id===added[1].id);
  first.answer='原资料仅列出题目，未提供参考答案。待核对。';first.answerKind='unavailable';
