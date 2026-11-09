@@ -53,6 +53,17 @@
     for (const item of ENVIRONMENT_SEED) {
       if (!ids.has(item.id)) state.items.push(structuredClone(item));
     }
+    // Upgrade shipped answers only when the stored answer still equals its
+    // previous bundled value. User edits and all recall history stay intact.
+    const bundled = new Map(ENVIRONMENT_SEED.map((x) => [x.id, x]));
+    for (const item of state.items) {
+      const update = ENVIRONMENT_ANSWER_UPDATES[item.id];
+      if (!update || item.answer !== update.previousAnswer) continue;
+      const fresh = bundled.get(item.id);
+      for (const field of ["answer", "answerKind", "answerSources", "answerRevision",
+        "answerStatus", "reviewReasons", "needsReview", "verified"])
+        item[field] = structuredClone(fresh[field]);
+    }
     state.environmentVersion = ENVIRONMENT_VERSION;
     try { localStorage.setItem(KEY, JSON.stringify(state)); }
     catch (_) { alert("题库已加载，浏览器空间不足，请导出备份以保留记录。"); }
@@ -90,7 +101,7 @@
     v.verified =
       x.verified === true || x.verified === "true" || x["已核对"] === true;
     v.id = x.id || unique();
-    for (const field of ["pastExamYears", "reviewReasons", "excerpts", "references", "additionalSources", "replaces"]) {
+    for (const field of ["pastExamYears", "reviewReasons", "excerpts", "references", "additionalSources", "replaces", "answerSources"]) {
       if (typeof v[field] === "string" && v[field]) { try { v[field] = JSON.parse(v[field]); } catch (_) { v[field] = []; } }
     }
     if (v.needsReview === "true") v.needsReview = true;
@@ -269,7 +280,7 @@
     $("hint").classList.add("hidden");
     $("answer").classList.add("hidden");
     $("selfGrade").classList.add("hidden");
-    $("myAnswer").value = "";
+    $("lastRecall").textContent = lastRecall(x);
     $("starBtn").textContent = x.star ? "★ 已收藏" : "☆ 收藏";
     $("quickJump").replaceChildren(
       ...list.map((q, i) => {
@@ -342,7 +353,7 @@
         x.history.push({
           at: Date.now(),
           grade,
-          response: $("myAnswer").value,
+          response: "",
         });
         save();
         next();
@@ -354,12 +365,31 @@
     if (cls) e.className = cls;
     return e;
   }
+  function lastRecall(x) {
+    const h = x.history?.at(-1);
+    if (!h) return "未背过";
+    const date = new Date(h.at).toLocaleDateString("zh-CN", {
+      timeZone: "Asia/Shanghai", month: "numeric", day: "numeric",
+    });
+    return `上次 ${date} · ${gradeLabels[h.grade] || "未评分"}`;
+  }
   function renderAnswer(root, x) {
-    root.replaceChildren(elt("div", (x.answerKind === "compiled" ? "整理答案：\n" :
+    root.replaceChildren(elt("div", (x.answerKind === "compiled" ? (/^整理答案/.test(x.answer) ? "" : "整理答案：\n") :
       x.answerKind === "unavailable" ? "待核对：\n" : "参考答案：\n") +
       (x.answer || "原资料未提供答案，待核对。")));
     for (const note of x.reviewReasons || []) root.append(elt("p", "待核对：" + note, "mini"));
     if (x.references?.length) root.append(elt("p", "教材关联：" + x.references.map((r) => r.title).join("；"), "mini"));
+    if (x.answerSources?.length) {
+      const sources = elt("details", undefined, "answer-sources");
+      sources.append(elt("summary", "整理答案 · 来源"));
+      for (const source of x.answerSources) {
+        if (!/^https:\/\//.test(source.url)) continue;
+        const line = elt("div"), link = elt("a", source.title);
+        link.href = source.url; link.target = "_blank"; link.rel = "noopener noreferrer";
+        line.append(link); sources.append(line);
+      }
+      root.append(sources);
+    }
     if (x.excerpts?.length) {
       const details = elt("details", undefined, "source-excerpts");
       details.append(elt("summary", "查看对应原文（含图片、公式与表格）"));
@@ -417,6 +447,7 @@
           l = elt("div");
         l.style.flex = "1";
         l.append(elt("div", x.question, "title"));
+        l.append(elt("div", lastRecall(x), "last-recall"));
         l.append(
           elt(
             "div",
@@ -667,6 +698,7 @@
       "verified", "subject", "section", "category", "version", "importance", "pastExamYears",
       "needsReview", "reviewReasons", "answerKind", "sourceUrl", "page", "excerpts", "references",
       "originalChapter", "originalSection", "additionalSources", "replacedBy", "replaces",
+      "answerSources", "answerRevision", "answerStatus",
     ];
     const quote = (x) => '"' + String(x ?? "").replace(/"/g, '""') + '"';
     download(

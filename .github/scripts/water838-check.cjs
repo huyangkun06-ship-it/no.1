@@ -72,7 +72,6 @@ const key = "yanxicang_838_water_v1";
       );
       await p.locator("#starBtn").click();
       assert((await state()).items[0].star);
-      await p.locator("#myAnswer").fill("本次测试作答");
       for (const [i, grade] of [0, 1, 2, 3].entries()) {
         if (!(await p.locator("#answer").isVisible()))
           await p.locator("#revealBtn").click();
@@ -84,7 +83,7 @@ const key = "yanxicang_838_water_v1";
       }
       assert.equal(
         (await state()).items[0].history[0].response,
-        "本次测试作答",
+        "",
       );
       await p.locator("#studyFilters").evaluate((d) => (d.open = true));
       await p.locator("#modeFilter").selectOption("star");

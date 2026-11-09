@@ -26,3 +26,4 @@ jobs:
           node .github/scripts/water838-check.cjs
           node .github/scripts/water838-workbench-check.cjs
           node .github/scripts/water838-environment-check.cjs
+          node .github/scripts/water838-answer-update-check.cjs

@@ -196,9 +196,12 @@
     "deduplicated": 12,
     "environmentTotal": 482,
     "mergedTotal": 693,
-    "needsReview": 306,
+    "needsReview": 194,
     "originalWebsiteNeedsReview": 211,
-    "totalNeedsReview": 517
+    "totalNeedsReview": 405,
+    "exerciseAnswersCompiled": 139,
+    "exerciseAnswersResearched": 114,
+    "exerciseAnswersUnavailable": 0
   },
   "mergeLog": [
     {
@@ -1355,16 +1358,14 @@
       "title": "简要解释与环境学相关名词的概念。",
       "question": "简要解释与环境学相关名词的概念。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①环境：以人类为主体，影响人类生存和发展的外部条件的总体，包括自然环境和社会环境。\n②环境要素：构成环境整体、性质不同且相互联系的基本组分，如水、大气、土壤和生物。\n③环境质量：环境整体或某些要素对人类生活、生产与生态系统的适宜程度。\n④环境容量：在规定环境目标和条件下，环境能够容纳的污染物最大负荷。\n⑤环境承载力：在维持环境结构、功能及资源持续利用的条件下，环境所能支持的人口和经济活动规模。\n⑥环境污染：有害物质或能量进入环境，超过环境可承受程度，造成环境质量下降及不利影响。\n⑦环境自净：环境通过物理、化学、生物作用降低污染物浓度或危害的过程。\n答题时应依题目范围补充“环境问题”“生态系统”等名词，不能把环境容量与人口承载力混为一谈。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 32,
       "sourceRange": {
@@ -1381,14 +1382,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 1,
       "excerpts": [
         {
           "page": 32,
           "src": "./assets/environment/env838-b53132c021a7b16a-32.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=19"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-a24b8d62f5e2c3bd",
@@ -1402,16 +1411,14 @@
       "title": "环境问题是如何产生的?当前人类所面临的主要环境问题有哪些?",
       "question": "环境问题是如何产生的?当前人类所面临的主要环境问题有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "一、产生：自然演变及地震、洪涝等灾害可引起原生环境问题；人口增长、资源过度开发、粗放生产与消费、污染排放等引起次生环境问题。社会经济活动超过资源更新能力、环境容量及生态恢复能力，是问题加剧的重要机制。\n二、主要问题：气候变化、臭氧层破坏、酸沉降；水、大气和土壤污染；固体废物及危险化学品污染；森林减少、土地退化和荒漠化；生物多样性丧失；资源过度消耗及海洋污染等。\n三、认识：问题具有跨介质、跨区域和累积特征，应协调发展与保护，实行源头预防、全过程控制和生态修复。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 32,
       "sourceRange": {
@@ -1428,14 +1435,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 1,
       "excerpts": [
         {
           "page": 32,
           "src": "./assets/environment/env838-a24b8d62f5e2c3bd-32.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=19"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-f796c73811e0cdb3",
@@ -3238,16 +3258,14 @@
       "title": "全球环境问题主要有哪几种类型?其主要危害分别是什么?",
       "question": "全球环境问题主要有哪几种类型?其主要危害分别是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①全球变暖：改变温度、降水和极端天气，导致海平面上升、生态系统与农业受损。\n②臭氧层破坏：增加到达地面的有害紫外线，损害人体健康、作物和水生生态系统。\n③酸沉降：使水体和土壤酸化，损伤森林、农作物、建筑和文物。\n④森林减少、土地退化及荒漠化：削弱水土保持与碳汇功能，降低土地生产力。\n⑤生物多样性丧失：损害遗传资源、生态系统稳定性和生态服务。\n⑥海洋污染、持久性有机污染物及危险废物跨境转移：造成长期、跨境和食物链风险。\n全球性问题往往相互促进，应同时分析其共同驱动因素。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 51,
       "sourceRange": {
@@ -3264,14 +3282,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 2,
       "excerpts": [
         {
           "page": 51,
           "src": "./assets/environment/env838-4566a6c9fce40e4e-51.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=33"
+        },
+        {
+          "title": "NASA：温室效应的原理",
+          "url": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-35f6f7f3655d1f95",
@@ -3285,16 +3321,14 @@
       "title": "全球环境问题的主要防治对策有哪些?",
       "question": "全球环境问题的主要防治对策有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①转变生产消费方式：提高资源利用效率，发展清洁生产、循环经济和绿色消费，减少污染物与温室气体的源头产生。\n②分类治理：推进节能和低碳能源转型；控制消耗臭氧层物质；减少SO₂、NOₓ等排放；治理海洋及危险化学品污染。\n③生态保护：保护森林、湿地和重要生境，修复退化生态系统，促进生物多样性保护。\n④制度与科技：完善环境法律、标准、监测预警、经济政策和公众参与，提高治理及风险管理能力。\n⑤国际合作：履行有关环境公约，推进资金、技术和信息合作，并兼顾不同国家的发展阶段与能力。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 51,
       "sourceRange": {
@@ -3311,14 +3345,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 2,
       "excerpts": [
         {
           "page": 51,
           "src": "./assets/environment/env838-35f6f7f3655d1f95-51.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=33"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-b23fdfb65af80548",
@@ -3332,16 +3384,14 @@
       "title": "中国主要的环境问题有哪些?产生的影响分别体现在哪些方面?",
       "question": "中国主要的环境问题有哪些?产生的影响分别体现在哪些方面?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "我国环境问题可概括为污染问题与生态破坏问题并存。\n①大气：颗粒物与臭氧等复合污染，影响健康和区域空气质量。\n②水：部分河湖富营养化、局部水体及地下水污染、近岸海域陆源污染，影响供水与水生态。\n③土壤及固废：重金属、有机物等污染及废物不当处置，威胁农产品和人居环境安全。\n④生态：水土流失、局部荒漠化、生境破碎化、生物多样性受损，削弱生态服务。\n⑤资源与气候：资源消耗强度、能源结构和碳排放带来转型压力。\n动态认识：2024年公报显示全国生态环境质量持续改善，但地区、流域及污染类型差异仍然存在；不能把历史污染描述直接当作当前全部状况。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 51,
       "sourceRange": {
@@ -3358,14 +3408,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 2,
       "excerpts": [
         {
           "page": 51,
           "src": "./assets/environment/env838-b23fdfb65af80548-51.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=33"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-b7061618811db6ef",
@@ -3379,16 +3442,14 @@
       "title": "你对目前我国环境保护持何种态度，有何观点?",
       "question": "你对目前我国环境保护持何种态度，有何观点?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "本题可按“肯定成效—识别短板—提出对策—个人行动”展开。\n①态度：支持生态优先、绿色发展，以改善生态环境质量和保障公众健康为目标。\n②成效：治理投入与制度建设持续加强，空气和地表水质量总体改善。\n③短板：复合污染、土壤和地下水风险、生态系统退化以及部分地区治理能力不足，仍需长期解决。\n④建议：强化源头减排、依法监管、科学监测和区域协同，推动产业与能源转型，完善公众监督和信息公开。\n⑤行动：节能节水、绿色出行、减少一次性用品、规范分类投放，并依法参与环境保护。\n这是讨论题，关键是观点明确、有事实依据并形成可实施的建议。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 51,
       "sourceRange": {
@@ -3405,14 +3466,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 2,
       "excerpts": [
         {
           "page": 51,
           "src": "./assets/environment/env838-b7061618811db6ef-51.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=33"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-ec875c894cb4b915",
@@ -3426,16 +3500,14 @@
       "title": "了解环境保护法的修订背景及修订内容。",
       "question": "了解环境保护法的修订背景及修订内容。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按题目教材背景，重点回答2014年环境保护法修订：\n一、背景：旧法与快速变化的污染形势、监管需求不完全适应，违法成本偏低，执法、信息公开及公众参与等制度需要加强。\n二、主要内容：强化保护优先、预防为主等原则；明确政府、企业和公众责任；完善环境监测、信息公开及公众参与；建立按日连续处罚等更有力的责任机制，规定查封扣押、限产停产等措施，并完善环境公益诉讼。\n三、时间区分：2014年修订法自2015年1月1日起施行。按2026年11月检索的现行法律，生态环境法典已于2026年8月15日起施行，相关旧法同时废止。本题的“修订内容”属于历史考点，不能把旧法仍称为现行法。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 51,
       "sourceRange": {
@@ -3452,7 +3524,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 2,
       "excerpts": [
         {
@@ -3463,7 +3535,30 @@
           "page": 52,
           "src": "./assets/environment/env838-ec875c894cb4b915-52.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=33"
+        },
+        {
+          "title": "环境保护法2014年修订文本（历史资料）",
+          "url": "https://jjjcz.mee.gov.cn/djfg/gjflfg/fl/201404/t20140401_444481.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "生态环境部：2026年生态环境法典及施行说明",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202604/t20260408_1148465.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中华人民共和国生态环境法典",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/fl/202603/t20260313_1146496.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-b9539fa9a356457d",
@@ -4550,16 +4645,14 @@
       "title": "我国江河湖库以及海洋污染的特点有哪些?",
       "question": "我国江河湖库以及海洋污染的特点有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①江河：污染具有流域性和上下游关联，城镇生活、工业与农业面源排放共同影响水质；不同区域和支流差异明显。\n②湖泊、水库：水交换较慢，氮磷等营养盐容易累积；在适宜条件下发生富营养化和藻类水华，并可能存在底泥内源释放。\n③海洋：污染压力多集中在河口、海湾和近岸海域，具有陆源输入、海水交换和沿岸开发共同作用的特点，可出现富营养化、赤潮及垃圾污染等。\n④治理：统筹水资源、水环境和水生态，联控点源、面源与内源污染，推进流域—河口—海湾协同治理。\n现状数据须标明年份。例如2024年全国地表水Ⅰ—Ⅲ类断面比例为90.4%，不宜概括为“全国水质持续恶化”。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 74,
       "sourceRange": {
@@ -4576,14 +4669,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 3,
       "excerpts": [
         {
           "page": 74,
           "src": "./assets/environment/env838-fa6577095cf60221-74.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=52"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-2c4033218e3f2016",
@@ -4597,16 +4703,14 @@
       "title": "我国地下水污染的特点有哪些?",
       "question": "我国地下水污染的特点有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①隐蔽性：污染常在地下发生，难以凭感官及时发现。\n②滞后性和累积性：污染物渗入、迁移通常较慢，影响可能在多年后出现。\n③难恢复：地下水更新与稀释能力受含水层条件限制，一旦形成污染羽，治理周期长、成本高。\n④来源多样：工业场地、垃圾和危废不当处置、生活污水、农业施肥及矿业活动等均可能造成污染。\n⑤空间差异：水文地质条件决定污染物迁移路径与范围，局部还存在地质背景造成的水质问题，须与人为污染区分。\n防治上应保护补给区与水源地，防渗控源，开展分层监测和风险管控，避免单纯依靠末端抽水处理。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 74,
       "sourceRange": {
@@ -4623,14 +4727,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 3,
       "excerpts": [
         {
           "page": 74,
           "src": "./assets/environment/env838-2c4033218e3f2016-74.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=52"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-36a02b816f5b7f97",
@@ -4644,7 +4766,7 @@
       "title": "简述水处理的“三级控制”模式。",
       "question": "简述水处理的“三级控制”模式。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按本资料“水处理模式／污水处理的分级”的上下文，三级模式指一级、二级和三级处理：\n①一级处理：以物理去除为主，利用格栅、沉砂、沉淀、隔油等去除漂浮物、砂粒和部分悬浮物，并进行必要调节。\n②二级处理：以生物处理为核心，去除可生物降解的溶解性及胶体有机物，常用活性污泥法、生物膜法等；按工艺需要结合脱氮除磷。\n③三级处理：在二级处理后进一步去除残余悬浮物、氮磷、难降解有机物或盐分等，采用过滤、吸附、膜分离、深度脱氮除磷及消毒等，以满足更严格排放或回用要求。\n三级不是每种污水都必须采用完全相同的设备串联，应按水质、标准和用途确定。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
@@ -4652,7 +4774,7 @@
       "pastExamYears": [],
       "needsReview": true,
       "reviewReasons": [
-        "原题无配套答案，未编造答案。"
+        "题干使用“三级控制”，按本PDF和变动资料的“三级处理”解释；考试应核对命题语境。"
       ],
       "verified": false,
       "page": 74,
@@ -4670,14 +4792,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 3,
       "excerpts": [
         {
           "page": 74,
           "src": "./assets/environment/env838-36a02b816f5b7f97-74.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=52"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-2b7519483d7e2a46",
@@ -5898,16 +6028,14 @@
       "title": "简述大气对人类生活的重要性。",
       "question": "简述大气对人类生活的重要性。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①生命条件：提供呼吸所需氧气、植物光合作用所需CO₂及氮循环的重要物质基础。\n②热量调节：大气参与太阳辐射和地面长波辐射交换，维持适合生命的温度条件。\n③保护作用：平流层臭氧吸收大部分有害紫外线，大气也使许多小型流星体在进入时烧蚀。\n④物质与能量输送：通过风、云、降水和水循环调节气候，影响水资源、农业和生态系统。\n⑤生活生产：与交通、通信、风能利用和污染物扩散等密切相关。\n因此，大气质量下降不仅影响呼吸健康，也影响气候、生态及社会经济活动。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 100,
       "sourceRange": {
@@ -5924,7 +6052,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "additionalSources": [
         {
@@ -5943,7 +6071,20 @@
           "page": 100,
           "src": "./assets/environment/env838-646cbdc493ece6fc-100.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：温室效应的原理",
+          "url": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-fe50777528add545",
@@ -5957,16 +6098,14 @@
       "title": "什么是大气污染?请结合现实生活中的污染情况谈谈你对大气污染的认识。",
       "question": "什么是大气污染?请结合现实生活中的污染情况谈谈你对大气污染的认识。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "大气污染是有害物质进入大气，其浓度和持续时间达到足以危害人体、生态系统或财产，或造成不良环境效应的状态。\n认识时要联系“污染源—污染物—气象扩散—暴露与影响”：例如机动车和工业排放NOₓ与VOCs，在日照下生成近地面臭氧；燃烧与扬尘可增加颗粒物，在静稳、逆温等条件下积累。\n污染包括直接排放的一次污染，也包括大气化学反应形成的二次污染；看不见烟尘不等于没有污染。防治既要削减排放，也要进行区域协同和公众暴露防护。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 100,
       "sourceRange": {
@@ -5983,7 +6122,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "additionalSources": [
         {
@@ -6002,7 +6141,25 @@
           "page": 100,
           "src": "./assets/environment/env838-fe50777528add545-100.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：近地面臭氧的形成",
+          "url": "https://airquality.gsfc.nasa.gov/surface-level-ozone",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-a8754b3d448dd184",
@@ -6016,16 +6173,14 @@
       "title": "大气污染中主要污染物有哪些，主要来源和主要处理措施是什么?",
       "question": "大气污染中主要污染物有哪些，主要来源和主要处理措施是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①颗粒物：来自燃烧、工业过程、道路及施工扬尘，也可由气态前体物二次生成；采用清洁燃料、密闭集气、抑尘及袋式／电除尘等。\n②SO₂：主要与含硫燃料燃烧、冶炼有关；采用低硫原料、燃料替代及烟气脱硫。\n③NOₓ：来自高温燃烧、机动车等；采用低氮燃烧、SCR／SNCR及车辆尾气治理。\n④VOCs：来自溶剂使用、石化和储运等；采用原辅料替代、密闭收集与吸附、回收或氧化处理。\n⑤CO：主要由不完全燃烧产生，应改善燃烧条件并采用适当尾气催化处理。\n⑥臭氧：是NOₓ和VOCs在日照下反应形成的二次污染物，应协同控制前体物。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 100,
       "sourceRange": {
@@ -6042,7 +6197,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "additionalSources": [
         {
@@ -6061,7 +6216,25 @@
           "page": 100,
           "src": "./assets/environment/env838-a8754b3d448dd184-100.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "NASA：近地面臭氧的形成",
+          "url": "https://airquality.gsfc.nasa.gov/surface-level-ozone",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-ac2b46c84bfc9286",
@@ -6075,16 +6248,14 @@
       "title": "大气污染物有哪几种分类?其危害是什么?",
       "question": "大气污染物有哪几种分类?其危害是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "一、按形态：颗粒态污染物（烟尘、粉尘、雾滴等）与气态污染物（SO₂、NOₓ、CO、VOCs等）。\n二、按形成过程：一次污染物由污染源直接排放；二次污染物由一次污染物反应形成，如臭氧和部分二次颗粒物。\n三、按来源：自然源和人为源，也可区分固定源、移动源与面源。\n四、危害：颗粒物及多种气体损害人体呼吸和心血管系统；SO₂、NOₓ等参与酸沉降，臭氧损伤作物和植被，颗粒物降低能见度；部分污染物还参与气候变化或损害材料。\n分类角度不同可以交叉，不能把同一污染物限定为一种唯一类别。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 100,
       "sourceRange": {
@@ -6101,7 +6272,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "additionalSources": [
         {
@@ -6120,7 +6291,20 @@
           "page": 100,
           "src": "./assets/environment/env838-ac2b46c84bfc9286-100.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：近地面臭氧的形成",
+          "url": "https://airquality.gsfc.nasa.gov/surface-level-ozone",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d1f9f5da09a7963e",
@@ -6134,16 +6318,14 @@
       "title": "大气污染的主要类型有哪些?",
       "question": "大气污染的主要类型有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①煤烟型污染：以燃煤形成的烟尘、SO₂等为突出特征，常受静稳、逆温等条件影响。\n②光化学烟雾：NOₓ和VOCs等在阳光作用下形成臭氧及其他氧化性产物。\n③酸沉降：SO₂、NOₓ等转化为酸性物质，以湿沉降或干沉降进入环境。\n④颗粒物／灰霾污染：一次颗粒排放与二次颗粒形成共同作用，降低能见度并产生健康影响。\n从更大尺度还可讨论温室气体增加与臭氧层破坏。实际城市经常存在多种污染共同作用的复合污染，不能仅按历史“煤烟型”解释全部问题。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 100,
       "sourceRange": {
@@ -6160,7 +6342,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "additionalSources": [
         {
@@ -6183,7 +6365,25 @@
           "page": 101,
           "src": "./assets/environment/env838-d1f9f5da09a7963e-101.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：近地面臭氧的形成",
+          "url": "https://airquality.gsfc.nasa.gov/surface-level-ozone",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "NASA：温室效应的原理",
+          "url": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-647ba774002ffd67",
@@ -6387,16 +6587,14 @@
       "title": "针对各类大气污染问题，还有哪些新的治理技术？",
       "question": "针对各类大气污染问题，还有哪些新的治理技术？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①颗粒物：高效袋式除尘、电袋复合除尘及湿式电除尘等可用于不同粒径和性质的颗粒物控制。\n②SO₂、NOₓ：结合低硫原料、低氮燃烧、脱硫及选择性催化还原等，并开展多污染物协同控制。\n③VOCs：低挥发原料替代、LDAR、密闭收集、吸附浓缩—催化／蓄热氧化及适用的回收技术。\n④温室气体：提高能效、可再生能源替代、电气化、CO₂捕集利用与封存（CCUS）等。\n⑤管理技术：在线监测、排放清单与源解析帮助精准治理。\n技术选择应考虑浓度、组分、风量、能耗及二次污染；不能把一种新技术宣传为适合全部废气。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6413,14 +6611,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-2cdcc03cd207c931-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-14d19633ac31e92a",
@@ -6434,16 +6650,14 @@
       "title": "酸雨是如何形成的？它对环境有什么影响？",
       "question": "酸雨是如何形成的？它对环境有什么影响？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "形成：含硫燃料燃烧等排放SO₂，燃烧和交通等排放NOₓ；它们在大气中经氧化及水相反应形成硫酸、硝酸等，随雨雪雾沉降。教学上通常将pH低于5.6的降水称为酸雨，该值不是所有地区天然降水的绝对分界。\n影响：①土壤与水体酸化，养分淋失、某些金属活性增加；②损伤森林和农作物，影响水生生物；③腐蚀金属及建筑材料，损害文物；④相关酸性气溶胶及污染物还可造成健康风险。\n防治：减少SO₂、NOₓ排放，优化能源结构，实施脱硫脱硝及区域协同治理。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6460,14 +6674,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-14d19633ac31e92a-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-7ae32c9dc4e92bef",
@@ -6481,16 +6703,14 @@
       "title": "“温室效应”的原理和机制是什么？",
       "question": "“温室效应”的原理和机制是什么？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "太阳辐射主要以短波形式进入地表—大气系统，地表吸收能量后释放长波红外辐射。CO₂、CH₄、水汽等温室气体吸收部分长波辐射并向各方向再辐射，减少地表向外净散热，使地表和低层大气维持较高温度。\n自然温室效应是地球适宜生命的重要条件；人为增加温室气体，会改变辐射收支，造成增暖，并通过水汽、冰雪反照率等反馈进一步影响气候。\n要点：大气对不同波长辐射的作用不同，关键是长波辐射交换和能量平衡，不能只用“挡住热空气”解释。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6507,14 +6727,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-7ae32c9dc4e92bef-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：温室效应的原理",
+          "url": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-bd8d14b6413f732f",
@@ -6528,16 +6761,14 @@
       "title": "气候变化对地球生态系统的影响有哪些？请结合现实生活列举其中一种影响。",
       "question": "气候变化对地球生态系统的影响有哪些？请结合现实生活列举其中一种影响。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "主要影响：①改变物种适生区、物候及迁徙时间，造成种间关系失配；②增加热浪、干旱、火灾及部分强降水风险，影响生态系统稳定性；③海平面上升损害滨海湿地等生境；④海洋增暖与酸化影响珊瑚等海洋生物；⑤改变水循环、农业生产和生态系统碳收支。\n实例：海洋热浪可造成珊瑚热应激和白化，持续或反复发生时，会降低珊瑚礁生物多样性及其渔业、海岸防护功能。\n答题可围绕“气候因子变化—生物响应—生态服务及人类影响”组织。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6554,14 +6785,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-bd8d14b6413f732f-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：温室效应的原理",
+          "url": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-4dd92010f2f9fc8a",
@@ -6575,16 +6824,14 @@
       "title": "为了改善空气质量，个人应该怎么做？请列举两条具体建议。",
       "question": "为了改善空气质量，个人应该怎么做？请列举两条具体建议。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①绿色出行：优先步行、骑行和公共交通，合理合乘、减少不必要的机动车出行，降低燃油消耗及尾气排放。\n②节能与低VOCs消费：合理使用空调、减少能源浪费；装修或清洁时选择符合要求的低挥发产品，减少不必要的溶剂使用。\n还可做到不露天焚烧垃圾、秸秆，不违规燃放烟花，发现污染依法反馈。个人行为需要与产业、能源及交通治理配合，不能代替污染源的法定治理责任。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6601,14 +6848,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-4dd92010f2f9fc8a-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-5602d514143746be",
@@ -6622,16 +6882,14 @@
       "title": "请列举大气保护的法律法规，并简要介绍其中一项法律法规。",
       "question": "请列举大气保护的法律法规，并简要介绍其中一项法律法规。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按2026年11月的现行法律背景，可列举生态环境法典、相关大气污染防治规章、排污许可管理法规及地方条例等。\n以生态环境法典为例：它将大气等污染防治纳入统一法律体系，强调源头预防、全过程控制，要求协同控制颗粒物、SO₂、NOₓ、VOCs等污染物和温室气体，并规定排放监管及法律责任。\n教材历史背景可列出环境保护法、大气污染防治法等；但生态环境法典已于2026年8月15日施行，包括这两部法律在内的相关旧法同时废止。考试回答历史修法问题与现行法问题时，应注明时间，避免混用。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6648,14 +6906,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-5602d514143746be-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：2026年生态环境法典及施行说明",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202604/t20260408_1148465.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中华人民共和国生态环境法典",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/fl/202603/t20260313_1146496.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-177a123dda29e846",
@@ -6669,16 +6945,14 @@
       "title": "请解释“碳中和”的概念和意义。",
       "question": "请解释“碳中和”的概念和意义。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "碳中和是指在规定边界和时间尺度内，人为CO₂排放量与人为移除量达到净平衡。国家、地区或组织的核算边界及气体范围应明确；讨论所有温室气体净零时，要区分于仅CO₂的碳中和。\n实现路径首先是减少排放，包括节能提效、能源与产业低碳转型，再对难以避免的剩余排放采用经核证的碳汇或其他移除方式。\n意义：降低气候变化风险，推动技术创新与经济转型，带来空气污染协同减排，并促进能源系统长期可持续发展。碳中和并不等于任何活动都绝对没有排放。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6695,14 +6969,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-177a123dda29e846-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-b27c0207b6999ce0",
@@ -6716,16 +7003,14 @@
       "title": "什么是光化学烟雾？请简述它的产生原理和危害。",
       "question": "什么是光化学烟雾？请简述它的产生原理和危害。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "光化学烟雾是NOₓ、VOCs等前体物在阳光作用下经过一系列光化学反应，形成以臭氧和其他氧化性物质为特征的污染现象。\n机理要点：NO₂光解参与臭氧生成；VOCs氧化形成的过氧自由基可使NO转化为NO₂，从而促使臭氧净累积，并生成醛类、过氧酰基硝酸酯等产物。高温、强日照及不利扩散条件有利于形成。\n危害：刺激眼睛和呼吸道，损伤植物、降低作物产量，破坏橡胶等材料，并影响区域空气质量。\n防治应根据臭氧生成的敏感性协同削减NOₓ与VOCs。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6742,14 +7027,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-b27c0207b6999ce0-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：近地面臭氧的形成",
+          "url": "https://airquality.gsfc.nasa.gov/surface-level-ozone",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-278be2d9dd746e75",
@@ -6763,16 +7061,14 @@
       "title": "请简述全球变暖对人类的影响。",
       "question": "请简述全球变暖对人类的影响。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①健康：增加高温暴露及热相关疾病风险，影响部分传染病传播条件，并可通过灾害和空气污染产生间接影响。\n②水与粮食：改变降水、径流和蒸散，影响水资源供需、农业产量及食品安全。\n③沿海与城市：海平面上升、风暴潮及极端降水风险影响居民、基础设施和财产。\n④经济社会：增加防灾、健康和基础设施维护成本，对脆弱地区及人群造成更大负担。\n⑤生态服务：森林、湿地、海洋等受损会削弱碳汇、供水和生计支持。\n应同时采取减缓与适应措施；具体区域的变化方向及程度需要依据监测和评估。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6789,14 +7085,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-278be2d9dd746e75-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：温室效应的原理",
+          "url": "https://science.nasa.gov/climate-change/faq/what-is-the-greenhouse-effect/",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-46d5a279725fd6d4",
@@ -6810,16 +7119,14 @@
       "title": "请简述颗粒污染物和气态污染物控制方法和设备。",
       "question": "请简述颗粒污染物和气态污染物控制方法和设备。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "一、颗粒物控制：重力沉降去除较大颗粒；旋风除尘利用离心作用；袋式除尘利用过滤；电除尘利用荷电及电场力；湿式洗涤利用液滴捕集。设备选择取决于粒径、粉尘性质、温湿度和排放要求。\n二、气态污染物控制：吸收法使污染物转入液相；吸附法使其富集于固体表面；冷凝法适用于可回收组分；燃烧、催化及生物方法使其转化或降解。\n三、典型应用：SO₂采用脱硫，NOₓ采用低氮燃烧与SCR／SNCR，VOCs采用回收或适当氧化处理。\n还要处理废液、废吸附剂及反应副产物，防止污染转移。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6836,14 +7143,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-46d5a279725fd6d4-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-99c4e706e24bce36",
@@ -6857,16 +7177,14 @@
       "title": "影响大气污染物的地理因素有哪些？",
       "question": "影响大气污染物的地理因素有哪些？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①地形：山谷、盆地及复杂地形可限制通风，造成污染滞留；山坡和谷地风又可能改变输送路径。\n②下垫面：城市建筑、地表粗糙度、植被与水体影响湍流、热量交换和局地环流。\n③海陆位置：海陆风有时有利于通风，也可能造成污染往返输送；沿海不能被简单视为“不会积累污染”。\n④地理位置与气候：纬度、季节及区域环流影响日照、降水、温度和扩散条件。\n⑤相邻区域与源布局：污染源位置、输送通道及上风向排放共同决定区域影响。\n应将地理条件与风速、稳定度、逆温等气象因素结合分析。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6883,14 +7201,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 7,
           "src": "./assets/environment/env838-99c4e706e24bce36-7.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-0355c35fd994da77",
@@ -6904,16 +7230,14 @@
       "title": "请简述大气污染综合防治的含义和措施。",
       "question": "请简述大气污染综合防治的含义和措施。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "含义：把污染源控制、区域规划、能源和产业调整、工程治理与管理措施结合起来，在一定区域内整体改善空气质量，而非只治理单个烟囱。\n措施：①优化能源结构，推广节能及清洁能源；②调整产业、交通和空间布局；③实施清洁生产及多污染物协同减排；④治理燃煤、工业、机动车、扬尘和VOCs等重点源；⑤健全监测、预警、排污许可及执法；⑥加强区域联防联控，防范跨界输送；⑦完善公众参与和重污染应急措施。\n评价应关注环境质量改善、暴露降低和持续运行效果。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 7,
       "sourceRange": {
@@ -6930,7 +7254,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
@@ -6941,7 +7265,25 @@
           "page": 8,
           "src": "./assets/environment/env838-0355c35fd994da77-8.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中华人民共和国生态环境法典",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/fl/202603/t20260313_1146496.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-2b99d51813894316",
@@ -6955,16 +7297,14 @@
       "title": "臭氧层破坏会带来什么危害？应对措施是什么？",
       "question": "臭氧层破坏会带来什么危害？应对措施是什么？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "危害：平流层臭氧减少使到达地表的UV-B增加，可能增加皮肤和眼部损伤风险，影响植物生长、水生初级生产及部分材料的寿命。\n原因：部分含氯、含溴的消耗臭氧层物质进入平流层后释放活性卤素，催化臭氧分解。\n对策：履行蒙特利尔议定书及相关国际安排，淘汰受控消耗臭氧层物质，采用合适替代技术，管理制冷剂泄漏及废弃设备回收，加强监测和公众防护。\n应区分平流层保护性臭氧与近地面污染性臭氧，也应区分臭氧层破坏与温室效应。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 8,
       "sourceRange": {
@@ -6981,14 +7321,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 8,
           "src": "./assets/environment/env838-2b99d51813894316-8.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "NASA：近地面臭氧的形成",
+          "url": "https://airquality.gsfc.nasa.gov/surface-level-ozone",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-6b8b5e8501d67dd5",
@@ -7002,16 +7355,14 @@
       "title": "我国CO₂减排面临的挑战是什么？可以采取什么控制措施实现CO₂的持续减排？",
       "question": "我国CO₂减排面临的挑战是什么？可以采取什么控制措施实现CO₂的持续减排？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "挑战：①能源需求和产业规模较大；②煤炭在能源结构中仍有重要地位；③钢铁、水泥、化工等行业深度减排困难；④可再生能源并网、储能、基础设施与技术成本仍有约束；⑤地区发展及资源禀赋差异较大。\n措施：节能提效并抑制不合理高耗能需求；发展非化石能源和新型电力系统；推动工业、建筑、交通电气化及低碳工艺；完善碳市场、核算与标准；在适用领域发展CCUS；保护提升生态系统碳汇，并推动公正、有序的转型。\n持续减排要同时关注排放总量、强度和产业结构，避免只靠末端抵消。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 8,
       "sourceRange": {
@@ -7028,14 +7379,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 8,
           "src": "./assets/environment/env838-6b8b5e8501d67dd5-8.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-49db5e0c838369c9",
@@ -7049,16 +7413,14 @@
       "title": "VOCs 末端治理的主要技术有哪些？",
       "question": "VOCs 末端治理的主要技术有哪些？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①吸附：利用活性炭、沸石等富集VOCs，常与脱附回收或氧化组合；需防吸附剂失效和着火。\n②吸收：用适宜液体溶剂吸收，适合相容性好、可回收的组分，并处理废液。\n③冷凝：降低温度使VOCs冷凝回收，通常更适合较高浓度、具有回收价值的废气。\n④氧化：热力燃烧、RTO、催化氧化或RCO，使有机物转化，须满足安全、温度与停留时间等条件。\n⑤生物处理：适合某些低浓度、易生物降解且不抑制微生物的废气。\n末端设施之前必须做好源头替代、密闭收集及过程控制，不能只看设备名称判断治理有效性。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 8,
       "sourceRange": {
@@ -7075,14 +7437,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 4,
       "excerpts": [
         {
           "page": 8,
           "src": "./assets/environment/env838-49db5e0c838369c9-8.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=75"
+        },
+        {
+          "title": "生态环境部：重点行业挥发性有机物综合治理方案",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/201907/t20190703_708395.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-dfae2954c3073509",
@@ -8067,16 +8442,14 @@
       "title": "土壤自净的定义是什么?土壤自净的主要类型有哪些?",
       "question": "土壤自净的定义是什么?土壤自净的主要类型有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "土壤自净是土壤通过吸附、固定、转化、分解及生物作用等，使进入土壤的污染物迁移性、生物有效性或危害降低的过程。\n①物理／物理化学净化：过滤、吸附和离子交换等，截留或固定部分污染物。\n②化学净化：沉淀、络合、氧化还原及水解等，改变污染物形态和可迁移性。\n③生物净化：微生物降解有机物，植物吸收或富集，及生物转化等。\n自净能力受土壤组成、pH、氧化还原条件、水分和污染负荷影响。重金属不能被“降解消失”；被固定也不意味着永久无风险。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 115,
       "sourceRange": {
@@ -8093,7 +8466,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "additionalSources": [
         {
@@ -8112,7 +8485,20 @@
           "page": 115,
           "src": "./assets/environment/env838-53b0f4d5d5a339d4-115.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-959c7577c394149f",
@@ -8126,16 +8512,14 @@
       "title": "土壤污染的定义是什么?造成土壤污染的主要物质有哪些?",
       "question": "土壤污染的定义是什么?造成土壤污染的主要物质有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "土壤污染是有害物质进入并累积于土壤，导致土壤性质、生态功能或利用安全受到不利影响的现象。\n主要物质：①镉、汞、铅、砷等金属或类金属污染物；②农药、石油烃、持久性有机物等；③过量施用带来的化肥及盐类负荷；④病原微生物；⑤放射性物质及其他新污染物。\n来源包括工业排放和沉降、污水灌溉、农业投入品、矿业、固废不当处置及生活活动等。\n污染物的总量、形态、生物有效性与土地用途共同影响风险，应避免仅凭一种浓度描述全部危害。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 115,
       "sourceRange": {
@@ -8152,7 +8536,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "additionalSources": [
         {
@@ -8175,7 +8559,20 @@
           "page": 116,
           "src": "./assets/environment/env838-959c7577c394149f-116.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-56d33b1e82d138de",
@@ -8377,16 +8774,14 @@
       "title": "简述重金属在土壤中的生物迁移和转化过程以及防治措施。",
       "question": "简述重金属在土壤中的生物迁移和转化过程以及防治措施。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "迁移转化：重金属可随灌溉水、径流和渗滤在土壤中迁移，经植物吸收进入农产品及食物链；土壤吸附、解吸、沉淀、络合和氧化还原会改变其形态与生物有效性。生物富集可增加暴露，但金属元素本身不能被微生物分解消失。\n防治：①控制冶炼、矿业和“三废”等输入，规范农业投入品；②根据pH、氧化还原状态等采取合适的钝化、农艺调控或安全利用；③污染严重地块采用隔离、土壤淋洗、工程修复等；④在适用条件下开展植物修复；⑤监测土壤、地下水及农产品，防止风险转移。\n不同金属对条件变化的响应不同，不能把同一种水分或pH措施机械套用。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8403,14 +8798,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 11,
           "src": "./assets/environment/env838-ac4bedcc686fbe0e-11.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-6e0d450d3bf5ed11",
@@ -8424,16 +8832,14 @@
       "title": "农药在土壤中的降解途径有哪些？",
       "question": "农药在土壤中的降解途径有哪些？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①生物降解：微生物或植物酶促作用使农药转化，部分可进一步矿化。\n②化学降解：水解、氧化、还原等反应，速率受农药结构、pH、温度和土壤成分影响。\n③光降解：暴露于表层的农药在日光作用下分解，受光照与遮蔽程度限制。\n④转化产物：原农药浓度下降不代表所有产物均无毒，仍应关注代谢物及其持久性。\n挥发、淋溶、径流和吸附改变污染物的位置或存在状态，通常属于迁移、分配过程，不能全部当作真正降解。治理应减少输入并控制对水、气环境的转移。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8450,14 +8856,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 11,
           "src": "./assets/environment/env838-6e0d450d3bf5ed11-11.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-b8abaec17b08bf7b",
@@ -8471,16 +8885,14 @@
       "title": "土壤退化的含义是什么？土壤退化的类型有哪些？",
       "question": "土壤退化的含义是什么？土壤退化的类型有哪些？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "土壤退化是土壤在自然因素和人类活动作用下，生产力、生态功能及质量下降的过程。\n①物理退化：水蚀、风蚀、压实、结构破坏、表土流失等。\n②化学退化：盐渍化、酸化、养分耗竭或失衡、有毒污染物累积等。\n③生物退化：有机质减少、土壤生物多样性及生物活性下降等。\n这些类型可相互促进。例如植被破坏导致侵蚀，有机质损失又削弱团粒结构及保水保肥能力。\n防治应保护表土和植被，合理耕作与施肥，改善排灌，防控污染并开展针对性修复。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8497,14 +8909,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 11,
           "src": "./assets/environment/env838-b8abaec17b08bf7b-11.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-41cab7b526e3661e",
@@ -8518,16 +8938,14 @@
       "title": "简述土壤污染的防治对策。",
       "question": "简述土壤污染的防治对策。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①源头预防：严格控制工业、矿业、污水和固废向土壤输入污染物，推进清洁生产；科学施肥用药，规范污灌。\n②分类管理：调查监测与风险评估相结合，按土地用途、污染水平和暴露条件确定安全利用、风险管控或修复措施。\n③阻断暴露：采用清洁覆盖、隔离、调整作物或土地利用等方式，保护农产品、地下水及居民安全。\n④针对性修复：选择适宜物理、化学、生物或联合技术，并控制二次污染。\n⑤全过程保障：落实责任主体、修复效果评估和长期监测，防止治理后重新污染。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8544,14 +8962,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 11,
           "src": "./assets/environment/env838-41cab7b526e3661e-11.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-9633964387a383f8",
@@ -8565,16 +8996,14 @@
       "title": "土壤由哪些基本成分组成？这些成分如何影响土壤的物理、化学和生物学性质？",
       "question": "土壤由哪些基本成分组成？这些成分如何影响土壤的物理、化学和生物学性质？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "基本成分：矿物质、有机质、土壤水、土壤空气及土壤生物；水和空气主要分布在孔隙中。\n①矿物颗粒及粒径组成影响质地、孔隙、通气、透水和吸附能力。\n②有机质参与团粒形成、保水保肥和缓冲作用，也是土壤生物的物质能量来源。\n③土壤水是物质溶解、迁移及生物活动的介质；过多或过少都会限制根系与微生物活动。\n④空气供应氧气，孔隙通气状况影响氧化还原条件。\n⑤生物促进有机物分解、养分循环和结构形成。\n各成分相互作用，决定土壤的物理、化学与生物性质。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8591,14 +9020,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 11,
           "src": "./assets/environment/env838-9633964387a383f8-11.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-0f3180412dca7dce",
@@ -8612,16 +9049,14 @@
       "title": "土壤侵蚀对土壤质量和环境健康有哪些长期影响？分析土壤侵蚀的成因、过程以及防治措施。",
       "question": "土壤侵蚀对土壤质量和环境健康有哪些长期影响？分析土壤侵蚀的成因、过程以及防治措施。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "成因：强降雨、地表径流、风和地形条件是自然驱动力；毁林、过度放牧、不合理坡耕和工程扰动会放大侵蚀。\n过程：土粒被剥离，随后经水流或风搬运，再在低能量区域沉积。\n长期影响：表土、有机质及养分流失，土层变薄和生产力下降；泥沙淤积河库，携带氮磷及污染物，损害水质与水生态；严重时引发土地退化并影响生计。\n防治：保护和恢复植被，实行等高耕作、覆盖、轮作及适度放牧，结合梯田、截排水、沟道治理与水土保持工程；建设活动应落实表土保护及施工期控制。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8638,14 +9073,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 11,
           "src": "./assets/environment/env838-0f3180412dca7dce-11.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-ed179d48b100c0d0",
@@ -8659,16 +9102,14 @@
       "title": "土壤修复技术中，物理修复、化学修复和生物修复各有哪些优缺点？",
       "question": "土壤修复技术中，物理修复、化学修复和生物修复各有哪些优缺点？",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①物理修复：如挖除换土、筛分、隔离等，见效较快、适于特定污染分布；但工程量和费用较大，可能扰动土壤或产生待处置污染土。\n②化学／物化修复：如稳定化、淋洗、化学氧化还原等，针对性和处理效率较强；但可能改变土壤性质，产生废液、副产物或长期稳定性问题。\n③生物修复：利用植物或微生物吸收、转化或降解污染物，通常扰动较小，利于生态恢复；但周期较长，受温度、毒性、污染深度等限制。\n选择应依据污染物性质、风险目标和土地用途，必要时联合应用。重金属修复重点是移除、固定或阻断暴露，不是把元素降解。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 11,
       "sourceRange": {
@@ -8685,7 +9126,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
@@ -8696,7 +9137,20 @@
           "page": 12,
           "src": "./assets/environment/env838-ed179d48b100c0d0-12.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-8537c48cb7663f17",
@@ -8710,16 +9164,14 @@
       "title": "土壤盐渍化是如何形成的？讨论土壤盐渍化的原因、影响及其对农业和生态系统的潜在危害。",
       "question": "土壤盐渍化是如何形成的？讨论土壤盐渍化的原因、影响及其对农业和生态系统的潜在危害。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "形成：土体或地下水中的可溶盐随水迁移，在蒸发强、淋洗不足或排水不畅时在根区及表层积累。\n原因：干旱气候、浅埋含盐地下水、海水影响等自然因素，以及大水漫灌、排水不良、使用含盐灌溉水和不合理土地利用等人为因素。\n影响：增加植物吸水困难，可能产生离子毒害和营养失衡，降低产量；钠化还可能破坏土壤结构、降低透水性，并影响生态系统。\n防治：完善排灌与地下水调控，采用合适水质及科学灌溉，结合覆盖、耐盐作物和必要的土壤改良；洗盐必须有排盐出路，避免把盐转移到相邻环境。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 12,
       "sourceRange": {
@@ -8736,14 +9188,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 12,
           "src": "./assets/environment/env838-8537c48cb7663f17-12.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-c185a7f54ffd5682",
@@ -8757,16 +9217,14 @@
       "title": "基于土壤污染的来源，提出一系列预防土壤污染的策略，并讨论它们的实施可行性。",
       "question": "基于土壤污染的来源，提出一系列预防土壤污染的策略，并讨论它们的实施可行性。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按来源提出策略：①工业与矿业：优化布局，采用清洁生产，控制废气沉降、渗漏和尾矿风险；②农业：测土配方施肥、综合病虫害管理，规范有机肥及农膜利用；③生活及固废：分类收集、规范处理，防止随意倾倒和不合规土地施用；④污水：控制灌溉水及再生水质量；⑤历史场地：调查评估，避免污染地块未经管理改变用途。\n可行性：源头预防一般优于污染后大规模修复，但需要明确责任、提供技术和资金支持，建立监测及可追溯制度，并与地方产业和农户条件相适应。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 12,
       "sourceRange": {
@@ -8783,14 +9241,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 12,
           "src": "./assets/environment/env838-c185a7f54ffd5682-12.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-bd9c46675868c991",
@@ -8804,16 +9275,14 @@
       "title": "分析当前关于土壤保护和污染治理的法律和政策，并讨论它们在实际执行中可能面临的挑战。",
       "question": "分析当前关于土壤保护和污染治理的法律和政策，并讨论它们在实际执行中可能面临的挑战。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按2026年11月法律背景，土壤保护以生态环境法典的有关规定为重要依据，并与农用地、建设用地分类管理及风险管控、修复政策配套。历史教材所列土壤污染防治法自法典2026年8月15日施行时同时废止，应注明时间。\n制度重点：污染预防、调查监测、用途和风险分类、责任追溯、受污染地块风险管控与修复、农产品及地下水安全。\n执行挑战：历史责任主体难认定，调查数据和技术能力不均衡，修复费用高且周期长，部门协同与长期监管不足，以及开发利用压力。\n改进：强化源头控制、信息共享、资金保障、质量监督与后期监测，按风险目标选择措施。",
       "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
       "sourceUrl": "https://drive.google.com/file/d/11CjvWmrS4poAVMmBBWnsJPRCmD1-JkRJ/view",
       "version": "new",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 12,
       "sourceRange": {
@@ -8830,14 +9299,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 5,
       "excerpts": [
         {
           "page": 12,
           "src": "./assets/environment/env838-bd9c46675868c991-12.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=101"
+        },
+        {
+          "title": "中华人民共和国生态环境法典",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/fl/202603/t20260313_1146496.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-38127699127d2295",
@@ -10009,16 +10496,14 @@
       "title": "固体废物的主要处理、处置技术有哪些?",
       "question": "固体废物的主要处理、处置技术有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "处理技术：①分选、破碎、压实、脱水等预处理，便于后续利用及运输；②焚烧、热解等热处理，适于相应可燃组分；③好氧堆肥、厌氧消化等生物处理，适于可生物降解有机废物；④固化／稳定化等，降低某些有害成分的迁移性。\n资源化：材料回收、再生利用、能量回收等，应保证产品和排放安全。\n最终处置：符合要求的卫生填埋、安全填埋及其他获准方式，区别生活垃圾和危险废物的管理要求。\n应按废物性质组合工艺，优先减量、再用及资源化，处理飞灰、渗滤液和废气等二次污染。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 130,
       "sourceRange": {
@@ -10035,14 +10520,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 6,
       "excerpts": [
         {
           "page": 130,
           "src": "./assets/environment/env838-a12992710f2fd23f-130.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=116"
+        },
+        {
+          "title": "巴塞尔公约秘书处：公约概览",
+          "url": "https://www.basel.int/Default.aspx?tabid=1271",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-ed226d199698c2af",
@@ -10056,16 +10554,14 @@
       "title": "什么是危险废物越境迁移以及其控制政策?",
       "question": "什么是危险废物越境迁移以及其控制政策?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "危险废物越境迁移是危险废物从一国管辖范围移往或途经另一国管辖范围，或移往无国家管辖区域的跨境转移活动。风险包括向管理能力弱地区转移污染、非法倾倒及运输事故。\n控制核心：①减少危险废物产生；②在符合环境无害化管理的条件下尽可能就近处理；③越境转移实行事先知情同意，涉及出口国、进口国和过境国的相应通知与同意程序；④保证运输、处置及责任安排合规；⑤防范并追究非法转移。\n《巴塞尔公约》构成主要国际框架；实际转移还必须满足相关国家的进口禁限规定，不能只凭合同或一方许可。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 130,
       "sourceRange": {
@@ -10082,14 +10578,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 6,
       "excerpts": [
         {
           "page": 130,
           "src": "./assets/environment/env838-ed226d199698c2af-130.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=116"
+        },
+        {
+          "title": "巴塞尔公约秘书处：公约概览",
+          "url": "https://www.basel.int/Default.aspx?tabid=1271",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-2a85982e4df83a77",
@@ -10103,16 +10612,14 @@
       "title": "了解巴塞尔公约的基本原则和基本内容。",
       "question": "了解巴塞尔公约的基本原则和基本内容。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "《巴塞尔公约》主要针对危险废物及其他相关废物的越境转移和处置。\n原则：减少产生量及危害，推动环境无害化管理，减少不必要的越境转移，并开展国际合作。\n核心内容：界定受控废物范围及缔约方义务；建立事先通知与知情同意程序；要求具备相应的运输、处置及管理安排；规范非法转移的处理和有关责任；促进技术、信息与能力建设。\n理解要点：公约不是鼓励以出口代替本国污染治理，越境转移也不因形式上“可回收”就自动合法。具体废物流还需结合修正案及各国法律判断。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 130,
       "sourceRange": {
@@ -10129,7 +10636,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 6,
       "excerpts": [
         {
@@ -10140,7 +10647,20 @@
           "page": 131,
           "src": "./assets/environment/env838-2a85982e4df83a77-131.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=116"
+        },
+        {
+          "title": "巴塞尔公约秘书处：公约概览",
+          "url": "https://www.basel.int/Default.aspx?tabid=1271",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-1c4835b0e93b485d",
@@ -11262,16 +11782,14 @@
       "title": "噪声的危害?试列举1~2个环境噪声的事例。",
       "question": "噪声的危害?试列举1~2个环境噪声的事例。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①听觉损害：较高声级或长期暴露可导致听觉疲劳、听力下降，严重暴露可能造成不可逆损害。\n②非听觉影响：干扰睡眠、交流、学习和工作，引起烦恼及应激；长期环境噪声暴露还与心血管健康风险相关。\n③安全与社会影响：妨碍报警和交流，降低工作注意力及居住舒适度。\n例子：城市道路交通噪声干扰沿线居民夜间睡眠；施工噪声影响附近学校教学。\n危害受声级、频谱、持续时间、时段及个体敏感性共同影响。控制应遵循声源、传播途径及接收者三环节。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 143,
       "sourceRange": {
@@ -11288,14 +11806,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 7,
       "excerpts": [
         {
           "page": 143,
           "src": "./assets/environment/env838-88e20c5240903254-143.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=131"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-c850ba3d75f7de53",
@@ -12302,17 +12828,14 @@
       "title": "如何理解国家对于计划生育政策的调整?",
       "question": "如何理解国家对于计划生育政策的调整?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "政策调整需联系人口发展阶段：过去强调控制人口过快增长，随后逐步调整生育政策；面对低生育、老龄化等变化，2021年实施三孩生育政策及配套支持措施。\n理解：①目标由人口数量约束拓展为人口长期均衡发展；②降低生育、养育和教育负担，完善托育、妇幼健康及相关公共服务；③保障家庭依法自主安排生育，兼顾性别平等和就业支持；④积极应对老龄化，提高人口素质与劳动生产率。\n不能把旧教材中某阶段的“严格控制增长”表述机械用于当前所有政策；应以政策时点及人口结构变化解释调整。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。",
-        "变动资料说明人口章已重写，但未给出这些知识点的完整新版正文；此处保留原资料，需核对新版教材。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 150,
       "sourceRange": {
@@ -12329,7 +12852,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 8,
       "excerpts": [
         {
@@ -12340,7 +12863,20 @@
           "page": 151,
           "src": "./assets/environment/env838-69bdaf5657f45978-151.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=144"
+        },
+        {
+          "title": "优化生育政策促进人口长期均衡发展的决定",
+          "url": "https://www.mee.gov.cn/zcwj/zyygwj/202107/t20210720_849299.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-6086f8dd757df1b2",
@@ -12879,16 +13415,14 @@
       "title": "粮食安全的定义及其重要性是什么?",
       "question": "粮食安全的定义及其重要性是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "粮食安全强调所有人在任何时候，都能在物质和经济上获取满足健康生活所需的足够、安全及有营养的食物。\n答题可概括四个维度：供给是否充足、家庭个人是否能够获得、能否合理利用其营养，以及这些条件能否稳定持续。\n重要性：①保障基本生存与健康；②维持社会稳定和国家安全；③支持经济发展与民生保障；④提高应对灾害、市场和国际供应链冲击的能力。\n粮食安全不仅是总产量问题，还涉及分配、收入、营养、储运和生态可持续性；食品安全侧重危害控制，与粮食安全相联系但范围不同。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 158,
       "sourceRange": {
@@ -12905,14 +13439,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 9,
       "excerpts": [
         {
           "page": 158,
           "src": "./assets/environment/env838-200ada62032c1436-158.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=151"
+        },
+        {
+          "title": "FAO：粮食安全的定义",
+          "url": "https://www.fao.org/4/w4979e/w4979e05.htm",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-7d6f463c7a3472ef",
@@ -12981,16 +13528,14 @@
       "title": "化肥污染的主要危害及防治方法有哪些?",
       "question": "化肥污染的主要危害及防治方法有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "危害：过量施肥使氮磷流失，造成地表水富营养化及地下水硝酸盐风险；不合理长期施肥可能引起土壤酸化、盐分或养分失衡；氨挥发及氧化亚氮排放还影响空气和气候。杂质及产品质量不合格的投入品也可能增加污染。\n防治：测土配方、按需和分次施肥，改进施肥位置与时机；合理利用有机肥并重视其质量；推广适宜的缓控释及水肥一体化技术；采用轮作、覆盖、生态沟渠和缓冲带，减少径流损失。\n核心是提高养分利用效率，不以降低农作物正常需肥供给为代价。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 158,
       "sourceRange": {
@@ -13007,14 +13552,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 9,
       "excerpts": [
         {
           "page": 158,
           "src": "./assets/environment/env838-dd5963a36fa970e7-158.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=151"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-f4ee36ef15032a3a",
@@ -13028,16 +13581,14 @@
       "title": "农药污染的主要危害及防治方法有哪些?",
       "question": "农药污染的主要危害及防治方法有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "危害：农药可经漂移、径流、渗漏等污染水、气和土壤；残留及不当接触危害人体和非靶标生物；长期单一用药可产生抗药性，破坏天敌和生态平衡。具体风险取决于毒性、剂量、暴露和环境归趋。\n防治：优先综合病虫害管理，结合农业、物理及生物防治；选择合法、高效、低风险药剂，按登记用途及剂量精准施用；注意时机和安全间隔期，保护水源及敏感区域；规范储运和废包装回收，开展残留监测与人员培训。\n不能把“天然”或“生物来源”直接等同于绝对无害。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 158,
       "sourceRange": {
@@ -13054,14 +13605,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 9,
       "excerpts": [
         {
           "page": 158,
           "src": "./assets/environment/env838-f4ee36ef15032a3a-158.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=151"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-34a6038ef2a92979",
@@ -13075,16 +13634,14 @@
       "title": "我国实现粮食安全生产的途径是什么?",
       "question": "我国实现粮食安全生产的途径是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①保护耕地和土壤质量，提高高标准农田、水利及抗灾能力，稳定生产基础。\n②依靠良种、合理栽培和农业科技提高单产与质量，避免以过量化肥农药换取短期产量。\n③推进节水、养分高效利用及生态农业，兼顾产量、资源和环境。\n④完善储备、物流与加工，减少生产、储运和消费环节损失及浪费。\n⑤通过合理贸易和多元供应提高韧性，同时保障必要的国内生产能力。\n⑥关注农民收益、家庭购买能力和营养，使“有粮”与“能获得、能健康利用”相统一。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 158,
       "sourceRange": {
@@ -13101,7 +13658,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 9,
       "excerpts": [
         {
@@ -13112,7 +13669,20 @@
           "page": 159,
           "src": "./assets/environment/env838-34a6038ef2a92979-159.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=151"
+        },
+        {
+          "title": "FAO：粮食安全的定义",
+          "url": "https://www.fao.org/4/w4979e/w4979e05.htm",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-835f251d96e0a739",
@@ -14552,16 +15122,14 @@
       "title": "化石燃料的使用对环境会造成什么影响?",
       "question": "化石燃料的使用对环境会造成什么影响?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "开采阶段：煤矿、油气田及配套工程占地、破坏植被和生境，可能引起地面沉降、水污染及甲烷逸散。\n加工储运阶段：产生粉尘、废水和固废，泄漏、溢油及事故带来生态风险。\n使用阶段：燃烧排放CO₂、NOₓ、SO₂、颗粒物等，造成气候变化、空气污染与酸沉降；不完全燃烧还产生CO等。\n全生命周期：灰渣、废设施、耗水和资源消耗也需管理。\n防治应结合节能、能源替代、清洁工艺与排放控制，避免只计算燃烧端排放而忽略开采及供应链影响。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14578,14 +15146,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
           "page": 171,
           "src": "./assets/environment/env838-f8566ae226d34555-171.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-00221414d5cd38f3",
@@ -14599,16 +15180,14 @@
       "title": "简述当今世界的能源结构特点。",
       "question": "简述当今世界的能源结构特点。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "当今能源结构可概括为：①化石能源在全球能源供给中仍有重要地位，存量基础设施和产业需求使转型具有长期性；②可再生能源增长较快，电气化以及核电等低排放电源的重要性上升；③不同地区的资源禀赋、能源可及性和结构差异明显；④能源安全、价格和供应链风险与减排目标共同影响选择。\n时间说明：IEA《Global Energy Review 2026》总结的是2025年情况，其中太阳能成为全球能源需求增量的重要来源，低排放能源承担了较大增量。不能把“增量占比”当作“全部能源存量占比”。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14625,14 +15204,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
           "page": 171,
           "src": "./assets/environment/env838-00221414d5cd38f3-171.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "IEA：Global Energy Review 2026主要结论",
+          "url": "https://www.iea.org/reports/global-energy-review-2026/key-findings",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-641bf48b6fbce553",
@@ -14646,16 +15238,14 @@
       "title": "试分析当今世界能源消耗与供应的特点。",
       "question": "试分析当今世界能源消耗与供应的特点。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "消费特点：总需求受人口、收入、产业、气候及效率影响；发展阶段与人均消费差异较大，工业化、交通及电气化持续改变需求结构。\n供应特点：资源地理分布与消费中心不一致，跨区域运输和贸易重要；化石能源与低排放能源并存，基础设施、储能和电网约束影响转型。\n矛盾：需求增长与资源环境约束、能源安全与国际市场波动、减排与成本之间需要协调。\n发展方向：提高能效，扩大清洁能源供给和互联互通，提升供应链与系统韧性。讨论“当前”趋势时须标明报告年份，区分能源消费与电力消费。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14672,14 +15262,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
           "page": 171,
           "src": "./assets/environment/env838-641bf48b6fbce553-171.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "IEA：Global Energy Review 2026主要结论",
+          "url": "https://www.iea.org/reports/global-energy-review-2026/key-findings",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-e800496d2938471e",
@@ -14693,16 +15296,14 @@
       "title": "能源的分类有哪些?其对环境有怎样的影响?",
       "question": "能源的分类有哪些?其对环境有怎样的影响?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按形成可分一次能源和二次能源：前者如煤、石油、天然气、太阳辐射等，后者如电力、成品燃料等。\n按可更新性可分可再生与不可再生能源；按利用形式还可分燃料、动力及热能等。分类维度可以交叉。\n环境影响：化石能源存在开采破坏、污染和碳排放；水电可能改变河流连通性和生境；核能需管理放射性废物及事故风险；风光能运行排放较低，但仍涉及土地、材料、制造和退役；生物质能需关注土地竞争及燃烧排放。\n应采用生命周期视角，不能把“可再生”理解为没有环境影响。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14719,14 +15320,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
           "page": 171,
           "src": "./assets/environment/env838-e800496d2938471e-171.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-169e85a334f5010e",
@@ -14740,16 +15354,14 @@
       "title": "简述主要的清洁能源种类及其特征发展趋势。",
       "question": "简述主要的清洁能源种类及其特征发展趋势。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "主要类型：太阳能、风能、水能、地热、海洋能、可持续利用的生物质能，以及核能等低碳电源。天然气燃烧的一些常规污染排放较低，但仍属于化石能源，不能等同于零碳能源。\n特点：风光资源丰富但存在时空波动；水电具有调节价值但受水文及生态约束；地热和部分生物质利用需因地制宜；核能运行碳排放较低但安全、废物及成本管理重要。\n趋势：与储能、电网、需求响应及多能互补结合，推动电气化、技术降本和全生命周期环境管理。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14766,14 +15378,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
           "page": 171,
           "src": "./assets/environment/env838-169e85a334f5010e-171.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "IEA：Global Energy Review 2026主要结论",
+          "url": "https://www.iea.org/reports/global-energy-review-2026/key-findings",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-e230a32065cb75ca",
@@ -14787,16 +15417,14 @@
       "title": "简述我国面临的能源问题。",
       "question": "简述我国面临的能源问题。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①需求规模及增长压力：工业、建筑和交通等部门持续需要可靠能源服务。\n②结构压力：煤炭等传统能源仍有重要地位，产业深度脱碳难度大。\n③空间错配：资源、可再生能源潜力与负荷中心分布不一致，输送及消纳能力需要提升。\n④安全风险：部分油气依赖外部供应，国际市场、运输及极端天气影响系统韧性。\n⑤效率及环境约束：部分环节能效不足，污染、碳排放、水及土地约束需要统筹。\n⑥转型挑战：新型电力系统、储能、关键技术及公平转型仍需持续建设。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14813,14 +15441,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
           "page": 171,
           "src": "./assets/environment/env838-e230a32065cb75ca-171.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-4ce11dd91f7e524d",
@@ -14834,16 +15475,14 @@
       "title": "目前解决我国的能源问题有哪些措施?",
       "question": "目前解决我国的能源问题有哪些措施?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①节能优先：提升工业、建筑和交通能效，减少损失及不合理需求。\n②能源转型：扩大可再生能源和其他适宜低碳供给，推动电气化并有序降低高排放能源依赖。\n③系统建设：发展电网互联、储能、调峰和需求响应，提高新能源消纳与供能可靠性。\n④安全保障：多元供应、合理储备和风险预警，提升国内供应及基础设施韧性。\n⑤制度科技：完善市场、价格、标准、碳核算与创新，推动绿色产业发展。\n⑥生态约束：实施全生命周期环境管理，兼顾土地、水资源、生物多样性与转型中的民生。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 171,
       "sourceRange": {
@@ -14860,7 +15499,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 10,
       "excerpts": [
         {
@@ -14871,7 +15510,20 @@
           "page": 172,
           "src": "./assets/environment/env838-4ce11dd91f7e524d-172.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=159"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-1f6f816278ec284b",
@@ -15476,16 +16128,14 @@
       "title": "什么是自然资源，请列举出几种常见的自然资源。",
       "question": "什么是自然资源，请列举出几种常见的自然资源。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "自然资源是自然界中能够直接或间接为人类利用、具有现实或潜在价值的物质、能量及环境条件。\n例子：水、土地、森林、草地、野生生物、矿产，以及太阳能、风能等。\n可按更新特征区分可再生、不可再生及持续可利用的自然能流等；也可按资源类型、用途和开发状态分类。\n“自然存在”与“可以无限利用”不同。可再生资源的利用若超过更新能力，同样会衰退甚至丧失；资源价值也受技术、需求和生态约束影响。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 182,
       "sourceRange": {
@@ -15502,14 +16152,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 11,
       "excerpts": [
         {
           "page": 182,
           "src": "./assets/environment/env838-d0ba2db363bdc4ed-182.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=172"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-403e55e2178c41e4",
@@ -15523,16 +16181,14 @@
       "title": "简述对环境影响较大的自然资源的特征。",
       "question": "简述对环境影响较大的自然资源的特征。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "与环境影响密切相关的资源特征可从以下方面说明：\n①有限性：储量、质量或更新速度有限，过度利用会产生资源与生态压力。\n②区域性：空间分布不均，开发容易形成区域集中及跨区域输送影响。\n③整体性：水、土、生物等资源相互联系，改变一种资源会影响其他要素。\n④多用途与竞争性：同一土地、水体可有生产、生活和生态等用途，分配失当引发矛盾。\n⑤可更新性差异：矿产需重视节约和替代，森林、水土等需维持再生与循环过程。\n因此应评价开发强度、累积影响及生态代价，而不只评价可采量。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 182,
       "sourceRange": {
@@ -15549,14 +16205,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 11,
       "excerpts": [
         {
           "page": 182,
           "src": "./assets/environment/env838-403e55e2178c41e4-182.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=172"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-3ed4569cb50a4a79",
@@ -15570,16 +16234,14 @@
       "title": "简述我国森林资源的破坏情况以及保护措施。",
       "question": "简述我国森林资源的破坏情况以及保护措施。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "破坏及压力：不合理采伐、占地和生境破碎化，火灾、病虫害及气候压力等，可能降低森林质量、生物多样性、水源涵养与水土保持功能。\n认识现状：我国森林恢复和保护已取得进展，不能把历史“持续锐减”的描述直接当作全部当前趋势；应同时关注面积、质量、结构和连通性。\n措施：保护天然林和重要生境，控制非法采伐与不合理占用；推进科学营林和近自然恢复，优先适地适树与乡土物种；完善防火、有害生物防控和监测；通过保护地、生态补偿及社区参与协调保护与生计。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 182,
       "sourceRange": {
@@ -15596,14 +16258,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 11,
       "excerpts": [
         {
           "page": 182,
           "src": "./assets/environment/env838-3ed4569cb50a4a79-182.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=172"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-a528fad46069e1b0",
@@ -15617,16 +16297,14 @@
       "title": "简述我国土地资源的破坏情况以及保护措施。",
       "question": "简述我国土地资源的破坏情况以及保护措施。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "主要问题：①部分区域耕地被占及破碎化，人地矛盾突出；②水土流失、荒漠化和盐渍化等退化；③土壤污染、养分与有机质下降；④建设用地粗放低效及不合理开发，损害生态空间。\n保护措施：严格用途管制与耕地、生态空间保护，推进节约集约利用；科学安排城镇和产业布局，盘活存量土地；实施水土保持、合理排灌和保护性耕作；控制污染源，对受污染土地分类管控和修复；建立调查监测、责任及公众监督机制。\n应区分不同地区的限制条件，避免用同一工程模式处理全部退化土地。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 182,
       "sourceRange": {
@@ -15643,14 +16321,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 11,
       "excerpts": [
         {
           "page": 182,
           "src": "./assets/environment/env838-a528fad46069e1b0-182.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=172"
+        },
+        {
+          "title": "生态环境部：土壤污染风险管控与绿色低碳修复解读",
+          "url": "https://www.mee.gov.cn/ywdt/zbft/202405/t20240506_1072343.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d90b2903058c2d3e",
@@ -15664,16 +16355,14 @@
       "title": "简述我国矿产资源开发对环境的影响或者破坏。",
       "question": "简述我国矿产资源开发对环境的影响或者破坏。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①占地与生态：露天采场、道路、排土场及尾矿设施破坏植被、生境和景观，并可能加剧水土流失。\n②地质与水文：地下开采可引发地面沉降、地裂缝及含水层扰动；疏干和排水影响水资源。\n③污染：粉尘、矿坑水、选冶废水、尾矿及废石可能释放金属、酸性排水或其他有害物。\n④利用阶段：冶炼和加工消耗能源，产生废气、废水、固废及碳排放。\n防治应贯穿勘查、开采、选冶、闭矿全过程，实施减扰动、清洁生产、废物安全管理、生态修复与长期监测。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 182,
       "sourceRange": {
@@ -15690,7 +16379,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 11,
       "excerpts": [
         {
@@ -15701,7 +16390,15 @@
           "page": 183,
           "src": "./assets/environment/env838-d90b2903058c2d3e-183.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=172"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-e3dfc86b87994c67",
@@ -15921,16 +16618,14 @@
       "title": "战争对环境的破坏有哪些?",
       "question": "战争对环境的破坏有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①直接破坏：爆炸、火灾、军事工程和车辆活动损毁植被、生境、土壤与地形。\n②污染：弹药、燃料、废弃装备和受损工业设施可污染空气、地表水、地下水及土壤。\n③基础设施损坏：供水、排污、供电和废物处理设施中断，放大公共卫生和环境风险。\n④长期影响：未爆弹药、废墟、有害物残留与治理能力下降，延缓生态恢复及安全返乡。\n⑤资源压力：人口迁移与生计中断可能增加局地资源消耗。\n本题属于旧版保留章节，参考答案按环境影响的直接、间接及长期路径组织。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "removed",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 188,
       "sourceRange": {
@@ -15947,7 +16642,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 12,
       "versionReason": "变动PDF第1、28页明确整章替换。",
       "excerpts": [
@@ -15955,7 +16650,20 @@
           "page": 188,
           "src": "./assets/environment/env838-af9618dfaaaf006a-188.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=183"
+        },
+        {
+          "title": "UNEP：减少战争和武装冲突的环境影响",
+          "url": "https://www.unep.org/en/news-and-stories/statements/curbing-negative-environmental-impacts-war-and-armed-conflict",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-4e437b4446aeb75e",
@@ -15969,16 +16677,14 @@
       "title": "军事基地和军事演习的污染有哪些?",
       "question": "军事基地和军事演习的污染有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "军事基地的日常运行可产生燃料及化学品泄漏、车辆和飞机排放、生活污水与固废、噪声及危险废物；弹药生产、储存和报废设施还具有事故风险。\n军事演习可造成：①爆破、射击与装备运行的噪声、扬尘和废气；②弹药成分及残骸进入土壤水体；③车辆碾压、训练工程和火灾损伤植被生境；④水土流失及未爆弹药遗留风险。\n管理包括合理选址和环境评估，划定敏感区，规范物料、废物及污染设施管理，开展事故预防、监测、场地调查和修复。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "removed",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 188,
       "sourceRange": {
@@ -15995,7 +16701,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 12,
       "versionReason": "变动PDF第1、28页明确整章替换。",
       "excerpts": [
@@ -16003,7 +16709,20 @@
           "page": 188,
           "src": "./assets/environment/env838-4e437b4446aeb75e-188.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=183"
+        },
+        {
+          "title": "UNEP：减少战争和武装冲突的环境影响",
+          "url": "https://www.unep.org/en/news-and-stories/statements/curbing-negative-environmental-impacts-war-and-armed-conflict",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-33d9b9062c42191e",
@@ -16017,16 +16736,14 @@
       "title": "美国“9·11”恐怖袭击事件的根源在哪里?",
       "question": "美国“9·11”恐怖袭击事件的根源在哪里?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "本题为开放讨论题，可区分事件直接原因、组织背景和制度性失误。\n①直接原因：基地组织及相关策划者筹划并实施恐怖袭击，以袭击平民和民用设施达到其极端政治目的。\n②组织背景：极端意识形态、跨国招募训练及资金网络，以及阿富汗等地的庇护条件，为计划实施提供支持。\n③国际环境：地区冲突及地缘政治矛盾构成背景，但背景解释不构成对袭击的正当化。\n④防范失误：情报共享、威胁识别和航空安全等存在问题，影响预防能力。\n以上据9·11调查委员会报告归纳，不能将袭击归结为单一宗教、民族或未经证实的阴谋。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "removed",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 188,
       "sourceRange": {
@@ -16043,7 +16760,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 12,
       "versionReason": "变动PDF第1、28页明确整章替换。",
       "excerpts": [
@@ -16051,7 +16768,20 @@
           "page": 188,
           "src": "./assets/environment/env838-33d9b9062c42191e-188.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=183"
+        },
+        {
+          "title": "美国9·11调查委员会报告第五章",
+          "url": "https://911commission.gov/report/911Report_Ch5.htm",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-12c1dd425a2a3db6",
@@ -16065,16 +16795,14 @@
       "title": "讨论现代战争对人类、社会、经济和环境的破坏。",
       "question": "讨论现代战争对人类、社会、经济和环境的破坏。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "人类层面：伤亡、残疾、精神创伤、疾病与流离失所。\n社会层面：教育、医疗、供水和治理服务中断，社区解体与社会信任受损，脆弱人群负担加重。\n经济层面：资产与基础设施损毁，生产和贸易受阻，资源投入转向战争及重建，形成长期财政负担。\n环境层面：爆炸、火灾、污染物及废墟造成水、土、气污染和生态破坏；环境监测与执法能力下降又加剧风险。\n各方面相互作用：污染与资源短缺影响健康和生计，重建若缺乏环境管理可能形成新的锁定效应。应加强冲突中的环境保护及战后调查修复。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "removed",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 188,
       "sourceRange": {
@@ -16091,7 +16819,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 12,
       "versionReason": "变动PDF第1、28页明确整章替换。",
       "excerpts": [
@@ -16103,7 +16831,20 @@
           "page": 189,
           "src": "./assets/environment/env838-12c1dd425a2a3db6-189.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=183"
+        },
+        {
+          "title": "UNEP：减少战争和武装冲突的环境影响",
+          "url": "https://www.unep.org/en/news-and-stories/statements/curbing-negative-environmental-impacts-war-and-armed-conflict",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-1f5ebb42a5cf7e18",
@@ -17203,16 +17944,14 @@
       "title": "简述生态学的概念以及生态学的研究内容和研究方法。",
       "question": "简述生态学的概念以及生态学的研究内容和研究方法。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "生态学研究生物与生物之间、生物与环境之间的相互关系及其规律。\n研究层次包括个体、种群、群落、生态系统以及景观和更大尺度；主要内容涉及分布与适应、种群动态、种间关系、群落演替、能量流动、物质循环及生态系统功能等。\n研究方法：①野外调查、定位监测及原地观察；②在自然或受控条件下开展实验，识别关键因子的作用；③对资料进行统计分析、模型模拟及综合归纳。\n方法应相互验证，注意对照、空间与时间尺度及因果推断，不能把相关关系直接等同于因果关系。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 206,
       "sourceRange": {
@@ -17229,14 +17968,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 13,
       "excerpts": [
         {
           "page": 206,
           "src": "./assets/environment/env838-be31a878d30d2396-206.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=189"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d36427e9511b2f1a",
@@ -17250,16 +17997,14 @@
       "title": "什么是生态系统?举例说明生态系统的物质循环有哪几种类型。",
       "question": "什么是生态系统?举例说明生态系统的物质循环有哪几种类型。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "生态系统是在一定时间和空间内，生物群落与非生物环境通过能量流动、物质循环等相互联系形成的功能整体。\n按主要储库和循环路径，教学上常区分：①气体型循环，如碳、氮循环，主要储库涉及大气或海洋，具有较明显的全球联系；②沉积型循环，如磷循环，主要储库在岩石和沉积物中，地质尺度过程较慢；③水循环，在大气、陆地和海洋之间通过蒸发、降水、径流等交换。\n不同元素的具体循环并不完全相同，分类是便于理解的框架，应说明储库、迁移及生物参与过程。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 206,
       "sourceRange": {
@@ -17276,14 +18021,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 13,
       "excerpts": [
         {
           "page": 206,
           "src": "./assets/environment/env838-d36427e9511b2f1a-206.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=189"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-9b9aa7f26973c60c",
@@ -17297,16 +18050,14 @@
       "title": "我国存在的生态问题有哪些?请举例说明。",
       "question": "我国存在的生态问题有哪些?请举例说明。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "主要生态问题：①部分地区水土流失、荒漠化及土地退化；②森林、草地和湿地质量或功能受损；③生境丧失、破碎化及生物多样性下降；④河湖水生态退化、生态流量不足及富营养化；⑤外来物种和气候变化等压力。\n例子：坡地植被受破坏后，暴雨径流更易剥蚀表土，造成耕地肥力下降和河库泥沙负担；城市建设切割生境，可能阻碍野生动物移动。\n治理应统筹山水林田湖草沙，优先保护完整生态系统，因地制宜恢复自然过程，并用持续监测评估效果。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 206,
       "sourceRange": {
@@ -17323,14 +18074,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 13,
       "excerpts": [
         {
           "page": 206,
           "src": "./assets/environment/env838-9b9aa7f26973c60c-206.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=189"
+        },
+        {
+          "title": "生态环境部：2024中国生态环境状况公报",
+          "url": "https://www.mee.gov.cn/ywgz/sthjjcgl/hjzljcypj/202506/t20250605_1120773.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-4b6af58706c17851",
@@ -17344,16 +18113,14 @@
       "title": "生态系统中物质循环与能量流动有何特点?",
       "question": "生态系统中物质循环与能量流动有何特点?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "能量流动：主要由太阳能等外部输入，经生产者、消费者和分解者传递，过程中不断以热的形式耗散，呈单向流动和逐级减少的总体特征，不能在生态系统内闭合再循环。\n物质循环：元素在生物与非生物组分之间反复迁移和转化，包括生物、地球化学及地质过程，可跨生态系统交换。\n联系：能量驱动物质的合成、运输和分解，物质又是能量传递的载体；两者通过食物网相联系。\n应用：提高能量利用与物质回收效率需要合理的系统结构，不能把“能量梯级利用”理解为能量无损循环。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 206,
       "sourceRange": {
@@ -17370,14 +18137,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 13,
       "excerpts": [
         {
           "page": 206,
           "src": "./assets/environment/env838-4b6af58706c17851-206.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=189"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-a3d186282dc6e99a",
@@ -17446,16 +18221,14 @@
       "title": "什么是可持续发展?走可持续发展道路的意义是什么?",
       "question": "什么是可持续发展?走可持续发展道路的意义是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可持续发展强调满足当代人的合理需要，同时不损害后代满足其需要的能力。\n核心是协调经济发展、社会进步与生态环境保护，在资源环境约束下实现长期的人类福祉。\n意义：①减少以资源耗竭和环境损害换取短期增长的代价；②维护代际公平与不同群体的发展机会；③保护生态系统、资源基础和公共健康；④推动效率提升、技术创新和绿色转型；⑤提高面对灾害、气候及资源供应冲击的韧性。\n实践中既要提高资源效率，也要合理控制总量并完善制度，不能仅靠末端污染处理。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 206,
       "sourceRange": {
@@ -17472,14 +18245,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 13,
       "excerpts": [
         {
           "page": 206,
           "src": "./assets/environment/env838-4ea1fe54ba69f763-206.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=189"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-b1133d0404af64a0",
@@ -17493,16 +18274,14 @@
       "title": "查阅并讨论生态学的环境保护实践案例。",
       "question": "查阅并讨论生态学的环境保护实践案例。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可用浙江湖州桑基鱼塘系统作为生态学实践案例。\n结构：塘基种桑、桑叶养蚕、池塘养鱼，生产环节在空间上组合。\n过程：部分生产副产物经适当利用进入其他环节，塘泥等回到陆地生产，体现食物链联系与养分循环。\n作用：协调水陆利用，形成多样化产品及生计，并保存地方生态文化与适应性管理经验。\n讨论：其有效性依赖合理密度、水质、物料负荷和长期管理；现代推广应监测养分及病原风险，不能把传统生态模式等同于没有污染可能或可无限增加投入。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 206,
       "sourceRange": {
@@ -17519,7 +18298,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 13,
       "excerpts": [
         {
@@ -17530,7 +18309,20 @@
           "page": 207,
           "src": "./assets/environment/env838-b1133d0404af64a0-207.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=189"
+        },
+        {
+          "title": "FAO：浙江湖州桑基鱼塘系统",
+          "url": "https://www.fao.org/giahs/around-the-world/detail/china-zhejiang-system/zh",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-974861e49cb889d9",
@@ -18206,16 +18998,14 @@
       "title": "生物多样性的价值有哪些?",
       "question": "生物多样性的价值有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①直接使用价值：食物、木材、药用物质、遗传育种资源，以及旅游和文化体验等。\n②间接使用价值：授粉、水质净化、气候调节、水土保持、营养循环及灾害缓冲等生态系统服务。\n③选择价值：保留未来利用或认识遗传资源及物种的机会。\n④非使用价值：人们对物种存在及留给后代的重视，也体现自然保护的伦理意义。\n不同价值可能难以完整货币化。保护决策应关注生态系统整体及不可逆损失，不能只比较眼前市场收入。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 219,
       "sourceRange": {
@@ -18232,14 +19022,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 14,
       "excerpts": [
         {
           "page": 219,
           "src": "./assets/environment/env838-a7f1fa6f08247e79-219.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=207"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-13b1659c53f71135",
@@ -18253,16 +19056,14 @@
       "title": "我国生物多样性的特点是什么?生物多样性受到了何种威胁?",
       "question": "我国生物多样性的特点是什么?生物多样性受到了何种威胁?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "特点：我国地域广、气候和地形复杂，生物区系与生态系统类型多样，物种及遗传资源丰富，特有和古老类群较多，重要生境空间差异明显。\n威胁：生境丧失、退化和破碎化，部分物种过度利用，污染与不合理开发，外来入侵，以及气候变化等。\n这些压力会相互叠加，并通过食物网和生态服务影响社会经济。\n保护重点不只是增加某一物种数量，还应保护其生境、遗传多样性及生态过程，兼顾保护地外的农业、城市和其他利用空间。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 219,
       "sourceRange": {
@@ -18279,14 +19080,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 14,
       "excerpts": [
         {
           "page": 219,
           "src": "./assets/environment/env838-13b1659c53f71135-219.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=207"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-5fe0ecba337fafe1",
@@ -18300,16 +19114,14 @@
       "title": "我国生物多样性保护的战略目标是什么?",
       "question": "我国生物多样性保护的战略目标是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可按《中国生物多样性保护战略与行动计划（2023—2030年）》的总体方向回答：保护生物多样性，促进可持续利用和惠益分享，并将保护要求纳入发展与治理。\n2030年阶段应重点推进：完善政策法规、调查监测和评价，保护重要物种与生境，提高保护地及生态空间的保护效果，修复受损生态系统，控制污染、过度利用和入侵等压力，提升全社会参与及履约能力。\n长远目标是维护生态系统结构、功能与服务，推进人与自然和谐共生。\n若题目要求某一旧版规划的具体指标，应标明规划名称和年份，避免把不同阶段的数字混用。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 219,
       "sourceRange": {
@@ -18326,14 +19138,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 14,
       "excerpts": [
         {
           "page": 219,
           "src": "./assets/environment/env838-5fe0ecba337fafe1-219.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=207"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-e8253f9015a1091b",
@@ -18347,16 +19172,14 @@
       "title": "目前我国有哪些生物多样性保护区域?",
       "question": "目前我国有哪些生物多样性保护区域?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "保护区域可从两方面回答：\n①自然保护地体系：以国家公园为主体，自然保护区为基础，各类自然公园为补充，保护典型生态系统、珍稀濒危物种及重要自然遗迹等。\n②其他重要生态空间：生态保护红线区域、重要湿地、关键物种栖息地及生态廊道等；这些空间与保护地可能重叠，不能简单相加。\n实例：三江源、大熊猫、东北虎豹、海南热带雨林和武夷山等国家公园。\n还应通过植物园、种质资源库等迁地保护补充就地保护；迁地设施不是自然保护区的同义概念。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 219,
       "sourceRange": {
@@ -18373,14 +19196,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 14,
       "excerpts": [
         {
           "page": 219,
           "src": "./assets/environment/env838-e8253f9015a1091b-219.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=207"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-8b90323bd557a1e3",
@@ -18394,16 +19230,14 @@
       "title": "生物多样性损失的原因有哪些?如何保护生物多样性?",
       "question": "生物多样性损失的原因有哪些?如何保护生物多样性?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "原因：①土地利用变化造成生境丧失、退化和破碎化；②过度捕捞、采集或其他利用；③污染；④外来入侵；⑤气候变化，以及监管、经济激励和知识信息等方面的不足。\n措施：优先保护关键生境和生态过程，完善保护地及生态廊道；恢复退化生态系统，控制污染和不合理利用；加强入侵预防及生物安全；开展濒危物种、遗传资源和迁地保护；完善调查监测、执法、生态补偿及社区参与。\n保护应兼顾基因、物种与生态系统三个层次，而不是只关注少数旗舰物种。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 219,
       "sourceRange": {
@@ -18420,14 +19254,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 14,
       "excerpts": [
         {
           "page": 219,
           "src": "./assets/environment/env838-8b90323bd557a1e3-219.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=207"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-7d5d80a2169b898f",
@@ -18441,16 +19288,14 @@
       "title": "举例说明我国生物多样性的保护措施。",
       "question": "举例说明我国生物多样性的保护措施。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①国家公园和自然保护区：通过空间保护、巡护及栖息地管理，保护关键生态系统和物种。\n②生态廊道与修复：提高破碎生境连通性，修复湿地、河湖或退化森林等自然过程。\n③物种及遗传资源保护：就地保护结合种质保存、繁育及适宜的野外恢复。\n④治理与参与：防控非法利用、污染和入侵，加强监测及社区共同管理。\n案例答法：以大熊猫国家公园说明跨区域整合栖息地保护，以海南热带雨林国家公园说明热带森林及珍稀物种保护；讨论其效果时应使用实际监测资料，不编造种群增幅。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 219,
       "sourceRange": {
@@ -18467,7 +19312,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 14,
       "excerpts": [
         {
@@ -18478,7 +19323,20 @@
           "page": 220,
           "src": "./assets/environment/env838-7d5d80a2169b898f-220.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=207"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-4d6558a55391de12",
@@ -20541,16 +21399,14 @@
       "title": "什么是工业生态学?工业生态学的主要特征有哪些?",
       "question": "什么是工业生态学?工业生态学的主要特征有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "工业生态学借鉴生态学原理，从工业系统与自然环境的关系出发，研究物质、能量和信息流，优化产品、企业及产业网络，以减少资源消耗和环境负荷。\n本资料强调六个特征：①整体性，考察系统及其相互关系；②全程性，关注生命周期；③长远性，考虑长期影响；④全球化视角，关注跨区域与全球影响；⑤科技进步，促进系统改进；⑥多学科综合，结合自然科学、工程与社会经济知识。\n目的在于改善整个系统的生态效率，避免只把污染从一个企业转移给另一个企业。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20567,14 +21423,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-38b311af978a3a1a-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-eb5fedc926d6d281",
@@ -20588,16 +21452,14 @@
       "title": "工业生态系统的组成有哪些?有什么主要特点?",
       "question": "工业生态系统的组成有哪些?有什么主要特点?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "组成可类比自然生态系统：①生产者，利用自然资源生产原料或产品的企业；②消费者，使用产品并提供服务的机构或其他利用环节；③分解／再生者，回收、处理和再利用废物的主体；④非生物环境，即资源、能源、土地、水及相关环境条件。\n特点：具有明显人工组织与控制，物质流、能量流和信息流相联系，系统结构可以通过规划和技术调整；同时受生态约束与市场经济规律影响，存在经济效益和环境效益的双重要求。\n类比用于理解功能关系，不能将工业过程与自然系统看作完全相同。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20614,14 +21476,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-eb5fedc926d6d281-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d87016a50a0fc9e5",
@@ -20635,16 +21505,14 @@
       "title": "简述工业生态系统与自然生态系统的相似性。",
       "question": "简述工业生态系统与自然生态系统的相似性。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "相似性：①都由相互联系的功能组分组成；②存在物质、能量与信息交换；③不同组分可形成类似食物链或网络的联系；④资源利用与废物接纳受环境条件约束；⑤网络结构和反馈会影响系统效率、稳定性和适应能力。\n启示：可通过副产品交换、废物资源化、能量梯级利用和信息协作，减少外部资源投入及最终排放。\n差异：工业网络依赖人为设计、市场、技术及制度，能量仍会耗散，物料循环也存在损失和污染风险，不能把“模仿自然”当作自动无害化。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20661,14 +21529,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-d87016a50a0fc9e5-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-e507c2c4cc9f05ac",
@@ -20682,16 +21558,14 @@
       "title": "工业生态系统中物质循环与能量流动的特点是什么?",
       "question": "工业生态系统中物质循环与能量流动的特点是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "物质循环：原料进入生产，形成产品、副产品及废物，再通过回收、再制造、再生利用等重新进入其他生产环节。工业系统常存在较强的线性输入输出，应提高循环程度并控制有害物累积。\n能量流动：外部能源输入后，经转化、使用及余热利用逐级降低可利用品质，最终以热耗散；可以梯级利用，但不能无损闭合循环。\n联系：物料处理消耗能量，能源利用也产生物料排放。优化应同时考虑全生命周期的物质和能量收支，避免资源回收所需能耗及二次污染超过收益。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20708,14 +21582,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-e507c2c4cc9f05ac-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-369426f8dcf28a5a",
@@ -20729,16 +21611,14 @@
       "title": "工业生态系统的构建原则是什么?",
       "question": "工业生态系统的构建原则是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①系统和生命周期原则：统筹企业、园区与区域，避免污染转移。\n②资源效率原则：节约原材料与能源，发展清洁生产、再使用和再生利用。\n③共生与耦合原则：使企业的副产品、余热、再生水等在安全可行的条件下互补利用。\n④多样性和韧性原则：避免过度依赖单一交换对象，提高网络适应市场变化的能力。\n⑤因地制宜原则：符合当地资源禀赋、环境容量、产业及社会条件。\n⑥经济和管理可行性：明确责任、质量标准、信息共享和风险保障，形成可持续运行机制。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20755,14 +21635,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-369426f8dcf28a5a-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        },
+        {
+          "title": "生态环境部：批准苏州等国家生态工业示范园区的通知",
+          "url": "https://www.mee.gov.cn/gkml/hbb/bwj/200910/t20091022_174590.htm",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-c030487d98f2af31",
@@ -20776,16 +21669,14 @@
       "title": "生态工业园区的特征有哪些?分为哪几种类型?",
       "question": "生态工业园区的特征有哪些?分为哪几种类型?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "特征：以生态工业和循环经济理念组织企业及公共设施，开展资源、能源和副产品协同利用；强调园区整体绩效、清洁生产、环境管理和产业共生，兼顾经济、环境与社会收益。\n按本教材常见教学分类，可分：①行业类，以某一行业及关联产业为主；②综合类，多行业通过物料、能源或服务关系耦合；③静脉产业类，以废旧资源回收、再生和相关利用为重要功能。\n上述为教学分类，具体行政认定和标准应按对应时期文件理解；园区拥有污水厂并不足以单独证明已形成有效共生网络。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20802,14 +21693,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-c030487d98f2af31-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        },
+        {
+          "title": "生态环境部：批准苏州等国家生态工业示范园区的通知",
+          "url": "https://www.mee.gov.cn/gkml/hbb/bwj/200910/t20091022_174590.htm",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-a007dc76e10a6b4d",
@@ -20823,16 +21727,14 @@
       "title": "生态工业园区的规划设计原则是什么?规划设计内容和实施途径有哪些?",
       "question": "生态工业园区的规划设计原则是什么?规划设计内容和实施途径有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "原则：系统协调、资源高效、环境安全、因地制宜、经济可行及持续改进。\n规划内容：①调查产业、资源环境和污染负荷；②明确目标、指标与承载约束；③设计产业链及物质能量交换网络；④安排土地、交通、公共能源、水务和废物设施；⑤设置环境监测、风险防范和管理机制。\n实施途径：清洁生产审核与企业技改，绿色招商和准入，基础设施共享，副产品及再生水交换，信息平台、资金与技术服务，以及分阶段评估和纠偏。\n应明确交换物料的质量、安全及法律责任，避免将废物名义上的利用当成实际减排。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20849,14 +21751,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 234,
           "src": "./assets/environment/env838-a007dc76e10a6b4d-234.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        },
+        {
+          "title": "苏州市政府：苏州工业园区能源绿色转型与循环经济实践",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/qxkx/202412/9bd49c92296c4630896923230d23dae4.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-468bca7d23d36656",
@@ -20870,16 +21785,14 @@
       "title": "举例说明我国的生态工业示范园区。",
       "question": "举例说明我国的生态工业示范园区。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可举苏州工业园区、苏州高新技术产业开发区和天津经济技术开发区。生态环境部相关通知确认其国家生态工业示范园区建设及验收情况。\n以苏州工业园区为例：组织清洁生产及企业节能改造，促进公共设施和资源协同利用，发展绿色能源。苏州市政府介绍了将污水、污泥、餐厨及园林绿化垃圾处理与热电联产、沼气利用衔接的循环经济产业园实践。\n分析要点：把“一个环节的副产物—另一环节的投入”与物料、能量收支联系起来，评价节约、排放与运行风险；不编造企业之间未被资料确认的交换关系或减排量。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 234,
       "sourceRange": {
@@ -20896,7 +21809,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
@@ -20907,7 +21820,25 @@
           "page": 235,
           "src": "./assets/environment/env838-468bca7d23d36656-235.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=220"
+        },
+        {
+          "title": "生态环境部：批准苏州等国家生态工业示范园区的通知",
+          "url": "https://www.mee.gov.cn/gkml/hbb/bwj/200910/t20091022_174590.htm",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "苏州市政府：苏州工业园区能源绿色转型与循环经济实践",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/qxkx/202412/9bd49c92296c4630896923230d23dae4.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-90953818140859ff",
@@ -21126,16 +22057,14 @@
       "title": "简述农业生态系统的概念与组成。",
       "question": "简述农业生态系统的概念与组成。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "农业生态系统是人类为获取农产品，对一定地域内生物群落及其非生物环境进行组织和调控形成的生态—经济系统。\n组成：①农业生物，包括作物、林木、畜禽、水产动物、微生物及其他相关生物；②非生物环境，包括土壤、水、空气、光热和养分等；③人类投入与管理，包括劳动、技术、设施、能源及组织制度。\n各组分通过食物链、物质循环和能量流动联系，农业生产又与外部市场及社会系统交换产品、资源和信息。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 257,
       "sourceRange": {
@@ -21152,14 +22081,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 257,
           "src": "./assets/environment/env838-f3c253313ae07268-257.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-3cca3c231860b486",
@@ -21173,16 +22110,14 @@
       "title": "农业生态系统的特点是什么?",
       "question": "农业生态系统的特点是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①人工性：物种配置、耕作与收获受人类强烈控制。\n②生产性：以满足人类对食物和其他农产品的需要为重要目标，经济与生态过程耦合。\n③开放性：持续输入辅助能、物质和技术，并输出农产品及其他物料。\n④结构相对简化：部分集约系统物种和食物网较简单，调节能力可能较弱。\n⑤时空及地域性：受季节、气候、土壤和生产制度影响明显。\n⑥可调控性与风险：科学管理可提高产出，但不合理高投入、过度利用可能损害土水环境及长期生产力。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 257,
       "sourceRange": {
@@ -21199,14 +22134,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 257,
           "src": "./assets/environment/env838-3cca3c231860b486-257.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-4707c01b7683898e",
@@ -21220,16 +22163,14 @@
       "title": "农业生态系统面临的环境问题有哪些?",
       "question": "农业生态系统面临的环境问题有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①土壤：侵蚀、压实、有机质下降、酸化、盐渍化及污染。\n②水环境：化肥农药流失、畜禽粪污及养殖排水，可能引起富营养化或其他风险；不合理灌溉还会增加用水压力。\n③大气与气候：氨挥发、部分生产及粪污过程的温室气体排放，秸秆不当焚烧等。\n④生物多样性：单一化经营、生境丧失及不合理用药可能损害天敌与授粉等生态服务。\n⑤废弃物：农膜、包装及生产残余物管理不足。\n应通过养分高效利用、综合病虫害管理、节水、粪污资源化和生态化布局综合应对。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 257,
       "sourceRange": {
@@ -21246,14 +22187,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 257,
           "src": "./assets/environment/env838-4707c01b7683898e-257.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        },
+        {
+          "title": "FAO：浙江湖州桑基鱼塘系统",
+          "url": "https://www.fao.org/giahs/around-the-world/detail/china-zhejiang-system/zh",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-56f76c4d0463a071",
@@ -21267,16 +22221,14 @@
       "title": "农业生态系统的水平结构其影响因素是什么?",
       "question": "农业生态系统的水平结构其影响因素是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "水平结构是农业生态系统内不同生物、生产单元和土地利用方式在平面上的分布、组合及空间联系，例如农田、林带、鱼塘、牧地和居民点的布局。\n影响因素：①气候、地形地貌、土壤、水源与排灌等自然条件；②作物、畜禽及其他生物的生态需求；③交通、市场、劳动力、技术和经营规模；④产权、规划及政策等制度条件；⑤不同单元间的养分、能量与污染输送关系。\n优化应兼顾生产效率与生态连通，减少水土流失和污染，并使布局与当地承载条件匹配。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 257,
       "sourceRange": {
@@ -21293,14 +22245,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 257,
           "src": "./assets/environment/env838-56f76c4d0463a071-257.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-79f3a229b84cc458",
@@ -21314,7 +22274,7 @@
       "title": "农业生态系统的辅助形式有哪些?",
       "question": "农业生态系统的辅助形式有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "按本章“能量来源”知识点理解，农业生产的辅助能是太阳能直接固定之外、人类为调控生产而投入或利用的能量。\n常见形式：①工业辅助能，如电力、燃料以及机械、化肥等投入品所包含的能量；②生物辅助能，如人畜劳动、饲料和有机肥等投入；③可利用的其他自然能，如风、水力等。\n用途包括耕作、灌溉、排水、施肥、田间管理、收获与加工贮运。\n应提高投入产出效率，避免辅助能和物质投入过量带来的污染。题干“辅助形式”表述不完整，此处按辅助能解释，仍应对照原书确认。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
@@ -21322,7 +22282,7 @@
       "pastExamYears": [],
       "needsReview": true,
       "reviewReasons": [
-        "原题无配套答案，未编造答案。"
+        "原题“辅助形式”疑省略“能”，按本章辅助能知识点解释，保留待核对。"
       ],
       "verified": false,
       "page": 257,
@@ -21340,14 +22300,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 257,
           "src": "./assets/environment/env838-79f3a229b84cc458-257.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-5a6e34cf2539359d",
@@ -21361,16 +22329,14 @@
       "title": "简述生态农业的主要发展模式。",
       "question": "简述生态农业的主要发展模式。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "主要模式可按生态耦合方式理解：①时空复合，如间作、套作、轮作和农林复合，提高光热与土地利用；②物种共生，如稻鱼、稻鸭等，在适当密度下利用互补关系；③种养循环，如种植—养殖—粪污处理—肥料利用；④基塘系统，如桑基鱼塘，结合水陆生产；⑤流域或村域综合治理，将水土保持、能源和生活环境管理结合。\n选择模式须符合水土、气候、市场及经营条件，明确养分和污染负荷，不能不加控制地将所有副产物直接还田或入水。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 257,
       "sourceRange": {
@@ -21387,14 +22353,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
           "page": 257,
           "src": "./assets/environment/env838-5a6e34cf2539359d-257.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        },
+        {
+          "title": "FAO：浙江湖州桑基鱼塘系统",
+          "url": "https://www.fao.org/giahs/around-the-world/detail/china-zhejiang-system/zh",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-831d877d2de3112a",
@@ -21408,16 +22387,14 @@
       "title": "举例说明中国生态农业的发展现状和发展趋势。",
       "question": "举例说明中国生态农业的发展现状和发展趋势。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "实例：浙江湖州桑基鱼塘通过种桑、养蚕和养鱼形成水陆复合生产系统，体现物种、空间及物质循环联系。\n现状特点：我国生态农业既有传统复合模式，也有现代节水、精准投入、种养结合和循环利用实践；不同地区发展水平与资源条件差异较大。\n发展趋势：以绿色优质产品为导向，重视减肥减药、节水与土壤健康；强化种养匹配、资源回收和环境风险管理；与数字监测、标准认证、产业链及社会化服务结合。\n生态农业需要可验证的经济和环境绩效，不能只因挂有“生态”名称就推定可持续。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 257,
       "sourceRange": {
@@ -21434,7 +22411,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 15,
       "excerpts": [
         {
@@ -21445,7 +22422,20 @@
           "page": 258,
           "src": "./assets/environment/env838-831d877d2de3112a-258.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=235"
+        },
+        {
+          "title": "FAO：浙江湖州桑基鱼塘系统",
+          "url": "https://www.fao.org/giahs/around-the-world/detail/china-zhejiang-system/zh",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-73c62a7ad4cc5295",
@@ -22926,16 +23916,14 @@
       "title": "什么是城市生态系统?",
       "question": "什么是城市生态系统?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "城市生态系统是城市人类与周围生物和非生物环境相互作用形成的、具有一定结构和功能的复合生态系统。\n由自然、经济和社会等子系统共同组成，通过物质流、能量流、信息流及人口活动联系。\n与相对自然的系统相比，它的人工调控更强、人口和资源消费集中、对外部资源与能源依赖较大，同时向外输出产品、服务和废物。\n研究城市生态系统需同时考虑生态过程、人类福祉及城市与周边区域的联系，不能只把城市绿地看作全部城市生态系统。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 269,
       "sourceRange": {
@@ -22952,14 +23940,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 269,
           "src": "./assets/environment/env838-4df34ceb307a281e-269.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=258"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d62888a74a39f25c",
@@ -22973,16 +23969,14 @@
       "title": "城市生态系统的功能和特点有哪些?",
       "question": "城市生态系统的功能和特点有哪些?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "功能：①组织生产、生活与社会服务；②加工和交换物质、能量及信息；③通过绿地、水体等提供调节、游憩和生境等生态服务。\n特点：人工性强，以人为主体；人口、建筑与经济活动密集；生产与消费高度开放，常依赖外部水、食物、能源和物资；物质和能量通量大，污染与废热集中；空间异质性及自然、经济、社会子系统耦合明显。\n健康城市应协调资源效率、环境质量、生态功能和居民公平获得公共服务的机会。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 269,
       "sourceRange": {
@@ -22999,14 +23993,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 269,
           "src": "./assets/environment/env838-d62888a74a39f25c-269.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=258"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d0de032dad0d0c40",
@@ -23020,16 +24022,14 @@
       "title": "城市生态系统存在哪些问题?",
       "question": "城市生态系统存在哪些问题?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①资源与能源：水、能源和物资需求集中，对外部地区依赖大。\n②污染与废物：交通、工业、建筑及生活活动排放废气、污水、固废和噪声。\n③空间与生境：土地硬化、生境破碎化、植被不足及不合理扩张，降低生态连通性。\n④水热与气候：热岛、雨洪径流和内涝风险，极端天气进一步放大影响。\n⑤社会治理：住房、交通、绿地和环境服务分配不均，部门管理与区域协调不足。\n解决应结合紧凑合理布局、绿色交通、节能、基础设施完善及蓝绿网络建设。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 269,
       "sourceRange": {
@@ -23046,14 +24046,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 269,
           "src": "./assets/environment/env838-d0de032dad0d0c40-269.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=258"
+        },
+        {
+          "title": "武汉市政府：海绵城市从试点走向示范",
+          "url": "https://www.wuhan.gov.cn/whyw/bmdt/202209/t20220930_2051486.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-63b92b485a0fc830",
@@ -23067,16 +24080,14 @@
       "title": "城市生态系统的研究方向包括哪几方面?",
       "question": "城市生态系统的研究方向包括哪几方面?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①结构研究：分析自然、经济、社会子系统及其空间组织，识别关键生境和资源网络。\n②过程研究：核算城市物质、能量、信息及水循环，识别输入输出和污染热点。\n③功能与健康研究：评价生态服务、承载条件、暴露风险及居民福祉。\n④演变与韧性研究：研究城市化、气候变化及其他扰动下的响应和恢复能力。\n⑤规划管理研究：将生态原理用于国土空间、交通、产业及蓝绿基础设施规划，开展政策与治理效果评价。\n方法上应结合监测、遥感、调查、模型及多尺度综合分析。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 269,
       "sourceRange": {
@@ -23093,14 +24104,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 269,
           "src": "./assets/environment/env838-63b92b485a0fc830-269.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=258"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-d0f83bc89cebea29",
@@ -23114,16 +24133,14 @@
       "title": "结合自己所学知识，举例说明如何保护城市生物多样性。",
       "question": "结合自己所学知识，举例说明如何保护城市生物多样性。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①保护现有自然生境、老树、湿地和河湖岸带，优先避免破坏。\n②建立连续的公园、河流、林带及小微绿地网络，提高生境连通性。\n③因地制宜配置乡土植物和多层次植被，提供食物、隐蔽与繁殖条件，避免不合理单一化绿化。\n④减少污染、过度修剪、不必要的农药及夜间照明，防范外来入侵。\n⑤开展物种调查、长期监测、公众参与和生态教育。\n举例：滨河绿地改造时保留自然岸线与缓冲植被，在防洪安全前提下连接公园和湿地，并监测鸟类与授粉昆虫响应。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 269,
       "sourceRange": {
@@ -23140,14 +24157,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 269,
           "src": "./assets/environment/env838-d0f83bc89cebea29-269.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=258"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-332556dd4585c24f",
@@ -23161,16 +24191,14 @@
       "title": "简述我国一个城市的宜居城市构建思路和实施方法。",
       "question": "简述我国一个城市的宜居城市构建思路和实施方法。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可用武汉海绵城市建设为例。\n思路：针对老城区积水、硬化和水环境问题，以流域和排水分区为单元，统筹防洪排涝、生态修复及居民公共空间。\n实施：青山等区域开展社区、校园、道路及公园的海绵化改造，结合雨水花园、透水铺装、调蓄和河渠整治；完善排水设施与运行维护，并听取居民需求。\n评价：关注积水风险、径流污染、绿地服务及维护效果，而不是只看新增景观面积。\n该案例说明宜居城市需要蓝绿空间与灰色工程、生态目标与民生服务协同；局部“海绵”设施不能替代完整排水和防灾体系。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 269,
       "sourceRange": {
@@ -23187,7 +24215,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
@@ -23198,7 +24226,20 @@
           "page": 270,
           "src": "./assets/environment/env838-332556dd4585c24f-270.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=258"
+        },
+        {
+          "title": "武汉市政府：海绵城市从试点走向示范",
+          "url": "https://www.wuhan.gov.cn/whyw/bmdt/202209/t20220930_2051486.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-dc4944bd7ab438fa",
@@ -23212,16 +24253,14 @@
       "title": "简述农村生态系统的概念及其特点。",
       "question": "简述农村生态系统的概念及其特点。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "农村生态系统是农村地域内的人类、农业及其他生物与自然和人工环境相互作用形成的复合系统，连接生产、生活和生态功能。\n特点：①与土地、水和气候联系紧密，地域与季节差异明显；②农业生产占重要地位，种植、养殖与聚落相互联系；③传统管理与现代技术共同调控；④与城镇交换劳动力、产品、物资及信息；⑤既有循环利用潜力，也可能面临污染、资源约束和基础设施不足。\n评价农村生态系统应同时关注生态健康、农业持续生产与居民生活质量。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 285,
       "sourceRange": {
@@ -23238,14 +24277,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 285,
           "src": "./assets/environment/env838-dc4944bd7ab438fa-285.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=270"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-470362db2c2cc06d",
@@ -23424,16 +24471,14 @@
       "title": "简述农村生态系统健康评价框架体系的形成。",
       "question": "简述农村生态系统健康评价框架体系的形成。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可按以下步骤构建农村生态系统健康评价框架：\n①明确对象、空间边界和目标，将生态系统自身维持能力与人类合理需求结合。\n②建立维度：生态环境及资源基础、生态活力与组织、受扰恢复能力、农业和相关产业持续性，以及居民健康和公共服务等。\n③选择可测、代表性强且不过度重复的指标，如土壤水质、生境状况、养分收支、污染负荷和服务可及性等。\n④确定基准、权重和评价方法，结合实测、调查及专家判断，开展敏感性分析。\n⑤用时间序列和管理反馈校正框架。不存在对所有农村都通用的一套固定权重。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 285,
       "sourceRange": {
@@ -23450,14 +24495,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
           "page": 285,
           "src": "./assets/environment/env838-835a92fbcd38f179-285.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=270"
+        },
+        {
+          "title": "生态系统健康及其评价指标和方法（原始研究）",
+          "url": "https://www.jnr.ac.cn/CN/abstract/article/1000-3037/26529",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-9d98bc9c89769747",
@@ -23471,16 +24529,14 @@
       "title": "生态村建设主要包括哪几方面内容?",
       "question": "生态村建设主要包括哪几方面内容?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①环境污染治理：生活污水、垃圾、畜禽粪污、农膜及农业面源污染等。\n②生态经济建设：资源高效利用、种养匹配、绿色产业及合理生计。\n③人居环境建设：饮水、道路、厕所、住房周边和公共空间等基本服务。\n④生态文化建设：环境教育、地方生态知识保护、村规民约和公众参与。\n⑤生态文明及治理建设：规划、责任、投入、运行维护和监督机制，形成持续管理能力。\n实施应与村庄规模、地形、水土和经济条件相适应，重视设施长期有人管理和有经费运行，避免只做一次性景观工程。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 285,
       "sourceRange": {
@@ -23497,7 +24553,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 16,
       "excerpts": [
         {
@@ -23508,7 +24564,15 @@
           "page": 286,
           "src": "./assets/environment/env838-9d98bc9c89769747-286.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=270"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-1290eceab517a544",
@@ -23874,16 +24938,14 @@
       "title": "生态文明与原始文明、农业文明和工业文明的区别是什么?",
       "question": "生态文明与原始文明、农业文明和工业文明的区别是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "原始文明：生产力水平较低，人类对自然的直接依赖强，局地利用以采集、狩猎等为主。\n农业文明：依靠土地和生物生产，通过耕作、灌溉等扩大自然改造，同时可能带来侵蚀及生态退化。\n工业文明：机械化及化石能源显著提高生产力，也扩大资源消耗、污染和生态影响。\n生态文明：在吸收既有文明成果的基础上，强调尊重自然规律、资源节约、环境友好和人与自然协调，将生态要求融入生产、生活及制度。\n上述是分析文明关系的概括，不代表不同历史阶段完全没有保护或破坏自然的差异。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 300,
       "sourceRange": {
@@ -23900,14 +24962,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 17,
       "excerpts": [
         {
           "page": 300,
           "src": "./assets/environment/env838-9c144d48f7a0a7eb-300.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=286"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-23eaea78a68da793",
@@ -23921,16 +24991,14 @@
       "title": "生态文明与物质文明、政治文明和精神文明文明的区别和联系是什么?",
       "question": "生态文明与物质文明、政治文明和精神文明文明的区别和联系是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "区别在于侧重点：物质文明主要关注生产力及物质生活条件，政治文明关注制度、治理和政治生活，精神文明关注思想、文化和道德，生态文明关注人与自然关系以及发展的生态基础和约束。\n联系：良好生态环境支撑生产生活；制度与法治保障生态保护；文化、伦理及知识影响公众行为；绿色技术和产业为生态改善提供物质能力。\n因此，生态文明应融入经济、政治和文化建设，其他文明建设也应在资源环境约束下发展。它们是相互支撑的维度，而非互相替代的同一概念。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 300,
       "sourceRange": {
@@ -23947,14 +25015,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 17,
       "excerpts": [
         {
           "page": 300,
           "src": "./assets/environment/env838-23eaea78a68da793-300.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=286"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-e76f85d62914c4a9",
@@ -23968,16 +25044,14 @@
       "title": "举例说明我国生态文明建设的内容和特点。",
       "question": "举例说明我国生态文明建设的内容和特点。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可从制度、产业、空间和社会实践举例：\n①制度：完善生态环境法律、监管、信息公开与责任机制，例如生态环境法典的实施。\n②产业和能源：推动节能、清洁生产、循环利用和能源绿色转型。\n③空间与生态：生态保护红线、国家公园及重要生态系统保护修复。\n④城乡生活：绿色交通、垃圾分类、农村环境治理及公共生态空间建设。\n特点：强调系统治理、保护与发展协调、全社会参与以及长期责任。答题应把具体措施与改善环境质量和保障民生的效果联系起来，不以口号替代分析。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 300,
       "sourceRange": {
@@ -23994,14 +25068,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 17,
       "excerpts": [
         {
           "page": 300,
           "src": "./assets/environment/env838-e76f85d62914c4a9-300.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=286"
+        },
+        {
+          "title": "生态环境部：2026年生态环境法典及施行说明",
+          "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202604/t20260408_1148465.html",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-24e7da4cdcca5ae6",
@@ -24015,16 +25107,14 @@
       "title": "根据自己的理解，简要指出我国与国际生态文明建设的联系与区别。",
       "question": "根据自己的理解，简要指出我国与国际生态文明建设的联系与区别。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "联系：我国生态文明建设与国际可持续发展实践都关注生态系统保护、资源效率、污染治理、气候变化、代际责任及公众参与，并可通过多边环境公约和科技合作相互促进。\n区别：我国有自身的发展阶段、人口资源条件、产业结构和治理制度，强调把生态要求贯穿现代化与系统治理；各国在责任分配、政策工具、消费水平和执行能力上也有不同。\n答题重点：从共同目标与具体路径差异分析，既借鉴国际有效经验，也根据国情选择措施；不把“国际”视为一种完全一致、没有内部差异的模式。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 300,
       "sourceRange": {
@@ -24041,7 +25131,7 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 17,
       "excerpts": [
         {
@@ -24052,7 +25142,25 @@
           "page": 301,
           "src": "./assets/environment/env838-24e7da4cdcca5ae6-301.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=286"
+        },
+        {
+          "title": "中国生物多样性保护战略与行动计划（2023—2030年）发布说明",
+          "url": "https://www.mee.gov.cn/xxgk/hjyw/202401/t20240118_1064111.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "中国的能源转型白皮书（英文全文）",
+          "url": "https://english.www.gov.cn/archive/whitepaper/202408/29/content_WS66d012e8c6d0868f4e8ea52e.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-0b4725c3abcef706",
@@ -24730,16 +25838,14 @@
       "title": "什么是可持续发展?可持续发展的原则和基本内涵分别是什么?",
       "question": "什么是可持续发展?可持续发展的原则和基本内涵分别是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "可持续发展是满足当代人需要、同时不损害后代满足自身需要能力的发展。\n本资料概括三大原则：①公平性，包括代内和代际公平；②持续性，发展活动应维持资源、环境和生态系统的长期支持能力；③共同性，全球性问题需要各国及社会主体合作。\n基本内涵：协调经济发展、社会进步和生态环境保护，以人的福祉为目标，在资源环境约束下改善发展质量，并兼顾不同地区和群体的机会。\n实践应结合节约高效利用、清洁生产、生态保护、社会保障和制度创新，避免只追求短期产出。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -24756,14 +25862,22 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-63f0145ae377ea0e-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-ab9b27a508de1193",
@@ -24777,16 +25891,14 @@
       "title": "循环经济的由来是什么?有哪些技术经济特征?",
       "question": "循环经济的由来是什么?有哪些技术经济特征?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "由来：传统线性经济大量取用资源、生产消费后排放废物，造成资源与环境压力；生态系统循环利用的启示、清洁生产及资源回收实践推动了循环经济理念发展。\n技术经济特征：①把资源消耗和废物产生纳入全过程管理；②优先减量，提高材料和能源效率；③延长产品寿命并促进再使用、维修、再制造；④将适合的废物转化为可用资源；⑤通过企业、园区、区域网络形成协同；⑥综合考虑环境收益、经济成本及社会条件。\n循环并非百分之百无损，必须关注能耗、品质及有害物累积。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -24803,14 +25915,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-ab9b27a508de1193-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        },
+        {
+          "title": "循环经济促进法",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_a9e2ed15775d4cb68c0cebd597f41cd2.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-8c426d34cc285eb7",
@@ -24824,16 +25949,14 @@
       "title": "循环经济与传统经济的区别是什么?",
       "question": "循环经济与传统经济的区别是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "传统线性经济通常表现为“资源获取—生产—消费—废弃”，价值与物质在废弃环节大量流失，容易把环境损害作为外部成本。\n循环经济重视全生命周期：在设计和生产阶段减量，在使用阶段延寿、维修和再使用，在适合条件下回收再生，并通过产业协作提高资源效率。\n比较重点：资源流动由单向为主转向多层循环；管理由末端处理拓展到源头及全过程；评价由短期产出拓展到资源、环境及长期效益。\n最终仍需对不可避免的残余物安全处置，不能把回收率提升当成全部环境绩效。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -24850,14 +25973,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-8c426d34cc285eb7-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        },
+        {
+          "title": "循环经济促进法",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_a9e2ed15775d4cb68c0cebd597f41cd2.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-48636fcfdef3d639",
@@ -24871,16 +26007,14 @@
       "title": "结合所学知识，举例说明“3R”原则的内容。",
       "question": "结合所学知识，举例说明“3R”原则的内容。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "①减量化（Reduce）：从源头减少资源消耗和废物产生，如轻量化设计、提高成材率、避免过度包装。\n②再利用（Reuse）：在不改变或适当修复产品基本用途的情况下重复使用，如周转箱、可维修设备和可重复使用容器。\n③资源化（Recycle）：把适合的废物加工为再生资源，如废金属回炉、合规废纸再生和再生水利用。\n三者应按具体生命周期收益协调，通常优先预防和减量；再利用需保证卫生、安全与实际周转次数，资源化需管理能耗及二次污染。不能为了“回收”而鼓励不必要的消费。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -24897,14 +26031,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-48636fcfdef3d639-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        },
+        {
+          "title": "循环经济促进法",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_a9e2ed15775d4cb68c0cebd597f41cd2.html",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-51a83bbee7332f52",
@@ -24918,16 +26065,14 @@
       "title": "清洁生产的内涵和目标是什么?",
       "question": "清洁生产的内涵和目标是什么?",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "清洁生产强调持续改进设计、工艺、原辅料、能源和管理，在生产及产品服务的全过程预防或减少污染。\n内涵：①源头削减，减少有毒有害原料及不合理消耗；②过程控制，提高物料与能源利用率；③产品和服务生命周期优化；④将技术措施与管理、员工参与及审核持续改进结合。\n目标：减少资源和能源消耗、污染物及废物产生，降低人类健康与环境风险，同时改善企业效率和竞争力。\n它与末端治理相互补充，但不能把仅安装污水或废气处理设施等同于已经实现全过程清洁生产。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -24944,14 +26089,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-51a83bbee7332f52-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        },
+        {
+          "title": "生态环境部：啤酒制造业清洁生产标准",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/other/qjscbz/200610/t20061001_78198.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-32b683964c7e43de",
@@ -24965,16 +26123,14 @@
       "title": "什么叫清洁生产工艺?试举一例加以说明。",
       "question": "什么叫清洁生产工艺?试举一例加以说明。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "清洁生产工艺是在满足产品功能与质量要求的前提下，通过原辅料选择、反应及加工路线、设备和操作控制等改进，减少资源消耗、污染产生及风险的生产方式。\n工艺示例：在适宜的啤酒或饮料生产环节，优化清洗程序与用水控制，分流回收可利用水，减少高浓度物料进入下水道，并对余热和适合副产物开展利用。\n分析应说明“原损失点—工艺改进—资源与污染收益”，并核实食品卫生和产品质量。示例为工艺思路，不代表未经验证就可直接套用于任一工厂。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -24991,14 +26147,27 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-32b683964c7e43de-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        },
+        {
+          "title": "生态环境部：啤酒制造业清洁生产标准",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/other/qjscbz/200610/t20061001_78198.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     },
     {
       "id": "env838-34b4e3bb8ef059ac",
@@ -25012,16 +26181,14 @@
       "title": "举例说明我国清洁生产的特点和存在问题。",
       "question": "举例说明我国清洁生产的特点和存在问题。",
       "type": "简答题",
-      "answer": "原资料仅列出题目，未提供参考答案。待核对。",
+      "answer": "特点：我国清洁生产实践把企业审核、技术改造、重点行业管理与节能减排等相结合，既包括单个企业效率改善，也与园区及产业链循环协作衔接。\n实例：食品制造优化清洗与物料回收；生态工业园通过公共设施及副产品利用减少系统资源负担。\n问题：部分企业重末端、轻预防；审核与实际改进脱节；中小企业资金、人员及技术能力有限；基础数据不足；跨企业交换存在质量、市场和责任障碍。\n改进：把物料能量平衡、可量化目标、持续监测和长效管理结合，提供技术及融资支持，避免仅形成纸面审核报告。",
       "source": "环境学导论.pdf",
       "sourceUrl": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view",
       "version": "shared",
       "importance": null,
       "pastExamYears": [],
-      "needsReview": true,
-      "reviewReasons": [
-        "原题无配套答案，未编造答案。"
-      ],
+      "needsReview": false,
+      "reviewReasons": [],
       "verified": false,
       "page": 312,
       "sourceRange": {
@@ -25038,14 +26205,32 @@
       "interval": 0,
       "star": false,
       "master": false,
-      "answerKind": "unavailable",
+      "answerKind": "compiled",
       "chapterNumber": 18,
       "excerpts": [
         {
           "page": 312,
           "src": "./assets/environment/env838-34b4e3bb8ef059ac-312.webp"
         }
-      ]
+      ],
+      "answerRevision": "exercise-research-2026-11-09-v1",
+      "answerSources": [
+        {
+          "title": "环境学导论：对应章节知识点",
+          "url": "https://drive.google.com/file/d/1PU17frjos8-m8u2OiRKgXwy2QO-ofBgi/view#page=301"
+        },
+        {
+          "title": "生态环境部：啤酒制造业清洁生产标准",
+          "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/other/qjscbz/200610/t20061001_78198.shtml",
+          "accessedOn": "2026-11-09"
+        },
+        {
+          "title": "苏州市政府：苏州工业园区能源绿色转型与循环经济实践",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/qxkx/202412/9bd49c92296c4630896923230d23dae4.shtml",
+          "accessedOn": "2026-11-09"
+        }
+      ],
+      "answerStatus": "教材与公开资料整理，非原书标准答案"
     }
   ]
 }

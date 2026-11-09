@@ -1,0 +1,42 @@
+const {chromium}=require('playwright');
+const fs=require('node:fs'), assert=require('node:assert/strict');
+const html=fs.readFileSync('water838/index.html','utf8');
+const water=JSON.parse(html.split('const FULL_SEED=')[1].split(';const BUNDLE_VERSION=')[0]);
+const env=JSON.parse(fs.readFileSync('water838/data/environment.json','utf8')).items;
+const added=JSON.parse(fs.readFileSync('water838/data/exercise-answer-additions.json','utf8')).items;
+const key='yanxicang_838_water_v1';
+(async()=>{
+ const browser=await chromium.launch({executablePath:process.env.LOCAL_CHROME||'/usr/bin/chromium',args:['--no-sandbox']});
+ const original=structuredClone([...water,...env]);
+ const first=original.find(q=>q.id===added[0].id), edited=original.find(q=>q.id===added[1].id);
+ first.answer='原资料仅列出题目，未提供参考答案。待核对。';first.answerKind='unavailable';
+ first.history=[{at:Date.now()-86400000,grade:2,response:'保留以前输入的记录'}];first.star=true;first.interval=3;first.next=Date.now()+100000;first.customField='保留';
+ edited.answer='用户自己整理的答案，不得被覆盖';edited.history=[{at:Date.now()-86400000,grade:3,response:'旧作答'}];edited.star=true;
+ const old={items:original,bundledVersion:'full-pdf-ocr-211-v1',environmentVersion:'previous-release',customMetadata:{keep:true}};
+ const context=await browser.newContext();await context.addInitScript(({key,old})=>{if(!localStorage.getItem('fixture-set')){localStorage.setItem(key,JSON.stringify(old));localStorage.setItem('fixture-set','yes')}},{key,old});
+ const p=await context.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('dialog',d=>d.accept());
+ await p.goto(process.env.PAGE_URL,{waitUntil:'networkidle'});
+ const state=()=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key);
+ let s=await state(),q=s.items.find(q=>q.id===first.id);
+ assert.equal(s.items.length,693);assert.equal(q.answer,added[0].answer);assert.equal(q.answerKind,'compiled');
+ for(const field of ['history','star','interval','next','customField'])assert.deepEqual(q[field],first[field]);
+ assert.deepEqual(s.items.find(q=>q.id===edited.id),edited);assert.deepEqual(s.customMetadata,old.customMetadata);
+ assert.deepEqual(s.items.slice(0,211),water);
+ await p.locator('nav [data-view=study]').click();await p.selectOption('#quickJump',first.id);
+ assert.match(await p.locator('#lastRecall').textContent(),/有少量遗漏/);
+ assert.equal(await p.locator('#myAnswer').count(),0);assert(!(await p.locator('#answer').isVisible()));
+ await p.locator('#revealBtn').click();assert((await p.locator('#answer').textContent()).includes(added[0].answer));
+ assert(await p.locator('#answer .answer-sources').count());
+ await p.locator('[data-grade="3"]').click();await p.selectOption('#quickJump',first.id);
+ assert.match(await p.locator('#lastRecall').textContent(),/独立完整回答/);
+ s=await state();assert.equal(s.items.find(q=>q.id===first.id).history[0].response,'保留以前输入的记录');
+ assert.equal(s.items.find(q=>q.id===first.id).history.at(-1).response,'');
+ for(const width of [360,768,820,1280]){
+  await p.setViewportSize({width,height:1000});await p.selectOption('#quickJump',first.id);await p.locator('#revealBtn').click();
+  const fonts=await p.evaluate(()=>({q:parseFloat(getComputedStyle(document.getElementById('qText')).fontSize),a:parseFloat(getComputedStyle(document.getElementById('answer')).fontSize),m:parseFloat(getComputedStyle(document.getElementById('meta')).fontSize)}));
+  assert(fonts.q>fonts.a&&fonts.a>fonts.m);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth),width);
+ }
+ await p.reload();assert.match((await state()).items.find(q=>q.id===first.id).answer,/环境/);
+ assert.deepEqual((await state()).items.find(q=>q.id===edited.id),edited);assert.deepEqual(errors,[]);
+ await browser.close();console.log('PASS answer update: 114 sourced additions, safe migration, edited answers and progress retained, no input, last grade, font hierarchy and four layouts');
+})().catch(e=>{console.error(e);process.exit(1)});

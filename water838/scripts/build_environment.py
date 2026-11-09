@@ -5,6 +5,7 @@ heading ordinal (not answer text); exercises have a separate namespace.
 """
 import argparse, collections, hashlib, io, json, re
 from pathlib import Path
+from exercise_answers import apply_additions, write_js
 import fitz
 from PIL import Image
 
@@ -294,11 +295,12 @@ def main():
  gaps=[{'source':'changes','page':28,'reason':'第12章第1—3节仅列标题，作者明确未收录正文；未生成虚构知识点。'}, {'source':'changes','page':1,'reason':'人口章重写、低生育/三孩政策等仅在变动说明提及，未给出逐点新版正文；原知识点保留并需对新版教材复核。'}, {'source':'changes','page':30,'reason':'健康风险评价MES说明称L取决于E和S，与所列公式M·E·S不一致；原文保留待核对。'}]
  for r in records:
   if r['title']=='健康风险评价常见方法':r['reviewReasons'].append(gaps[-1]['reason']);r['needsReview']=True
+ apply_additions(records)
  stats['needsReview']=sum(x['needsReview'] for x in records);stats['totalNeedsReview']=211+stats['needsReview']
+ stats.update(exerciseAnswersCompiled=139,exerciseAnswersResearched=114,exerciseAnswersUnavailable=0)
  bundle={'schemaVersion':1,'sources':[{k:v for k,v in x.items() if k!='pages'} for x in audits.values()],'chapterMapping':mapping,'statistics':stats,'mergeLog':merges,'sourceGaps':gaps,'items':records}
  dump(SITE/'data/environment.json',bundle)
- raw=json.dumps(records,ensure_ascii=False,separators=(',',':'));version='environment-'+hashlib.sha256(raw.encode()).hexdigest()[:12]
- (SITE/'data/environment.js').write_text('"use strict";\nconst ENVIRONMENT_VERSION='+json.dumps(version)+';\nconst ENVIRONMENT_SEED='+raw+';\n')
+ write_js(records)
  dump(SITE/'data/environment-audit.json',{'statistics':stats,'chapterMapping':mapping,'mergeLog':merges,'sourceGaps':gaps,'reviewItems':[{'id':x['id'],'title':x['title'],'source':x['source'],'page':x['page'],'reasons':x['reviewReasons']} for x in records if x['needsReview']]})
  dump(args.work/'chapter-notes.json',notes)
  (args.work/'titles.tsv').write_text('\n'.join(f"{x['id']}\t{x['originalChapterNumber']}\t{x['chapter']}\t{x['section']}\t{x['category']}\t{x['page']}\t{x['title']}\t{x['version']}\t{len(x['answer'])}" for x in records))

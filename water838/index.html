@@ -103,9 +103,9 @@
             </div>
             <div class="panel">
               <span class="eyebrow">学习节奏</span>
-              <h2>回忆 · 核对 · 复习</h2>
+              <h2>离线状态</h2>
               <p class="muted">
-                先用自己的话回答，再展开参考答案。根据真实表现评分，系统会沿用原有间隔安排下次复习。
+
               </p>
               <span class="mini" id="offlineStatus" role="status"
                 >正在检查离线缓存…</span
@@ -119,10 +119,7 @@
             </div>
             <div id="chapterProgress"></div>
           </div>
-          <p class="mini">
-            211 条内置 OCR 记录 · 第9—20章 · 未经逐题人工复核，请对照原 PDF
-            核对公式、数字及表格。
-          </p>
+
         </section>
         <section id="study" class="panel hidden">
           <div class="row">
@@ -131,9 +128,6 @@
               进入沉浸
             </button>
           </div>
-          <p class="muted study-intro">
-            先回忆，再核对。每一次主动提取，都让知识更清晰。
-          </p>
           <details id="studyFilters" class="study-filters">
             <summary>筛选与背诵顺序</summary>
 <div class="controls material-filters"><div><label for="studySubject">科目</label><select id="studySubject"><option value="">全部科目</option><option value="水污染控制工程">水污染控制工程</option><option value="环境学导论">环境学导论</option></select></div><div><label for="studyCategory">类别</label><select id="studyCategory"><option value="">全部类别</option><option value="knowledge">知识点背诵</option><option value="exercise">课后习题</option><option value="supplement">新版新增</option></select></div><div><label for="studyVersion">版本</label><select id="studyVersion"><option value="current">新版主背诵</option><option value="all">全部版本</option><option value="original">原资料（含旧版）</option><option value="archive">旧版保留</option></select></div></div>
@@ -201,6 +195,7 @@
               </div>
             </div>
             <div class="question" id="qText"></div>
+            <div id="lastRecall" class="last-recall" aria-live="polite"></div>
             <p class="mini">
               <a
                 id="pageJump"
@@ -209,14 +204,8 @@
                 rel="noopener"
                 >查看原PDF</a
               >
-              · PDF页码如有偏移请以书中页脚为准
+
             </p>
-            <label for="myAnswer">闭卷作答（可不输入，直接口述）</label
-            ><textarea
-              id="myAnswer"
-              autocomplete="off"
-              placeholder="先在脑中或纸上回答，或在这里输入关键词与采分点……"
-            ></textarea>
             <div class="btnrow study-actions" style="margin-top:12px">
               <button
                 class="btn alt"
@@ -237,7 +226,7 @@
             <div id="hint" class="notice hidden" style="margin-top:12px"></div>
             <div id="answer" class="answer hidden"></div>
             <div id="selfGrade" class="hidden">
-              <label>对照参考答案后，记录真实表现</label>
+
               <div class="btnrow">
                 <button class="btn good" data-grade="3">独立完整回答</button
                 ><button class="btn alt" data-grade="2">有少量遗漏</button
@@ -293,7 +282,7 @@
           <div class="page-heading">
             <span class="eyebrow">温故而知新</span>
             <h1>复习记录</h1>
-            <p class="muted">根据每一次真实作答，安排下一次回忆。</p>
+            <p class="muted"></p>
           </div>
           <div class="panel">
             <div class="row">
@@ -313,7 +302,7 @@
           </div>
           <div class="panel">
             <h2>历史记录</h2>
-            <p class="muted">最近 100 次作答；完整记录可在工具中导出。</p>
+            <p class="muted"></p>
             <div id="historyItems"></div>
           </div>
         </section>

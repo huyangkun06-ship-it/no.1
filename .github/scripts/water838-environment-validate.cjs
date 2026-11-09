@@ -27,7 +27,16 @@ for(const q of items){
  assert(q.importance===null || q.importance>=0 && q.importance<=5);
  assert(q.excerpts.length>0,'Missing source excerpt '+q.title);
  for(const e of q.excerpts) assert(fs.existsSync(path.resolve(site,e.src)),'Missing image '+e.src);
- if(q.category==='exercise') assert(['compiled','unavailable'].includes(q.answerKind));
+ if(q.category==='exercise') {
+  assert.equal(q.answerKind,'compiled');
+  assert(q.answer.length>10);
+  assert(!q.answer.includes('原资料仅列出题目，未提供参考答案'));
+  if(q.answerRevision) {
+    assert(q.answer.length>100);
+    assert(q.answerSources.length>=1);
+    assert(q.answerSources.every(s=>s.url.startsWith('https://')));
+  }
+ }
  for(const r of q.references||[]) assert(items.some(x=>x.id===r.id && x.category!=='exercise'));
  if(q.needsReview) assert(q.reviewReasons.length);
  if(active(q)){
@@ -39,6 +48,8 @@ assert.equal(items.filter(x=>x.originalChapterNumber===1 && x.category==='knowle
 for(let ch=1;ch<=20;ch++) assert(items.some(x=>x.sourceKind==='original' && x.originalChapterNumber===ch && x.category==='exercise'));
 assert(items.filter(x=>x.sourceKind==='original' && x.originalChapterNumber===12).every(x=>!active(x)));
 for(const t of ['有毒有害化学品污染','太空污染','水环境标准','水体污染的源头控制','雾霾的相关考点','CCUS','VOCs 治理技术','节能与减排','畜禽粪污污染防治措施','健康风险评价常见方法'])assert(items.some(x=>x.title===t && x.category==='supplement'),t);
+assert.equal(items.filter(x=>x.category==='exercise').length,139);
+assert.equal(items.filter(x=>x.answerRevision).length,114);
 const context={};vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(site,'data/environment.js'),'utf8')+';globalThis.items=ENVIRONMENT_SEED;',context);
 assert.equal(JSON.stringify(context.items),JSON.stringify(items));
 console.log('PASS environment integrity:',JSON.stringify(s));

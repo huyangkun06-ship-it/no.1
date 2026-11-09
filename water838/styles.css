@@ -947,3 +947,29 @@ main > section {
 .source-excerpts figure { margin: 12px 0; }
 .source-excerpts img { display: block; max-width: 100%; height: auto; background: white; }
 .source-excerpts summary, .bank-answer summary { cursor: pointer; }
+
+/* Reading hierarchy: question first, answer second, controls and metadata quiet. */
+body { font-size: 13px; }
+h1 { font-size: 20px; }
+h2, h3 { font-size: 16px; }
+.eyebrow, .study-intro, .study-empty-description { display: none; }
+.question { font-size: clamp(28px, 3.6vw, 38px); line-height: 1.55; font-weight: 700; margin: 20px 0 12px; }
+#bankItems .title { font-size: clamp(22px, 2.6vw, 28px); line-height: 1.6; font-weight: 650; }
+.answer, .answer-text { font-size: 21px; line-height: 1.9; }
+.mini, .muted, label, .last-recall { font-size: 11px; }
+.last-recall { color: var(--muted); margin: 6px 0 12px; }
+#meta { font-size: 10px; }
+button, .btn, select, input { font-size: 12px; }
+.answer-sources { font-size: 11px; white-space: normal; margin-top: 16px; color: var(--muted); }
+.answer-sources div { margin: 7px 0; overflow-wrap: anywhere; }
+.source-excerpts summary, .bank-answer > summary { font-size: 12px; }
+@media (max-width:700px) {
+  .question { font-size: 28px; }
+  .answer, .answer-text { font-size: 19px; padding: 16px; }
+  .answer-text { padding: 0; }
+  .study-actions .btn { font-size: 12px; }
+}
+
+.num, .mastery strong, .today h3 { font-size: 16px; }
+h1 { font-size: 18px; }
+.tool-card > span { font-size: 18px; }
