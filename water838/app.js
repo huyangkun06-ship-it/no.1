@@ -987,8 +987,9 @@
     $("offlineStatus").textContent = message;
   }
   if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+    const hadOfflineController = !!navigator.serviceWorker.controller;
     navigator.serviceWorker
-      .register("./sw.js")
+      .register("./sw.js", { updateViaCache: "none" })
       .then(async (registration) => {
         const worker = registration.installing || registration.waiting;
         if (registration.active)
@@ -1000,9 +1001,13 @@
           });
       })
       .catch(() => offlineMessage("离线缓存未完成，请联网后重试"));
-    navigator.serviceWorker.addEventListener("controllerchange", () =>
-      offlineMessage("离线缓存已就绪 · 学习记录保存在本机"),
-    );
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      offlineMessage("离线缓存已就绪 · 学习记录保存在本机");
+      // Refresh the complete new shell after an update. Keep unsaved editor
+      // input in place; the new release will be used on the next navigation.
+      if (hadOfflineController && !["edit", "data", "pdf"].some(
+        (id) => !$(id).classList.contains("hidden"))) location.reload();
+    });
   } else offlineMessage("当前环境不支持网页离线缓存");
 
   if (window.visualViewport) {

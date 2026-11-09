@@ -30,7 +30,7 @@ const assets = [...html.matchAll(/(?:src|href)="([^"#]+)"/g)]
   .filter((x) => !/^https?:/.test(x));
 for (const asset of assets) {
   assert(!asset.startsWith("/"), `Relative asset required: ${asset}`);
-  assert(fs.existsSync(path.resolve(site, asset)), `Missing asset: ${asset}`);
+  assert(fs.existsSync(path.resolve(site, asset.split("?")[0])), `Missing asset: ${asset}`);
 }
 const manifest = JSON.parse(
   fs.readFileSync(path.join(site, "manifest.webmanifest"), "utf8"),
