@@ -193,6 +193,8 @@
       data: "导入与备份",
       pdf: "PDF 对照",
     }[view];
+    document.querySelector(".nav-more").open = false;
+    document.querySelector(".nav-more > summary").classList.toggle("active", ["review", "tools"].includes(active));
     document.body.classList.toggle("studying", view === "study");
     if (view === "bank") renderBank();
     if (view === "review" || view === "home") refreshReviewStatus();
@@ -206,6 +208,17 @@
   document
     .querySelectorAll("[data-view]")
     .forEach((b) => b.addEventListener("click", () => show(b.dataset.view)));
+  // Keep the lightweight navigation menu dismissible with touch and keyboard.
+  const moreMenu = document.querySelector(".nav-more");
+  document.addEventListener("click", (event) => {
+    if (!moreMenu.contains(event.target)) moreMenu.open = false;
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && moreMenu.open) {
+      moreMenu.open = false;
+      moreMenu.querySelector("summary").focus();
+    }
+  });
   function pool() {
     const ch = $("chapterFilter").value,
       ty = $("typeFilter").value,
@@ -274,6 +287,7 @@
     ]
       .filter(Boolean)
       .join(" · ");
+    $("readingMeta").textContent = x.chapter + " · " + x.type;
     $("qText").textContent = x.question;
     const pg = document.getElementById("pageJump");
     if (pg) {
@@ -921,7 +935,7 @@
   });
   const FONT_KEY = "838.fontSizes";
   const fontFields = {
-    Question: { property: "--reading-question", target: "qText", min: 22, max: 48 },
+    Question: { property: "--reading-question", target: "qText", min: 19, max: 48 },
     Answer: { property: "--reading-answer", target: "answer", min: 16, max: 32 },
     Auxiliary: { property: "--reading-auxiliary", target: "lastRecall", min: 10, max: 18 },
   };
@@ -965,7 +979,7 @@
     $("themeToggle").setAttribute("aria-pressed", String(dark));
     document.querySelector('meta[name="theme-color"]').content = dark
       ? "#191b19"
-      : "#f7f7f2";
+      : "#FAFAF8";
   }
   $("themeToggle").onclick = () => {
     document.documentElement.dataset.theme =
@@ -979,9 +993,10 @@
   $("sidebarToggle").onclick = () => {
     const collapsed = document.body.classList.toggle("sidebar-collapsed");
     $("sidebarToggle").setAttribute("aria-expanded", String(!collapsed));
+    $("sidebarToggle").textContent = collapsed ? "展开次级导航" : "紧凑导航";
     $("sidebarToggle").setAttribute(
       "aria-label",
-      collapsed ? "展开侧边栏" : "折叠侧边栏",
+      collapsed ? "展开次级导航" : "切换紧凑导航",
     );
   };
   $("rawBackup").onclick = () => {
@@ -1048,7 +1063,7 @@
   }
   const compactStudy = matchMedia("(max-width:700px)");
   const syncStudyFilters = () => {
-    $("studyFilters").open = !compactStudy.matches;
+    $("studyFilters").open = false;
   };
   syncStudyFilters();
   if (compactStudy.addEventListener)

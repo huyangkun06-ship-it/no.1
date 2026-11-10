@@ -104,6 +104,7 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
         t.includes("名词解释"),
       ),
     );
+    await p.locator(".nav-more").evaluate(d => d.open = true);
     await p.locator("nav [data-view=review]").click();
     assert.match(await p.locator("#reviewSummary").textContent(), /1 道/);
     assert.equal(await p.locator("#historyItems .history-row").count(), 1);
@@ -129,6 +130,7 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
     await p.locator('[data-grade="3"]').click();
     assert.equal((await state()).items[0].interval, 45);
     assert.equal((await state()).items[1].verified, false);
+    await p.locator(".nav-more").evaluate(d => d.open = true);
     await p.locator("nav [data-view=tools]").click();
     await p.locator("#themeToggle").click();
     const theme = await p.locator("html").getAttribute("data-theme");
@@ -139,6 +141,7 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
     for (const width of [320, 375, 390, 768, 820, 1024, 1440]) {
       await p.setViewportSize({ width, height: width === 1024 ? 768 : 1000 });
       for (const view of ["home", "study", "bank", "review", "tools"]) {
+        if (["review", "tools"].includes(view)) await p.locator(".nav-more").evaluate(d => d.open = true);
         await p.locator(`nav [data-view=${view}]`).click();
         assert.equal(
           await p.evaluate(() => document.documentElement.scrollWidth),
@@ -152,11 +155,9 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
         assert.equal(Math.round(nav.width), width);
       }
       if (width === 1440) {
+        await p.locator(".nav-more").evaluate(d => d.open = true);
         await p.locator("#sidebarToggle").click();
-        assert.equal(
-          Math.round((await p.locator("#sidebar").boundingBox()).width),
-          78,
-        );
+        assert(await p.locator("body").evaluate(b => b.classList.contains("sidebar-collapsed")));
         await p.locator("#sidebarToggle").click();
       }
     }

@@ -25,6 +25,7 @@ const version=JSON.parse(fs.readFileSync('water838/data/environment.js','utf8').
  assert.equal(await p.locator('#studySubject').inputValue(),'');assert.equal(await p.locator('#studyCategory').inputValue(),'');
  assert.equal(await p.locator('#studyVersion').inputValue(),'all');assert.equal(await p.locator('#quickJump option').count(),2);
  assert.equal(await p.locator('#qText').textContent(),water[0].question);
+ await p.locator(".nav-more").evaluate(d => d.open = true);
  await p.locator('nav [data-view=review]').click();assert.equal(await p.locator('#dueItems button').count(),2);
  await p.clock.fastForward(60000);assert.equal(await p.locator('#sDue').textContent(),'3');
  assert.equal(await p.locator('#dueItems button').count(),3);

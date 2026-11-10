@@ -111,6 +111,7 @@ const key = "yanxicang_838_water_v1";
       await p.locator("#search").fill("水质污染指标");
       assert((await p.locator("#bankItems .listItem").count()) > 0);
       await p.locator("#search").fill("");
+      await p.locator(".nav-more").evaluate(d => d.open = true);
       await p.locator("nav [data-view=tools]").click();
       await p.locator('[data-view="edit"]').click();
       await noOverflow();
@@ -131,6 +132,7 @@ const key = "yanxicang_838_water_v1";
       await p.waitForFunction(
         n => document.getElementById("sTotal").textContent === String(n), total,
       );
+      await p.locator(".nav-more").evaluate(d => d.open = true);
       await p.locator("nav [data-view=tools]").click();
       await p.locator('[data-view="data"]').click();
       await noOverflow();
@@ -154,6 +156,7 @@ const key = "yanxicang_838_water_v1";
       await p.evaluate((k) => localStorage.removeItem(k), key);
       await p.reload();
       assert.equal((await state()).items[0].history.length, 0);
+      await p.locator(".nav-more").evaluate(d => d.open = true);
       await p.locator("nav [data-view=tools]").click();
       await p.locator('[data-view="data"]').click();
       await p.locator("#replaceImport").check();
@@ -190,6 +193,7 @@ const key = "yanxicang_838_water_v1";
         key,
       );
       assert.equal((await state()).items.length, total);
+      await p.locator(".nav-more").evaluate(d => d.open = true);
       await p.locator("nav [data-view=tools]").click();
       await p.locator('[data-view="pdf"]').click();
       await noOverflow();
