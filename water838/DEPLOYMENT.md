@@ -62,4 +62,4 @@ PAGE_URL=https://huyangkun06-ship-it.github.io/no.1/water838/ node .github/scrip
 
 ## 水控原文配图
 
-原211道水控题已配286张原文图片，66道含跨页裁图。来源、定位核验、复现和测试命令见 [WATER_SOURCE_IMAGES.md](./WATER_SOURCE_IMAGES.md)。
+原211道水控题已配277张原文图片，63道含跨页裁图。来源、定位核验、复现和测试命令见 [WATER_SOURCE_IMAGES.md](./WATER_SOURCE_IMAGES.md)。

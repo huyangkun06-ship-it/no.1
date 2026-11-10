@@ -1,12 +1,12 @@
 "use strict";
-const CACHE = "838-workbench-water-images-v7";
+const CACHE = "838-workbench-water-images-v8";
 const CORE = [
   "./",
   "./index.html",
-  "./styles.css?v=water-images-20261110-1",
-  "./app.js?v=water-images-20261110-1",
-  "./data/environment.js?v=water-images-20261110-1",
-  "./data/water-excerpts.js?v=water-images-20261110-1",
+  "./styles.css?v=water-images-20261110-2",
+  "./app.js?v=water-images-20261110-2",
+  "./data/environment.js?v=water-images-20261110-2",
+  "./data/water-excerpts.js?v=water-images-20261110-2",
   "./manifest.webmanifest",
   "./icon.svg",
   "../icon-192.png",

@@ -79,7 +79,7 @@ def main():
   rec={'locationNote':overrides.get(q['id'],{}).get('note',''),'recordFragment':overrides.get(q['id'],{}).get('recordFragment',False),'id':q['id'],'title':q['question'],'page':pg,'sourceRange':{'startPage':pg,'startY':y,'endPage':end[0],'endY':round(end[1],2)},'matchScore':start['score'],'matchedLine':start['ocr'],'excerpts':[]}
   for pn in range(pg,end[0]+1):
    top=y-5 if pn==pg else 45;bottom=end[1]-5 if pn==end[0] else D[pn-1].rect.height-50
-   if bottom-top<10:continue
+   if bottom-top<35:continue
    target=SITE/'assets/water'/f"{q['id']}-{pn}.webp"
    rec['excerpts'].append({'page':pn,'printedPage':pn-1,'src':'./assets/water/'+target.name})
    if not args.dry_run:
