@@ -2,6 +2,13 @@
   "use strict";
   const KEY = "yanxicang_838_water_v1";
   const $ = (id) => document.getElementById(id);
+  // Review dates are displayed as calendar dates in China standard time.
+  const reviewDay = (time) => Math.floor((Number(time) + 8 * 3600000) / 86400000);
+  function isDue(item, now = Date.now()) {
+    const time = Number(item.next);
+    return !!item.history?.length && Number.isFinite(time) && time >= 0 &&
+      reviewDay(time) <= reviewDay(now);
+  }
   let storageReadable = true;
   let state = { items: [] };
   try {
@@ -157,7 +164,7 @@
     $("sTotal").textContent = a.length;
     $("sDone").textContent = a.filter((x) => x.history.length).length;
     $("sDue").textContent = a.filter(
-      (x) => x.history.length && x.next <= now,
+      (x) => isDue(x, now),
     ).length;
     $("sMaster").textContent = a.filter((x) => x.master).length;
     fillSelect($("chapterFilter"));
@@ -188,7 +195,7 @@
     }[view];
     document.body.classList.toggle("studying", view === "study");
     if (view === "bank") renderBank();
-    if (view === "review") renderReview();
+    if (view === "review" || view === "home") refreshReviewStatus();
     scrollTo({
       top: 0,
       behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -210,7 +217,7 @@
         (!ch || x.chapter === ch) &&
         (!ty || x.type === ty) &&
         (m === "all" ||
-          (m === "due" && x.history.length && x.next <= now) ||
+          (m === "due" && isDue(x, now)) ||
           (m === "new" && !x.history.length) ||
           (m === "weak" && x.history.length && x.history.at(-1).grade <= 1) ||
           (m === "star" && x.star)),
@@ -741,23 +748,37 @@
     current = null;
     next();
   };
-  function startReview() {
+  function startReview(id) {
+    $("studySubject").value = "";
+    $("studyCategory").value = "";
+    $("studyVersion").value = "all";
+    fillSelect($("chapterFilter"));
     $("chapterFilter").value = "";
     $("typeFilter").value = "";
     $("modeFilter").value = "due";
     current = null;
-    next();
+    const item = typeof id === "string" && state.items.find((x) => x.id === id);
+    if (item && isDue(item)) showQ(item);
+    else next();
     show("study");
+  }
+  function refreshReviewStatus() {
+    $("sDue").textContent = state.items.filter((x) => isDue(x)).length;
+    renderDashboard();
+    renderReview();
+    if (!$("study").classList.contains("hidden") &&
+        $("modeFilter").value === "due" && !current) next();
   }
   function renderDashboard() {
     const now = Date.now(),
-      today = new Date().toDateString(),
+      today = reviewDay(now),
       a = state.items;
     const attempts = a
       .flatMap((x) => x.history)
-      .filter((h) => new Date(h.at).toDateString() === today).length;
-    const due = a.filter((x) => x.history.length && x.next <= now).length;
+      .filter((h) => reviewDay(h.at) === today).length;
+    const due = a.filter((x) => isDue(x, now)).length;
     $("todayDate").textContent = new Date().toLocaleDateString("zh-CN", {
+      timeZone: "Asia/Shanghai",
       month: "long",
       day: "numeric",
       weekday: "short",
@@ -802,7 +823,7 @@
   const gradeLabels = ["完全不会", "需要提示", "有少量遗漏", "独立完整回答"];
   function renderReview() {
     const due = state.items.filter(
-      (x) => x.history.length && x.next <= Date.now(),
+      (x) => isDue(x),
     );
     $("reviewSummary").textContent =
       `今天有 ${due.length} 道到期题目。复习后按真实表现评分。`;
@@ -814,10 +835,7 @@
       root.append(elt("p", "暂时没有到期题目，可以继续学习新题。", "empty"));
     for (const x of due) {
       const b = elt("button", x.question, "review-question");
-      b.onclick = () => {
-        show("study");
-        showQ(x);
-      };
+      b.onclick = () => startReview(x.id);
       root.append(b);
     }
     const mastery = $("masterySummary");
@@ -851,7 +869,7 @@
         b,
         elt(
           "div",
-          `${new Date(h.at).toLocaleString("zh-CN")} · ${gradeLabels[h.grade] || "未评分"}${h === x.history.at(-1) ? " · 间隔 " + x.interval + " 天 · 下次 " + new Date(x.next).toLocaleDateString("zh-CN") : ""}`,
+          `${new Date(h.at).toLocaleString("zh-CN")} · ${gradeLabels[h.grade] || "未评分"}${h === x.history.at(-1) ? " · 间隔 " + x.interval + " 天 · 下次 " + new Date(x.next).toLocaleDateString("zh-CN", { timeZone: "Asia/Shanghai" }) : ""}`,
           "mini",
         ),
       );
@@ -1034,6 +1052,13 @@
   if (compactStudy.addEventListener)
     compactStudy.addEventListener("change", syncStudyFilters);
   else compactStudy.addListener(syncStudyFilters);
+  window.addEventListener("focus", refreshReviewStatus);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) refreshReviewStatus();
+  });
+  setInterval(() => {
+    if (!document.hidden) refreshReviewStatus();
+  }, 60000);
   renderStats();
   let lastId;
   try {

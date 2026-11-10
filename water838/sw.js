@@ -1,11 +1,11 @@
 "use strict";
-const CACHE = "838-workbench-font-settings-v5";
+const CACHE = "838-workbench-due-review-v6";
 const CORE = [
   "./",
   "./index.html",
-  "./styles.css?v=fonts-20261109-2",
-  "./app.js?v=fonts-20261109-2",
-  "./data/environment.js?v=fonts-20261109-2",
+  "./styles.css?v=due-20261110-1",
+  "./app.js?v=due-20261110-1",
+  "./data/environment.js?v=due-20261110-1",
   "./manifest.webmanifest",
   "./icon.svg",
   "../icon-192.png",
