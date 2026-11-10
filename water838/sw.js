@@ -1,5 +1,5 @@
 "use strict";
-const CACHE = "838-workbench-water-images-v8";
+const CACHE = "838-workbench-water-images-v9";
 const CORE = [
   "./",
   "./index.html",
@@ -36,10 +36,12 @@ self.addEventListener("activate", (event) => {
 });
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
+  const shellNavigation = event.request.mode === "navigate" &&
+    ["./", "./index.html"].some((p) => url.pathname === new URL(p, self.registration.scope).pathname);
   if (
     event.request.method !== "GET" ||
     url.origin !== self.location.origin ||
-    !(CORE.some((p) => new URL(p, self.registration.scope).href === url.href) ||
+    !(shellNavigation || CORE.some((p) => new URL(p, self.registration.scope).href === url.href) ||
       ["./assets/environment/", "./assets/water/"].some((p) =>
         url.pathname.startsWith(new URL(p, self.registration.scope).pathname)))
   )
@@ -50,7 +52,7 @@ self.addEventListener("fetch", (event) => {
       .open(CACHE)
       .then(
         async (cache) =>
-          (await cache.match(event.request)) || fetch(event.request).then((response) => {
+          (await cache.match(shellNavigation ? new URL("./index.html", self.registration.scope).href : event.request)) || fetch(event.request).then((response) => {
             if (response.ok) cache.put(event.request, response.clone());
             return response;
           }),
