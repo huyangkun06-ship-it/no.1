@@ -28,3 +28,4 @@ jobs:
           node .github/scripts/water838-environment-check.cjs
           node .github/scripts/water838-answer-update-check.cjs
           node .github/scripts/water838-due-check.cjs
+          node .github/scripts/water838-water-images-check.cjs

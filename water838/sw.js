@@ -1,11 +1,12 @@
 "use strict";
-const CACHE = "838-workbench-due-review-v6";
+const CACHE = "838-workbench-water-images-v7";
 const CORE = [
   "./",
   "./index.html",
-  "./styles.css?v=due-20261110-1",
-  "./app.js?v=due-20261110-1",
-  "./data/environment.js?v=due-20261110-1",
+  "./styles.css?v=water-images-20261110-1",
+  "./app.js?v=water-images-20261110-1",
+  "./data/environment.js?v=water-images-20261110-1",
+  "./data/water-excerpts.js?v=water-images-20261110-1",
   "./manifest.webmanifest",
   "./icon.svg",
   "../icon-192.png",
@@ -39,7 +40,8 @@ self.addEventListener("fetch", (event) => {
     event.request.method !== "GET" ||
     url.origin !== self.location.origin ||
     !(CORE.some((p) => new URL(p, self.registration.scope).href === url.href) ||
-      url.pathname.startsWith(new URL("./assets/environment/", self.registration.scope).pathname))
+      ["./assets/environment/", "./assets/water/"].some((p) =>
+        url.pathname.startsWith(new URL(p, self.registration.scope).pathname)))
   )
     return;
   // A cache version contains a complete shell so offline loads never mix releases.

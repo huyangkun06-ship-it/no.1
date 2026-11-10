@@ -58,3 +58,8 @@ PAGE_URL=https://huyangkun06-ship-it.github.io/no.1/water838/ node .github/scrip
 到期判断统一使用北京时间的日期：计划复习日为今天或之前、且存在背诵记录的题，列入到期复习。保留已有next时间戳与全部历史，不批量改写排程。首页与复习页共用判断，页面每分钟及恢复可见/焦点时刷新。全局“复习到期题目”清除科目、类别、章节、题型和版本限制，包含已背过的旧版保留内容；用户在背诵筛选内手动选择“今日到期”仍遵循所选筛选。
 
 回归：`LOCAL_CHROME=/usr/bin/chromium PAGE_URL=http://localhost:8000/no.1/water838/ node .github/scripts/water838-due-check.cjs`，覆盖北京时间跨日、日期/时刻差异、残留筛选、旧版到期题和原记录保留。
+
+
+## 水控原文配图
+
+原211道水控题已配286张原文图片，66道含跨页裁图。来源、定位核验、复现和测试命令见 [WATER_SOURCE_IMAGES.md](./WATER_SOURCE_IMAGES.md)。

@@ -1,0 +1,65 @@
+{
+  "pdf838-extracted-0011": {
+    "startY": 840.15,
+    "note": "题干左半部分OCR漏识别，按第3道填空题原图定位"
+  },
+  "pdf838-extracted-0017": {
+    "startY": 1369.46,
+    "note": "原题OCR“基浮物”对应原图“悬浮物含量”"
+  },
+  "pdf838-extracted-0045": {
+    "startY": 1151.18,
+    "note": "按第7道加压溶气填空题原图核对"
+  },
+  "pdf838-extracted-0116": {
+    "startY": 589.09,
+    "note": "原题OCR乱码，答案自然通风对应第3道填空题"
+  },
+  "pdf838-extracted-0123": {
+    "startY": 807.4,
+    "note": "按课后习题第1题标题定位，排除答案行误匹配"
+  },
+  "pdf838-extracted-0141": {
+    "startY": 1525.37,
+    "note": "按第3道厌氧消化三阶段填空题原图定位"
+  },
+  "pdf838-extracted-0156": {
+    "startY": 1339.88,
+    "note": "原记录题干乱码，对应第11题有机酚与无机物萃取"
+  },
+  "pdf838-extracted-0157": {
+    "startY": 776.19,
+    "note": "原记录题干乱码，对应混凝原理第1道填空题"
+  },
+  "pdf838-extracted-0032": {
+    "startY": 88.57,
+    "endPage": 47,
+    "endY": 1634,
+    "recordFragment": true,
+    "note": "现有题库将第5题计算步骤识别成独立记录；保留ID，关联同一原题完整解答。"
+  },
+  "pdf838-extracted-0201": {
+    "startY": 247.68,
+    "endPage": 264,
+    "endY": 744,
+    "recordFragment": true,
+    "note": "现有记录为社会环境效益及运行控制知识片段，配对应段落，不冒充新的课后原题。"
+  },
+  "pdf838-extracted-0030": {
+    "startY": 88.57,
+    "endPage": 47,
+    "endY": 1634,
+    "recordFragment": true,
+    "note": "现有题库将第5题沉淀池计算步骤识别成独立记录；保留ID，配同一道原题完整解答。"
+  },
+  "pdf838-extracted-0031": {
+    "startY": 88.57,
+    "endPage": 47,
+    "endY": 1634,
+    "note": "第5题完整计算过程，避免被已存在的公式片段记录误截断。"
+  },
+  "pdf838-extracted-0190": {
+    "startY": 930.5,
+    "note": "原记录标题仅为跨行题干尾部，向前补全到同页计算题首行。"
+  }
+}

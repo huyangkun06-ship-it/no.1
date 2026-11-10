@@ -397,13 +397,15 @@
       }
       root.append(sources);
     }
-    if (x.excerpts?.length) {
+    const excerpts = x.excerpts?.length ? x.excerpts :
+      (WATER_SOURCE_EXCERPTS.items[x.id]?.excerpts || []);
+    if (excerpts.length) {
       const details = elt("details", undefined, "source-excerpts");
       details.append(elt("summary", "查看对应原文（含图片、公式与表格）"));
-      for (const excerpt of x.excerpts) {
+      for (const excerpt of excerpts) {
         const fig = elt("figure"), img = elt("img");
         img.src = excerpt.src; img.alt = `${x.question} · 原PDF第${excerpt.page}页`; img.loading = "lazy";
-        fig.append(img, elt("figcaption", `原PDF第${excerpt.page}页`, "mini")); details.append(fig);
+        fig.append(img, elt("figcaption", `原PDF第${excerpt.page}页${excerpt.printedPage == null ? "" : ` · 书内第${excerpt.printedPage}页`}`, "mini")); details.append(fig);
       }
       root.append(details);
     }
