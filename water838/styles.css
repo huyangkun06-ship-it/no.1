@@ -218,3 +218,15 @@ hr { border-color: var(--line) !important; }
   #qArea .actions { margin-left: -12px; }
 }
 .nav-more > summary.active { color: var(--text); background: var(--soft); border-radius: 6px; }
+
+/* Frequently used scope stays visible; answer reveal owns its full row. */
+.primary-filters { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,2fr); gap: 16px; }
+.primary-filters > div { min-width: 0; }
+.study-filters .material-filters { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.study-actions { display: grid; grid-template-columns: minmax(0,1fr); }
+#revealBtn { width: 100%; min-height: 48px; }
+#hintBtn { justify-self: start; }
+.bank-filters > summary { color: var(--muted); font-size: 13px; }
+@media (max-width:600px) {
+  .primary-filters { grid-template-columns: minmax(0,1fr); gap: 4px; }
+}

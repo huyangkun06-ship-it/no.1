@@ -83,3 +83,9 @@ PAGE_URL=https://huyangkun06-ship-it.github.io/no.1/water838/ node .github/scrip
 测试脚本中的“工具 / 复习”导航已适配更多菜单；原侧栏宽度断言改为顶部导航收纳状态检查。浏览器测试使用隔离上下文和测试数据，没有接触用户实际浏览器记录。
 
 WebKit已尝试下载和启动，环境缺少 `libgtk-4.so.1`、`libgraphene-1.0.so.0` 等系统依赖，未能运行。未执行Safari、HarmonyOS、iPad或Android真机测试，也未执行远程GitHub Pages发布。本地通过原子目录路径 `http://localhost:8000/no.1/water838/` 验证；正式上线沿用既有Pages工作流及原地址。
+
+### 发布后微调
+
+“显示 / 收起答案”按钮独占一行，提示按钮另起一行。背诵和题库的科目、章节保持在折叠区外，其他筛选收纳到详情区域；搜索入口继续直接可见。仅移动现有控件并调整CSS，原事件和数据逻辑不变。再次递增离线资源版本。
+
+线上首版验收：GitHub Actions中的Chromium及WebKit在7种宽度下均通过题库、章节、抽题、评分、持久化、JSON/CSV与PDF流程；Chromium旧数据及离线检查通过。WebKit的隔离上下文断网刷新在`page.reload`报告引擎内部错误，与此前版本相同，因此不能声称WebKit离线验收通过。未验证HarmonyOS或iPad真机。

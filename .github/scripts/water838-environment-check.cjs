@@ -12,6 +12,7 @@ const active=x=>!['removed','replaced','original-only'].includes(x.version);
    await p.goto(process.env.PAGE_URL,{waitUntil:'networkidle'});
    assert.equal(await p.locator('#sTotal').textContent(),String(bundle.statistics.mergedTotal));
    await p.locator('nav [data-view=bank]').click();await p.selectOption('#bankSubject','环境学导论');
+   await p.locator('.bank-filters > summary').click();
    await p.selectOption('#bankCategory','knowledge');await p.selectOption('#bankChapter','第1章 绪论');
    assert.equal(await p.locator('#bankItems .listItem').count(),19);
    assert.equal(await p.locator('#bankItems .title').first().textContent(),'环境的概念');

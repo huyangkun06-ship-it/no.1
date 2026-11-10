@@ -89,6 +89,7 @@ const engines = process.env.LOCAL_CHROME ? { chromium } : { chromium, webkit };
     await p.locator("nav [data-view=bank]").click();
     await p.locator("#bankSubject").selectOption("水污染控制工程");
     assert.equal(await p.locator("#bankItems > details").count(), 12);
+    await p.locator(".bank-filters > summary").click();
     await p.locator("#bankStatus").selectOption("star");
     assert.equal(await p.locator("#bankItems .listItem").count(), 1);
     await p.locator("#bankItems > details > summary").click();
