@@ -23,11 +23,14 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Validate 838 static build
         run: node .github/scripts/water838-build.cjs
+      - name: Validate writing recall trainer
+        run: node writing-recall/check.cjs
       - name: Prepare static files
         run: |
           mkdir _site
           cp index.html manifest.webmanifest icon-192.png icon-512.png _site/
           cp -R water838 _site/
+          cp -R writing-recall _site/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

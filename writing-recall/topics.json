@@ -1,0 +1,3325 @@
+[
+  {
+    "id": 1,
+    "title": "绿色出行",
+    "sentences": [
+      {
+        "chinese": "便利的地铁和共享单车，降低了绿色出行的门槛。",
+        "english": "Convenient subways and shared bikes lower the barriers to green commuting.",
+        "phrases": [
+          "convenient",
+          "subway",
+          "shared bikes",
+          "lower the barriers to",
+          "green commuting"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "拥堵和油费，加重了开车的负担。",
+        "english": "Traffic jams and fuel costs increase the burden of driving.",
+        "phrases": [
+          "traffic jams",
+          "fuel costs",
+          "increase the burden of",
+          "drive"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，越来越多的人愿意为环保做贡献。",
+        "english": "More importantly, more and more people are willing to contribute to environmental protection.",
+        "phrases": [
+          "more and more people",
+          "be willing to do…",
+          "contribute to environmental protection"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 2,
+    "title": "城市交通以人为本",
+    "sentences": [
+      {
+        "chinese": "过去，宽阔的马路把行人挤到了边缘。",
+        "english": "In the past, wide roads pushed pedestrians to the margins.",
+        "phrases": [
+          "pedestrians",
+          "push pedestrians to the margins"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，步道和自行车道把空间还给了行人。",
+        "english": "Today, walkways and bike lanes return space to pedestrians.",
+        "phrases": [
+          "walkways",
+          "bike lanes",
+          "return space to pedestrians"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，城市会变得更宜居、更有温度。",
+        "english": "In the future, cities will become more livable and welcoming.",
+        "phrases": [
+          "more livable",
+          "more welcoming"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 3,
+    "title": "无障碍环境建设",
+    "sentences": [
+      {
+        "chinese": "过去，一道台阶就能挡住残障人士的路。",
+        "english": "In the past, a single step could block the way for people with disabilities.",
+        "phrases": [
+          "people with disabilities",
+          "block the way for…"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，坡道和电梯帮助他们走出家门。",
+        "english": "Today, ramps and elevators help them go out freely.",
+        "phrases": [
+          "ramps",
+          "elevators",
+          "help them go out freely"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，无障碍环境会惠及整个社会。",
+        "english": "In the future, accessible environments will benefit the whole society.",
+        "phrases": [
+          "accessible environments",
+          "benefit the whole society"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 4,
+    "title": "全民健身",
+    "sentences": [
+      {
+        "chinese": "社区里遍布的场地和步道，降低了运动的门槛。",
+        "english": "Widely available sports facilities and walking paths in the community lower the barriers to exercise.",
+        "phrases": [
+          "widely available sports facilities and walking paths",
+          "lower the barriers to exercise"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "亚健康的问题，越来越普遍。",
+        "english": "Sub-health problems are becoming increasingly common.",
+        "phrases": [
+          "sub-health",
+          "become increasingly common"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，如今的人们愿意为健康投资。",
+        "english": "More importantly, people today are willing to invest in their health.",
+        "phrases": [
+          "people today",
+          "invest in one's health"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 5,
+    "title": "心理健康",
+    "sentences": [
+      {
+        "chinese": "快节奏的生活让焦虑和抑郁变得越来越普遍。",
+        "english": "The fast-paced lifestyle is making anxiety and depression become increasingly common.",
+        "phrases": [
+          "the fast-paced lifestyle",
+          "anxiety and depression",
+          "make… become increasingly common"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "互联网让心理健康知识更容易获取。",
+        "english": "The Internet makes mental health knowledge more accessible.",
+        "phrases": [
+          "the Internet",
+          "mental health knowledge",
+          "make … more accessible"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们开始意识到，心理健康和身体健康同样重要。",
+        "english": "More importantly, people are beginning to realize that mental and physical health are equally important.",
+        "phrases": [
+          "physical health",
+          "equally important"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 6,
+    "title": "青少年的体质健康",
+    "sentences": [
+      {
+        "chinese": "近年来，青少年体质测试的数据持续下滑。",
+        "english": "In recent years, youth fitness test scores have continued to decline.",
+        "phrases": [
+          "youth fitness test",
+          "scores",
+          "continue to decline"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "青少年中，近视和肥胖的问题越来越突出。",
+        "english": "Among young people, myopia and obesity are becoming increasingly serious.",
+        "phrases": [
+          "myopia",
+          "obesity",
+          "become increasingly serious"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，家长们意识到，身体健康是孩子未来发展的基础。",
+        "english": "More importantly, parents have realized that physical health is the foundation of children's future development.",
+        "phrases": [
+          "physical health is the foundation of…",
+          "children's future development"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "整体趋势",
+      "具体表现",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 7,
+    "title": "屏幕损害儿童视力",
+    "sentences": [
+      {
+        "chinese": "过去，孩子们主要在户外玩耍，近视问题并不普遍。",
+        "english": "In the past, children played outdoors mainly, and myopia was not common.",
+        "phrases": [
+          "outdoors",
+          "myopia",
+          "be not common"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，电子设备的普及让孩子们长时间盯着屏幕，近视率快速上升。",
+        "english": "Today, the widespread use of electronic devices has led children to stare at screens for long periods, causing myopia rates to rise rapidly.",
+        "phrases": [
+          "the widespread use of electronic devices",
+          "lead… to stare at… for long periods",
+          "cause myopia rates to rise rapidly"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "如果不加干预，近视问题会拖累整整一代人的健康。",
+        "english": "Without intervention, myopia problems will drag down the health of an entire generation.",
+        "phrases": [
+          "without intervention",
+          "drag down the health of…",
+          "an entire generation"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 8,
+    "title": "青少年网络素养",
+    "sentences": [
+      {
+        "chinese": "网络已经深入孩子们的日常生活，他们每天接触各种各样的内容。",
+        "english": "The Internet has become deeply embedded in children's daily lives, exposing them to all kinds of content every day.",
+        "phrases": [
+          "become deeply embedded in…daily lives",
+          "expose them to all kinds of content"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "不良信息会对孩子造成长久的伤害。",
+        "english": "Harmful content can cause lasting harm to children.",
+        "phrases": [
+          "harmful content",
+          "cause lasting harm to…"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，家长希望孩子驾驭网络，而不是被网络驾驭。",
+        "english": "More importantly, parents want their children to master the Internet, rather than be controlled by it.",
+        "phrases": [
+          "master the Internet",
+          "rather than be controlled by…"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 9,
+    "title": "老年人用智能机",
+    "sentences": [
+      {
+        "chinese": "挂号、缴费、打车，都搬到了手机上。",
+        "english": "Making appointments, paying bills, and calling rides have all moved to smartphones.",
+        "phrases": [
+          "make appointments",
+          "pay bills",
+          "call rides",
+          "all move to smartphones"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "视频通话，拉近了老人和子女的距离。",
+        "english": "Video calls bring the elderly and their children closer.",
+        "phrases": [
+          "video calls",
+          "bring…closer"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，老人们不想被时代甩下。",
+        "english": "More importantly, the elderly don't want to be left behind by the times.",
+        "phrases": [
+          "be left behind by the times"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 10,
+    "title": "老年人的精神生活",
+    "sentences": [
+      {
+        "chinese": "很多老人衣食无忧，却缺少陪伴。",
+        "english": "Many elderly people have enough to eat and wear, yet lack companionship.",
+        "phrases": [
+          "have enough to eat and wear",
+          "lack companionship"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "长期的孤独，会损害老人的身心健康。",
+        "english": "Long-term loneliness can harm the physical and mental health of the elderly.",
+        "phrases": [
+          "long-term loneliness",
+          "harm the physical and mental health of…"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，子女们开始关心父母的内心世界。",
+        "english": "More importantly, children are beginning to care about their parents' inner world.",
+        "phrases": [
+          "care about… inner world"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 11,
+    "title": "消费观念转向体验",
+    "sentences": [
+      {
+        "chinese": "过去，人们把钱花在拥有更多的物品上。",
+        "english": "In the past, people spent money on owning more possessions.",
+        "phrases": [
+          "spend money on…",
+          "possessions"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，人们更愿意为体验买单。",
+        "english": "Today, people are more willing to pay for experiences.",
+        "phrases": [
+          "pay for experiences"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，“体验清单”会取代“购物清单”。",
+        "english": "In the future, experience lists will replace shopping lists.",
+        "phrases": [
+          "replace"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 12,
+    "title": "简约生活",
+    "sentences": [
+      {
+        "chinese": "过多的物品，挤占了生活的空间。",
+        "english": "Too many possessions crowd out living space.",
+        "phrases": [
+          "crowd out",
+          "living space"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "冲动消费，加重了经济负担。",
+        "english": "Impulse buying increases the financial burden.",
+        "phrases": [
+          "impulse buying",
+          "financial burden"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们开始追求内心的平静。",
+        "english": "More importantly, people are beginning to pursue inner peace.",
+        "phrases": [
+          "pursue",
+          "inner peace"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 13,
+    "title": "平衡储蓄和消费",
+    "sentences": [
+      {
+        "chinese": "很多年轻人认为，钱是挣出来的，不是省出来的。",
+        "english": "Many young people believe that money is earned, not saved.",
+        "phrases": [
+          "earn",
+          "save"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但零储蓄的生活，让人在意外面前不堪一击。",
+        "english": "But a life with no savings leaves one unable to withstand a single blow when the unexpected strikes.",
+        "phrases": [
+          "a life with no savings",
+          "leave sb. unable to withstand a single blow",
+          "when the unexpected strikes"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "合理消费、适当储蓄，生活才更有保障。",
+        "english": "With reasonable spending and proper saving, life becomes more financially secure.",
+        "phrases": [
+          "reasonable spending and proper saving",
+          "more financially secure"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 14,
+    "title": "二手交易持续增长",
+    "sentences": [
+      {
+        "chinese": "二手交易让闲置的物品重新流动起来。",
+        "english": "Second-hand trading allows idle items to start circulating again.",
+        "phrases": [
+          "second-hand trading",
+          "idle items",
+          "start circulating again"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "更低的价格，减轻了买家的负担。",
+        "english": "Lower prices reduce buyers' financial burden.",
+        "phrases": [
+          "lower prices",
+          "reduce buyers' financial burden"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，年轻人把循环利用当成了新时尚。",
+        "english": "More importantly, young people regard recycling as a new trend.",
+        "phrases": [
+          "regard…as…",
+          "recycling"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 15,
+    "title": "共享经济改变生活",
+    "sentences": [
+      {
+        "chinese": "共享经济，降低了个人的生活成本。",
+        "english": "The sharing economy lowers the cost of living for individuals.",
+        "phrases": [
+          "the sharing economy",
+          "lower the cost of living for…"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "闲置的资源，开始在陌生人之间流动了起来。",
+        "english": "Idle resources have started to circulate among strangers.",
+        "phrases": [
+          "idle resources",
+          "circulate among strangers"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "因此，整个城市变得更高效、更绿色。",
+        "english": "As a result, the whole city becomes more efficient and eco-friendly.",
+        "phrases": [
+          "as a result",
+          "eco-friendly"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 16,
+    "title": "现代化和历史保护",
+    "sentences": [
+      {
+        "chinese": "很多人认为，旧街区挡住了城市的发展。",
+        "english": "Many people believe that old neighborhoods block the city's development.",
+        "phrases": [
+          "block the city's development"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但推倒的老建筑，再也无法复原。",
+        "english": "But demolished old buildings can never be restored.",
+        "phrases": [
+          "demolished",
+          "can never be restored"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "城市可以发展，但不应该以抹去历史为代价。",
+        "english": "Cities can develop, but should not come at the cost of erasing history.",
+        "phrases": [
+          "come at the cost of…",
+          "erase history"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 17,
+    "title": "文化消费",
+    "sentences": [
+      {
+        "chinese": "遍布的剧场和展馆，降低了文化消费的门槛。",
+        "english": "Widely available theaters and exhibition halls lower the barriers to cultural consumption.",
+        "phrases": [
+          "widely available",
+          "theaters and exhibition halls",
+          "the barriers to cultural consumption"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "收入的增长，让人们有能力为爱好买单。",
+        "english": "Rising incomes allow people to be able to pay for their hobbies.",
+        "phrases": [
+          "rising incomes",
+          "allow sb. to do sth.",
+          "be able to pay for one’s hobbies"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，如今的人们希望丰富精神世界。",
+        "english": "More importantly, people today hope to enrich their inner world.",
+        "phrases": [
+          "enrich",
+          "inner world"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "服务条件",
+      "经济基础",
+      "精神需求"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 18,
+    "title": "夜间消费",
+    "sentences": [
+      {
+        "chinese": "白天繁忙的工作，挤占了人们的消费时间。",
+        "english": "Busy daytime work crowds out people's time for leisure spending.",
+        "phrases": [
+          "busy daytime work",
+          "crowd out people's time for leisure spending"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "如今，丰富的夜市和晚间演出，为人们提供了更多的消费选择。",
+        "english": "Today, abundant night markets and evening shows provide people with more consumption options.",
+        "phrases": [
+          "abundant",
+          "evening shows",
+          "provide sb. with sth."
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们渴望在夜晚释放白天的压力。",
+        "english": "More importantly, people long to release the stress of the day at night.",
+        "phrases": [
+          "long to",
+          "release the stress"
+        ],
+        "sourceNumber": "②"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 19,
+    "title": "点外卖越来越多",
+    "sentences": [
+      {
+        "chinese": "快节奏的工作，挤占了做饭的时间。",
+        "english": "Fast-paced work crowds out cooking time.",
+        "phrases": [
+          "crowd out cooking time"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "手机下单，饭菜半小时就送到家门口。",
+        "english": "Ordered by phone, meals are delivered to the doorstep within half an hour.",
+        "phrases": [
+          "order by phone",
+          "deliver to the doorstep",
+          "within half an hour"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们想把时间留给真正值得的事。",
+        "english": "More importantly, people want to leave time for truly worthwhile things.",
+        "phrases": [
+          "leave time for…",
+          "truly worthwhile things"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 20,
+    "title": "社区食堂受青年欢迎",
+    "sentences": [
+      {
+        "chinese": "社区食堂用低价解决了一日三餐。",
+        "english": "Community canteens provide affordable meals three times a day.",
+        "phrases": [
+          "community canteens",
+          "provide affordable meals three times a day"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "干净的后厨，让顾客吃得放心。",
+        "english": "A clean kitchen allows customers to eat without worry.",
+        "phrases": [
+          "eat without worry"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，独居的年轻人在这里感受到了家的温暖。",
+        "english": "More importantly, young people living alone feel the warmth of home here.",
+        "phrases": [
+          "young people living alone",
+          "feel the warmth of home"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 21,
+    "title": "智能家居",
+    "sentences": [
+      {
+        "chinese": "过去，家务活耗费人们大量的时间和精力。",
+        "english": "In the past, household chores consumed a great deal of people's time and energy.",
+        "phrases": [
+          "household chores",
+          "consume a great deal of…time and energy"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，智能家电解放了人们的双手。",
+        "english": "Today, smart appliances free people's hands.",
+        "phrases": [
+          "smart appliances",
+          "free people's hands"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，智能家居会进一步提升生活的质量。",
+        "english": "In the future, smart homes will improve the quality of life further.",
+        "phrases": [
+          "smart homes",
+          "further",
+          "improve the quality of life"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 22,
+    "title": "支付方式转向电子",
+    "sentences": [
+      {
+        "chinese": "过去，出门必须带上现金和零钱，非常麻烦。",
+        "english": "In the past, going out meant having to carry cash and change, which was extremely troublesome.",
+        "phrases": [
+          "carry cash and change",
+          "which was extremely troublesome"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，一部手机解决了所有的支付。",
+        "english": "Today, a smartphone handles all payments.",
+        "phrases": [
+          "handle all payments"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，电子支付会覆盖更多的生活场景。",
+        "english": "In the future, digital payments will cover more aspects of daily life.",
+        "phrases": [
+          "digital payments",
+          "cover more aspects of daily life"
+        ],
+        "sourceNumber": "②"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 23,
+    "title": "自助服务",
+    "sentences": [
+      {
+        "chinese": "过去，排队浪费顾客大量的时间。",
+        "english": "In the past, queuing wasted a great deal of customers' time.",
+        "phrases": [
+          "queue",
+          "waste a great deal of … time"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，自助设备提高了效率，也减少了顾客等待的时间。",
+        "english": "Today, self-service machines improve efficiency and reduce customers' waiting time.",
+        "phrases": [
+          "self-service machines",
+          "improve efficiency",
+          "reduce customers' waiting time"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，自助服务会覆盖更多的生活场景。",
+        "english": "In the future, self-service will cover more aspects of daily life.",
+        "phrases": [
+          "cover more aspects of daily life"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 24,
+    "title": "人工智能改变工作",
+    "sentences": [
+      {
+        "chinese": "过去，重复的工作耗费员工大量的时间。",
+        "english": "In the past, repetitive work consumed a great deal of employees' time.",
+        "phrases": [
+          "repetitive work",
+          "consume a great deal of employees' time"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，人工智能接管了这些重复性任务。",
+        "english": "Today, artificial intelligence takes over repetitive tasks.",
+        "phrases": [
+          "artificial intelligence",
+          "take over … tasks"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，人机协作会推动尖端科技的发展。",
+        "english": "In the future, human-AI collaboration will drive the development of cutting-edge technology.",
+        "phrases": [
+          "human-AI collaboration",
+          "drive the development of…",
+          "cutting-edge technology"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 25,
+    "title": "农业靠科技",
+    "sentences": [
+      {
+        "chinese": "过去，庄稼的收成很大程度上受天气的影响。",
+        "english": "In the past, crop yields were largely subject to weather conditions.",
+        "phrases": [
+          "crop yields",
+          "be largely subject to…"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，无人机和传感器走进了农业生产。",
+        "english": "Today, drones and sensors have entered agricultural production.",
+        "phrases": [
+          "drones",
+          "sensors",
+          "enter agricultural production"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，农业科技将帮助缩小城乡之间的差距。",
+        "english": "In the future, agricultural technology will help narrow the urban-rural gap.",
+        "phrases": [
+          "agricultural technology",
+          "help narrow",
+          "the urban-rural gap"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 26,
+    "title": "中国制造智能化",
+    "sentences": [
+      {
+        "chinese": "过去，中国制造靠低价赢得订单。",
+        "english": "In the past, Chinese manufacturing won orders through low prices.",
+        "phrases": [
+          "Chinese manufacturing",
+          "win orders through low prices"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，智能生产线大幅提升了质量和效率。",
+        "english": "Today, smart production lines improve quality and efficiency significantly.",
+        "phrases": [
+          "smart production lines",
+          "improve quality and efficiency significantly"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，中国智造将在国际上获得广泛接受。",
+        "english": "In the future, smart Chinese manufacturing will gain wide acceptance internationally.",
+        "phrases": [
+          "smart Chinese manufacturing",
+          "internationally",
+          "gain wide acceptance"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 27,
+    "title": "企业转向拼质量",
+    "sentences": [
+      {
+        "chinese": "过去，企业靠低价抢占市场。",
+        "english": "In the past, companies seized the market through low prices.",
+        "phrases": [
+          "seize the market",
+          "through low prices"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，消费者更愿意为品质买单。",
+        "english": "Today, consumers are more willing to pay for quality.",
+        "phrases": [
+          "pay for quality"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，过硬的质量将会成为企业最好的广告。",
+        "english": "In the future, outstanding quality will become the best advertisement for a company.",
+        "phrases": [
+          "outstanding quality",
+          "the best advertisement"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 28,
+    "title": "夸大宣传",
+    "sentences": [
+      {
+        "chinese": "过去，消费者主要通过口碑判断产品质量。",
+        "english": "In the past, consumers judged product quality mainly through word of mouth.",
+        "phrases": [
+          "word of mouth",
+          "judge product quality"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，互联网让夸大宣传迅速传播，消费者越来越难辨别真实信息。",
+        "english": "Today, the Internet allows exaggerated advertising to spread rapidly, and consumers find it increasingly hard to distinguish accurate information.",
+        "phrases": [
+          "exaggerated advertising",
+          "spread rapidly",
+          "distinguish accurate information",
+          "sb. find it increasingly difficult to do…"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "如果不加以规范，它会摧毁整个市场的信任。",
+        "english": "Without regulation, it will destroy trust across the entire market.",
+        "phrases": [
+          "without regulation",
+          "destroy trust across the entire market"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 29,
+    "title": "数字技术",
+    "sentences": [
+      {
+        "chinese": "过去，一块黑板和一本教材撑起了整个课堂。",
+        "english": "In the past, a blackboard and a textbook sustained the entire classroom.",
+        "phrases": [
+          "sustain the entire classroom"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，在线课程打破了教育资源的壁垒。",
+        "english": "Today, online courses break down the barriers to educational resources.",
+        "phrases": [
+          "online courses",
+          "break down the barriers to…",
+          "educational resources"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，数字课堂会缩小地区之间的教育差距。",
+        "english": "In the future, digital classrooms will narrow the educational gap between regions.",
+        "phrases": [
+          "digital classrooms",
+          "narrow the gap"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 30,
+    "title": "付费课程用户变多",
+    "sentences": [
+      {
+        "chinese": "手机让人们能充分利用碎片时间学习。",
+        "english": "Smartphones allow people to make the most of fragmented time for learning.",
+        "phrases": [
+          "make the most of…",
+          "fragmented time"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "用人单位不断推高学历门槛，从而倒逼人们持续学习新技能。",
+        "english": "Employers keep pushing up the degree threshold, thus forcing people to learn new skills continuously.",
+        "phrases": [
+          "employers",
+          "keep pushing up the degree threshold",
+          "thus doing…",
+          "force sb. to do sth.",
+          "learn new skills continuously"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们愿意为成长买单。",
+        "english": "More importantly, people are willing to pay for personal growth.",
+        "phrases": [
+          "pay for personal growth"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "学习条件",
+      "外部要求",
+      "内在意愿"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 31,
+    "title": "职业培训人数变多",
+    "sentences": [
+      {
+        "chinese": "就业市场的竞争越来越激烈。",
+        "english": "Competition in the job market is increasingly fierce.",
+        "phrases": [
+          "the job market",
+          "increasingly fierce"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "一技之长，带来一份稳定的收入。",
+        "english": "A professional skill brings a stable income.",
+        "phrases": [
+          "a professional skill",
+          "bring a stable income"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们相信：真本事才是铁饭碗。",
+        "english": "More importantly, people believe that genuine skills are the only real job security.",
+        "phrases": [
+          "genuine skills",
+          "the only real job security"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 32,
+    "title": "实习第一，备考第二",
+    "sentences": [
+      {
+        "chinese": "实习可以帮学生积累实践经验。",
+        "english": "Internships can help students accumulate practical experience.",
+        "phrases": [
+          "internships",
+          "accumulate practical experience"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "一段好的实习，还能让简历更有竞争力。",
+        "english": "A good internship also makes a resume more competitive.",
+        "phrases": [
+          "a resume",
+          "more competitive"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "激烈的竞争，倒逼学生提前学习新知识。",
+        "english": "Fierce competition forces students to learn new knowledge in advance.",
+        "phrases": [
+          "force sb. to learn… in advance"
+        ],
+        "sourceNumber": "④"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "实践价值",
+      "求职价值",
+      "竞争驱动"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 33,
+    "title": "大学生返乡就业",
+    "sentences": [
+      {
+        "chinese": "家乡的发展，创造了新的就业机会。",
+        "english": "The development of hometowns has created new job opportunities.",
+        "phrases": [
+          "create new job opportunities"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "更低的生活成本，减轻了年轻人的负担。",
+        "english": "Lower living costs reduce the burden on young people.",
+        "phrases": [
+          "living costs",
+          "reduce the burden on sb."
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，他们渴望实现经济独立，在家乡打拼出自己的天地。",
+        "english": "More importantly, they hope to achieve financial independence and build their own lives in their hometown.",
+        "phrases": [
+          "achieve financial independence",
+          "build one's own lives",
+          "in one's hometown"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 34,
+    "title": "短视频改变阅读习惯",
+    "sentences": [
+      {
+        "chinese": "过去，人们能耐心地读完一本书。",
+        "english": "In the past, people could read a book from cover to cover patiently.",
+        "phrases": [
+          "read a book from cover to cover patiently"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，十几秒的短视频切碎了人们的注意力。",
+        "english": "Today, seconds-long short videos fragment people's attention.",
+        "phrases": [
+          "seconds-long short videos",
+          "fragment one's attention"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "照这样下去，深度阅读将会变成一种稀缺的能力。",
+        "english": "If this continues, deep reading will become a rare ability.",
+        "phrases": [
+          "if this continues",
+          "become a rare ability"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 35,
+    "title": "信息过载透支专注力",
+    "sentences": [
+      {
+        "chinese": "过去，信息来源有限，人们能集中注意力深度阅读和思考。",
+        "english": "In the past, information sources were limited, and people could concentrate to read and think deeply.",
+        "phrases": [
+          "information sources were limited",
+          "concentrate"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，不停弹出的消息切碎了我们的注意力。",
+        "english": "Today, constantly popping notifications fragment our attention.",
+        "phrases": [
+          "constantly popping notifications"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "照这样下去，整个社会会失去深度思考的能力。",
+        "english": "If this continues, the whole society will lose the ability to think deeply.",
+        "phrases": [
+          "lose the ability to do…",
+          "think deeply"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 36,
+    "title": "社交媒体改变表达",
+    "sentences": [
+      {
+        "chinese": "表情包和缩写，简化了每个人的表达。",
+        "english": "Memes and abbreviations simplify everyone's expression.",
+        "phrases": [
+          "memes",
+          "abbreviations",
+          "simplify one's expression"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "快餐式的聊天，挤占了朋友间真正的交流。",
+        "english": "Quick and casual chatting crowds out genuine communication between friends.",
+        "phrases": [
+          "quick and casual chatting",
+          "genuine communication"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "长此以往，整个社会会失去深度对话的耐心。",
+        "english": "Over time, the whole society will lose patience for deep conversations.",
+        "phrases": [
+          "over time",
+          "lose patience for…",
+          "deep conversations"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 37,
+    "title": "沟通碎片化",
+    "sentences": [
+      {
+        "chinese": "碎片化的沟通，让人难以表达复杂的情感。",
+        "english": "Fragmented communication makes it difficult for people to express complex emotions.",
+        "phrases": [
+          "fragmented communication",
+          "make it difficult for sb. to do…",
+          "complex emotions"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "朋友之间的了解，也只停留在表面。",
+        "english": "Understanding between friends also only stays at a surface level.",
+        "phrases": [
+          "only stay at a surface level"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "长此以往，真实的连接会被渐渐稀释。",
+        "english": "Over time, genuine connection will be diluted gradually.",
+        "phrases": [
+          "genuine connection",
+          "be diluted gradually"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "个人表达",
+      "人际理解",
+      "关系变化"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 38,
+    "title": "网络暴力",
+    "sentences": [
+      {
+        "chinese": "过去，网络讨论的规模较小，恶意评论的影响范围有限。",
+        "english": "In the past, online discussions were smaller in scale, and the impact of hateful comments was limited.",
+        "phrases": [
+          "online discussions",
+          "be smaller in scale",
+          "hateful comments",
+          "the impact was limited"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，社交媒体的普及让一次围攻就能引发辱骂的连锁反应。",
+        "english": "Today, the spread of social media means that a single mob attack can trigger a chain reaction of abuse.",
+        "phrases": [
+          "the spread of social media",
+          "a mob attack",
+          "trigger a chain reaction of abuse"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "如果不加以治理，理性的声音会被吓得沉默。",
+        "english": "Without governance, rational voices will be silenced by fear.",
+        "phrases": [
+          "without governance",
+          "be silenced by fear"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 39,
+    "title": "警惕信息茧房",
+    "sentences": [
+      {
+        "chinese": "很多人认为，算法推送的内容正是自己想看的。",
+        "english": "Many people believe that algorithm-recommended content is exactly what they want to see.",
+        "phrases": [
+          "algorithm-recommended content",
+          "exactly what sb. want/wants to see"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但只接触自己认同的观点，会窄化我们的视野。",
+        "english": "But only engaging with views that align with our own will narrow our vision.",
+        "phrases": [
+          "only engage with views that align with our own",
+          "narrow our vision"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有主动接触不同观点的人，才能看到更完整的世界。",
+        "english": "Only those who seek out different perspectives actively can see the world more fully.",
+        "phrases": [
+          "seek out different perspectives actively",
+          "see the world more fully",
+          "only those who…can do…"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 40,
+    "title": "警惕网络谣言",
+    "sentences": [
+      {
+        "chinese": "很多人认为，随手转发一条消息不会有太大的影响。",
+        "english": "Many people believe that sharing a message casually won't have much impact.",
+        "phrases": [
+          "share a message casually",
+          "won't have much impact"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但一次随手的转发，可能伤害无辜的人，也摧毁社会的信任。",
+        "english": "But one casual repost can harm innocent people and destroy social trust.",
+        "phrases": [
+          "one casual repost",
+          "harm innocent people",
+          "destroy social trust"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "转发之前，我们应该先核实、再传播。",
+        "english": "Before sharing, we should verify first, then share.",
+        "phrases": [
+          "verify",
+          "do A first, then do B"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 41,
+    "title": "警惕电信诈骗",
+    "sentences": [
+      {
+        "chinese": "很多人认为，自己绝不会上当受骗。",
+        "english": "Many people believe that they would never be deceived.",
+        "phrases": [
+          "be deceived"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但骗局天天翻新，谨慎的人也会掉进陷阱。",
+        "english": "But scams evolve every day, and even cautious people can fall into a trap.",
+        "phrases": [
+          "scams evolve every day",
+          "fall into a trap"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "接到转账的要求，我们应该先核实、再行动。",
+        "english": "When receiving a request to transfer money, we should verify first, then act.",
+        "phrases": [
+          "a request to transfer money"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 42,
+    "title": "冷静对待网络热点",
+    "sentences": [
+      {
+        "chinese": "很多人认为，网络上的热点新闻，很可能是真相。",
+        "english": "Many people believe that trending news online is likely to be the truth.",
+        "phrases": [
+          "trending news online",
+          "be likely to be the truth"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但很多热搜，是有人刻意操纵出来的。",
+        "english": "But many trending topics are manipulated by someone deliberately.",
+        "phrases": [
+          "trending topics",
+          "be manipulated by someone deliberately"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "面对热点，我们应该先等一等，再评论。",
+        "english": "When facing online hot topics, we should wait first, then comment.",
+        "phrases": [
+          "wait first, then comment"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 43,
+    "title": "理性对待人工智能",
+    "sentences": [
+      {
+        "chinese": "很多人认为，人工智能会抢走大部分人的饭碗。",
+        "english": "Many people believe that artificial intelligence will take most people's jobs.",
+        "phrases": [
+          "take one's jobs"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但单纯的恐惧，只会关上新机会的大门。",
+        "english": "But pure fear will only close the door to new opportunities.",
+        "phrases": [
+          "pure fear",
+          "close the door to…"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "把AI当工具的人，反而更有竞争力。",
+        "english": "People who treat AI as a tool are more competitive actually.",
+        "phrases": [
+          "treat…as a tool"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 44,
+    "title": "避免过度依赖智能设备",
+    "sentences": [
+      {
+        "chinese": "很多人认为，手机能解决生活里的一切问题。",
+        "english": "Many people believe that smartphones can solve every problem in life.",
+        "phrases": [
+          "solve every problem in life"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但过度的依赖，会磨掉我们的基本能力。",
+        "english": "But excessive reliance will wear away our basic abilities.",
+        "phrases": [
+          "excessive reliance",
+          "wear away one's basic abilities"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "工具应该为我们服务，而不是替我们思考。",
+        "english": "Tools should serve us, not think for us.",
+        "phrases": [
+          "serve",
+          "think for sb."
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 45,
+    "title": "健康理念转向防病",
+    "sentences": [
+      {
+        "chinese": "过去，很少有人为健康提前规划。",
+        "english": "In the past, few people would plan ahead for health.",
+        "phrases": [
+          "plan ahead for health"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，体检和锻炼走进了日常生活。",
+        "english": "Today, check-ups and exercise have entered daily life.",
+        "phrases": [
+          "check-ups",
+          "enter daily life"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，预防会减轻医疗的负担，提升生活的质量。",
+        "english": "In the future, prevention will reduce the medical burden and improve the quality of life.",
+        "phrases": [
+          "reduce the medical burden"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 46,
+    "title": "线上问诊人数增长",
+    "sentences": [
+      {
+        "chinese": "线上问诊免去了排队挂号的麻烦。",
+        "english": "Online consultation spares people the hassle of queuing for registration.",
+        "phrases": [
+          "online consultation",
+          "spare sb. the hassle of…",
+          "queue for registration"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "偏远地区的患者，也能接受大城市医生的诊疗。",
+        "english": "Patients in remote areas can also receive treatment from doctors in major cities.",
+        "phrases": [
+          "remote areas",
+          "receive treatment from…"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们渴望在症状出现时，立刻得到专业的医疗建议。",
+        "english": "More importantly, people long to get professional medical advice immediately when symptoms appear.",
+        "phrases": [
+          "long to",
+          "when symptoms appear",
+          "get professional medical advice immediately"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 47,
+    "title": "运动第一，听音乐第二",
+    "sentences": [
+      {
+        "chinese": "运动能释放压力，也能给参与者带来成就感。",
+        "english": "Exercise can relieve stress and bring participants a sense of achievement.",
+        "phrases": [
+          "relieve stress",
+          "bring participants a sense of achievement"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "运动还能强健身体。",
+        "english": "Exercise can also strengthen the body.",
+        "phrases": [
+          "strengthen the body"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "听音乐几乎不需要体力，随时能轻松抚慰情绪。",
+        "english": "Listening to music requires almost no physical effort and can easily soothe emotions at any time.",
+        "phrases": [
+          "require almost no physical effort",
+          "can easily soothe emotions at any time"
+        ],
+        "sourceNumber": "④"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "心理益处",
+      "身体益处",
+      "另一方式的优势"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 48,
+    "title": "午睡第一，聊天第二",
+    "sentences": [
+      {
+        "chinese": "高强度的上午，耗尽了人们的精力。",
+        "english": "An intense morning drains people's energy.",
+        "phrases": [
+          "an intense morning",
+          "drain one's energy"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "午睡能帮人们恢复精力。",
+        "english": "An afternoon nap helps people restore energy.",
+        "phrases": [
+          "a nap/an afternoon nap",
+          "restore energy"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "轻松的闲聊，能拉近同事间的距离。",
+        "english": "Light conversation can bring colleagues closer together.",
+        "phrases": [
+          "light conversation",
+          "bring…closer together"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "现实状态",
+      "恢复途径",
+      "另一方式的益处"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 49,
+    "title": "露营成为新潮流",
+    "sentences": [
+      {
+        "chinese": "城市周边的营地，降低了露营的门槛。",
+        "english": "Campsites on the outskirts of cities lower the barriers to camping.",
+        "phrases": [
+          "on the outskirts of cities",
+          "campsites",
+          "lower the barriers to camping"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "走进大自然，能让人们开阔眼界，激发对周围世界的好奇心。",
+        "english": "Exploring nature broadens people's horizons and sparks curiosity about the world around them.",
+        "phrases": [
+          "explore nature",
+          "broaden one's horizons",
+          "spark curiosity about…"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，都市人渴望暂时逃离快节奏的生活。",
+        "english": "More importantly, city dwellers long to escape the fast-paced life temporarily.",
+        "phrases": [
+          "city dwellers",
+          "escape the fast-paced life temporarily"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 50,
+    "title": "高铁成为首选",
+    "sentences": [
+      {
+        "chinese": "高铁把旅途的时间大大缩短。",
+        "english": "High-speed rail shortens travel time greatly.",
+        "phrases": [
+          "high-speed rail",
+          "shorten travel time greatly"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "收入的增长，让更多人能负担得起高铁的票价。",
+        "english": "Rising incomes allow more people to be able to afford high-speed rail tickets.",
+        "phrases": [
+          "afford",
+          "high-speed rail tickets"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们越来越重视出行的舒适和效率。",
+        "english": "More importantly, people increasingly value the comfort and efficiency in travel.",
+        "phrases": [
+          "increasingly value",
+          "the comfort and efficiency in travel"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "出行效率",
+      "经济条件",
+      "价值取向"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 51,
+    "title": "新能源汽车",
+    "sentences": [
+      {
+        "chinese": "技术的进步，打消了续航的顾虑。",
+        "english": "Advances in technology have dispelled concerns about range.",
+        "phrases": [
+          "advances in technology",
+          "dispel concerns about…",
+          "range"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "更低的用车成本，减轻了家庭的负担。",
+        "english": "Lower operating costs reduce the family's financial burden.",
+        "phrases": [
+          "operating costs"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，人们愿意为环保做贡献。",
+        "english": "More importantly, people are willing to contribute to environmental protection.",
+        "phrases": [
+          "contribute to environmental protection"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 52,
+    "title": "垃圾分类",
+    "sentences": [
+      {
+        "chinese": "垃圾分类可以培养我们的环保意识。",
+        "english": "Waste sorting can cultivate our environmental awareness.",
+        "phrases": [
+          "waste sorting",
+          "cultivate…awareness"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "全社区坚持分类，能提高整体的废品回收率。",
+        "english": "When the whole community sorts waste consistently, the overall recycling rate will improve.",
+        "phrases": [
+          "do sth. consistently",
+          "the overall recycling rate"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "全社会参与分类，能大幅减少环境污染。",
+        "english": "When the whole society participates in sorting, environmental pollution can be reduced significantly.",
+        "phrases": [
+          "participate in",
+          "reduce environmental pollution"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 53,
+    "title": "过度包装",
+    "sentences": [
+      {
+        "chinese": "过去，商品包装相对简单，产生的垃圾量有限。",
+        "english": "In the past, product packaging was relatively simple, and the amount of waste generated was limited.",
+        "phrases": [
+          "product packaging",
+          "the amount of waste generated was limited"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，电商的兴起让过度包装越来越普遍，推高了价格，也制造了大量垃圾。",
+        "english": "Today, the rise of e-commerce has made excessive packaging increasingly common, driving up prices and generating a large amount of waste.",
+        "phrases": [
+          "the rise of e-commerce",
+          "excessive packaging",
+          "increasingly common",
+          "drive up prices",
+          "generate a large amount of waste"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "如果不加以限制，它会加剧整个社会的资源紧缺。",
+        "english": "Without restrictions, it will worsen resource scarcity across society.",
+        "phrases": [
+          "worsen resource scarcity",
+          "across society"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 54,
+    "title": "企业要保护用户隐私",
+    "sentences": [
+      {
+        "chinese": "很多企业认为，用户的数据是免费的资源。",
+        "english": "Many companies believe that user data is free resources.",
+        "phrases": [
+          "user data"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但数据背后，承载着用户的个人隐私。",
+        "english": "But data carries users' personal privacy.",
+        "phrases": [
+          "carry",
+          "personal privacy"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有守护隐私的企业，才能赢得用户的长期信任。",
+        "english": "Only companies that protect privacy can win users' long-term trust.",
+        "phrases": [
+          "Only companies that…can do sth.",
+          "win one's long-term trust"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 55,
+    "title": "原创版权保护",
+    "sentences": [
+      {
+        "chinese": "过去，盗版和抄袭打击了创作者的热情。",
+        "english": "In the past, piracy and plagiarism dampened creators' enthusiasm.",
+        "phrases": [
+          "piracy and plagiarism",
+          "dampen one's enthusiasm"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，更严格的法律正保护着创作者的权益。",
+        "english": "Today, stricter laws are protecting creators' rights.",
+        "phrases": [
+          "stricter laws",
+          "creators' rights"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，尊重原创会激发全社会的创造力。",
+        "english": "In the future, respecting originality will inspire creativity across society.",
+        "phrases": [
+          "inspire creativity across society",
+          "respect originality"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 56,
+    "title": "诚实守信",
+    "sentences": [
+      {
+        "chinese": "诚信为一个人赢得尊重和机会。",
+        "english": "Integrity earns a person respect and opportunities.",
+        "phrases": [
+          "earn sb. respect and opportunities"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "在诚信的团队里，人们彼此信任、放心合作。",
+        "english": "In an honest team, people trust each other and collaborate freely.",
+        "phrases": [
+          "trust each other and collaborate freely"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "人人守信，整个社会会运转得更顺畅。",
+        "english": "When everyone keeps their word, the whole society will run more smoothly.",
+        "phrases": [
+          "everyone keeps their word",
+          "run more smoothly"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 57,
+    "title": "尊重平凡的工作",
+    "sentences": [
+      {
+        "chinese": "很多人认为，平凡的岗位通常没有价值。",
+        "english": "Many people believe that ordinary positions usually have no value.",
+        "phrases": [
+          "ordinary positions",
+          "have no value"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但少了任何一环，城市或公司就无法正常运转。",
+        "english": "But without any single link, a city or a company cannot function normally.",
+        "phrases": [
+          "without any single link",
+          "cannot function normally"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "每一份工作，都有独特的价值，并支撑着社会的运转。",
+        "english": "Every job has its unique value and supports the functioning of society.",
+        "phrases": [
+          "unique value",
+          "support the functioning of society"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 58,
+    "title": "终身学习",
+    "sentences": [
+      {
+        "chinese": "很多人认为，毕业就是学习的终点。",
+        "english": "Many people believe that graduation marks the end of learning.",
+        "phrases": [
+          "the end of learning"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但停止学习的人，很快会被时代甩在身后。",
+        "english": "But people who stop learning will soon be left behind by the times.",
+        "phrases": [
+          "be left behind by the times"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有持续学习的人，才能保住自己的竞争力。",
+        "english": "Only those who keep learning can maintain their competitive edge.",
+        "phrases": [
+          "only those who…can do…",
+          "maintain one's competitive edge"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 59,
+    "title": "独立思考",
+    "sentences": [
+      {
+        "chinese": "很多人认为，多数人支持的观点，一定是正确的。",
+        "english": "Many people believe that views supported by the majority must be correct.",
+        "phrases": [
+          "views supported by the majority",
+          "must be correct"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但盲目跟随会窄化我们的视野，错过真正的机会。",
+        "english": "But following others blindly will narrow our horizons and cause us to miss genuine opportunities.",
+        "phrases": [
+          "follow others blindly",
+          "narrow one's horizons",
+          "miss genuine opportunities"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有独立思考，才能做出更理性且更适合自己的选择。",
+        "english": "Only by thinking independently can one make choices that are more rational and more suitable for oneself.",
+        "phrases": [
+          "Only by...can sb. …",
+          "make more rational choices",
+          "more suitable for oneself"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 60,
+    "title": "专注",
+    "sentences": [
+      {
+        "chinese": "很多人认为，同时做几件事更节省时间。",
+        "english": "Many people believe that multitasking is more time-saving.",
+        "phrases": [
+          "multitasking",
+          "time-saving"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但频繁的切换，恰恰侵蚀了我们的专注力。",
+        "english": "But frequent task-switching actually erodes our concentration.",
+        "phrases": [
+          "frequent task-switching",
+          "erode one's concentration"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "一次只做一件事的人，反而做得又快又好。",
+        "english": "People who do one thing at a time actually work both faster and better.",
+        "phrases": [
+          "do one thing at a time",
+          "work both faster and better"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 61,
+    "title": "敢于创新",
+    "sentences": [
+      {
+        "chinese": "勇于创新的人，更容易获得发展的机会。",
+        "english": "People who dare to innovate are more likely to seize development opportunities.",
+        "phrases": [
+          "dare to innovate",
+          "be more likely to seize development opportunities"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "一个有创新精神的团队，能解决更复杂的问题。",
+        "english": "A team with a spirit of innovation can tackle more complex problems.",
+        "phrases": [
+          "tackle more complex problems"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "无数的创新汇聚起来，将推动整个社会向前。",
+        "english": "Countless innovations, when they come together, will drive society forward.",
+        "phrases": [
+          "countless innovations",
+          "come together",
+          "drive society forward"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 62,
+    "title": "内心强大",
+    "sentences": [
+      {
+        "chinese": "强大的内心，帮我们扛住生活的风浪。",
+        "english": "A strong mind helps us weather the storms of life.",
+        "phrases": [
+          "a strong mind",
+          "weather the storms of life"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "内心强大的团队，能互相支撑、保持高效合作。",
+        "english": "A team with inner strength can support each other and maintain effective collaboration.",
+        "phrases": [
+          "a team with inner strength",
+          "support each other and maintain effective collaboration"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "一个内心强大的民族，能团结起来共渡难关。",
+        "english": "A nation with inner strength can unite to pull through hard times.",
+        "phrases": [
+          "unite to pull through hard times"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 63,
+    "title": "懂得感恩",
+    "sentences": [
+      {
+        "chinese": "感恩带给我们内心的平静。",
+        "english": "Gratitude brings us inner peace.",
+        "phrases": [
+          "bring us inner peace"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "一句真诚的感谢，能温暖整个集体，加深彼此间的相互理解。",
+        "english": "A sincere word of thanks can warm the whole group and deepen mutual understanding between people.",
+        "phrases": [
+          "a sincere word of thanks",
+          "warm the whole group",
+          "deepen mutual understanding between people"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "懂得感恩的社会，会形成更温暖的社会风气。",
+        "english": "A society that knows gratitude will create a warmer social atmosphere.",
+        "phrases": [
+          "create a warmer social atmosphere"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 64,
+    "title": "避免急功近利",
+    "sentences": [
+      {
+        "chinese": "很多人认为，成功越快越好。",
+        "english": "Many people believe that success should come—the faster the better.",
+        "phrases": [
+          "the faster the better"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但走捷径的人不扎实，往往摔得更重。",
+        "english": "But those who take shortcuts lack a solid foundation and often fail harder.",
+        "phrases": [
+          "take shortcuts",
+          "lack a solid foundation",
+          "fail harder"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有沉下心来的人，才能走得更远。",
+        "english": "Only those who are patient and steady can go further.",
+        "phrases": [
+          "those who are patient and steady",
+          "go further"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 65,
+    "title": "警惕知识速成",
+    "sentences": [
+      {
+        "chinese": "很多人认为，三天的课程基本上就能速成一门本领。",
+        "english": "Many people believe that a three-day course can basically help them master a skill quickly.",
+        "phrases": [
+          "a three-day course",
+          "master a skill quickly"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但速成的知识，留不下真本事。",
+        "english": "But knowledge acquired through shortcuts cannot build genuine skills.",
+        "phrases": [
+          "knowledge acquired through shortcuts",
+          "cannot build genuine skills"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "真正的本领，来自日复一日的积累。",
+        "english": "True mastery comes from day-by-day accumulation.",
+        "phrases": [
+          "true mastery",
+          "day-by-day accumulation"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 66,
+    "title": "警惕盲目内卷",
+    "sentences": [
+      {
+        "chinese": "很多人渴望被认可，认为比别人多熬一小时就多一分胜算。",
+        "english": "Many people long for recognition and believe that working one more hour than others gives them an edge.",
+        "phrases": [
+          "long for recognition",
+          "give sb. an edge"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但无意义的消耗，只会透支身体、磨掉热情。",
+        "english": "But meaningless exhaustion will only overtax the body and wear away passion.",
+        "phrases": [
+          "meaningless exhaustion",
+          "overtax the body",
+          "wear away passion"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有找准节奏的人，才能持续走下去。",
+        "english": "Only those who find their own rhythm can keep going.",
+        "phrases": [
+          "keep going"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 67,
+    "title": "避免熬夜",
+    "sentences": [
+      {
+        "chinese": "很多年轻人认为，深夜是唯一属于自己的时间。",
+        "english": "Many young people believe that late night is the only time that belongs to oneself.",
+        "phrases": [
+          "the only time that belongs to oneself"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但熬夜透支身体，也损害心理健康。",
+        "english": "But staying up late overtaxes the body and harms mental health.",
+        "phrases": [
+          "stay up late",
+          "overtax the body"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有早睡早起的人，才能真正掌控自己的一天。",
+        "english": "Only those who sleep and rise early can truly take control of their day.",
+        "phrases": [
+          "sleep and rise early",
+          "take control of one's day"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 68,
+    "title": "避免在网上冲动发言",
+    "sentences": [
+      {
+        "chinese": "很多人认为，网上说话不用负责任。",
+        "english": "Many people believe that speaking online does not require accountability.",
+        "phrases": [
+          "do/does not require accountability"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但一句冲动的话，可能对他人造成长久的伤害。",
+        "english": "But one impulsive comment can cause lasting harm to others.",
+        "phrases": [
+          "one impulsive comment",
+          "cause lasting harm to others"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "我们应该先冷静、再开口。",
+        "english": "We should calm down first, then speak.",
+        "phrases": [
+          "calm down first, then speak"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 69,
+    "title": "避免盲目跟风消费",
+    "sentences": [
+      {
+        "chinese": "很多人认为，别人都买的东西一定值得买。",
+        "english": "Many people believe that what everyone else buys must be worth buying.",
+        "phrases": [
+          "what everyone else buys",
+          "must be worth buying"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但跟风买来的东西，常常用了几次后就闲置了。",
+        "english": "But things bought on impulse often end up unused after a few tries.",
+        "phrases": [
+          "things bought on impulse",
+          "end up unused after a few tries"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "理性的消费者，只为真正的需要买单。",
+        "english": "Rational consumers only pay for genuine needs.",
+        "phrases": [
+          "pay for genuine needs"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 70,
+    "title": "避免铺张浪费",
+    "sentences": [
+      {
+        "chinese": "铺张浪费会加重个人的经济负担。",
+        "english": "Extravagant spending will increase personal financial burden.",
+        "phrases": [
+          "extravagant spending"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "在浪费成风的朋友圈里，人们开始相互攀比。",
+        "english": "In a social circle where waste is the norm, people start to compare with others.",
+        "phrases": [
+          "a social circle where waste is the norm",
+          "compare with others"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "长此以往，铺张浪费会加剧整个社会的资源紧缺。",
+        "english": "Over time, extravagance will worsen resource scarcity across society.",
+        "phrases": [
+          "worsen resource scarcity"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "A",
+    "frameworkLabels": [
+      "个人",
+      "群体",
+      "社会"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 71,
+    "title": "避免以貌取人",
+    "sentences": [
+      {
+        "chinese": "很多人认为，第一印象基本上就能看透一个人。",
+        "english": "Many people believe that first impressions can see through a person essentially.",
+        "phrases": [
+          "first impressions",
+          "see through a person"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但外表会掩盖真正的才华。",
+        "english": "But appearance can conceal genuine talent.",
+        "phrases": [
+          "conceal genuine talent"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "真正的了解，来自时间和相处。",
+        "english": "Real understanding comes from time and interaction.",
+        "phrases": [
+          "come from time and interaction"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 72,
+    "title": "警惕容貌焦虑",
+    "sentences": [
+      {
+        "chinese": "很多人认为，变美就能变得更自信。",
+        "english": "Many people believe that becoming more beautiful will make them become more confident.",
+        "phrases": [
+          "become more beautiful",
+          "become more confident"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但那些在意外貌的人，往往对自己的样子越来越不满意。",
+        "english": "But those who focus on their appearance often grow increasingly dissatisfied with their appearance.",
+        "phrases": [
+          "focus on one's appearance",
+          "grow increasingly dissatisfied with one's appearance"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "真正的自信，来自内心的成长和真才实学。",
+        "english": "True confidence comes from inner growth and genuine skills.",
+        "phrases": [
+          "come from inner growth",
+          "genuine skills"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 73,
+    "title": "欣赏他人的成功",
+    "sentences": [
+      {
+        "chinese": "很多人认为，别人的成功挤占了自己的机会。",
+        "english": "Many people believe that others' success crowds out their own opportunities.",
+        "phrases": [
+          "crowd out one's own opportunities"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但嫉妒只会让自己陷入负面情绪。",
+        "english": "But jealousy will only trap them in negative emotions.",
+        "phrases": [
+          "trap … in negative emotions"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "真正聪明的人，愿意从他人的成功里学习好的方法。",
+        "english": "Truly smart people are willing to learn good methods from others' success.",
+        "phrases": [
+          "learn good methods from others' success"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 74,
+    "title": "对失败宽容",
+    "sentences": [
+      {
+        "chinese": "很多人认为，失败是能力不足的证明。",
+        "english": "Many people believe that failure is proof of insufficient abilities.",
+        "phrases": [
+          "proof of insufficient abilities"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但害怕失败，只会把人困在舒适区。",
+        "english": "But fear of failure will only trap people in the comfort zone.",
+        "phrases": [
+          "fear of failure",
+          "trap people in the comfort zone"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "每一次失败，都在帮人们积累经验。",
+        "english": "Every failure helps people accumulate experience.",
+        "phrases": [
+          "accumulate experience"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 75,
+    "title": "对不同的观点包容",
+    "sentences": [
+      {
+        "chinese": "每个人的经历和背景不同，因此观点也不一样。",
+        "english": "Everyone has different experiences and backgrounds, so views vary.",
+        "phrases": [
+          "everyone has different experiences and backgrounds",
+          "views vary"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "不同观点的碰撞，能产生更好的答案。",
+        "english": "The clash of different views can produce better answers.",
+        "phrases": [
+          "the clash of different views",
+          "produce better answers"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，我们应该主动接触不同的观点，才能看到更完整的世界。",
+        "english": "More importantly, we should seek out different perspectives actively and see the world more fully.",
+        "phrases": [
+          "seek out different perspectives actively",
+          "see the world more fully"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 76,
+    "title": "平衡工作和生活",
+    "sentences": [
+      {
+        "chinese": "很多人认为，拼命加班就是上进。",
+        "english": "Many people believe that working overtime relentlessly means being driven and ambitious.",
+        "phrases": [
+          "work overtime relentlessly",
+          "be driven and ambitious"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但无休止的加班透支健康，也削弱和家人的情感纽带。",
+        "english": "But endless overtime overtaxes health and weakens emotional bonds with family.",
+        "phrases": [
+          "endless overtime",
+          "overtax health",
+          "weaken emotional bonds with family"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有通过平衡好工作和生活，才能巩固家庭纽带。",
+        "english": "Only by balancing work and life can we strengthen the family bond.",
+        "phrases": [
+          "by balancing work and life",
+          "strengthen the family bond"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 77,
+    "title": "眼前利益和长远发展",
+    "sentences": [
+      {
+        "chinese": "很多人认为，只有到手的利益才是真的。",
+        "english": "Many people believe that only benefits already in hand are truly real.",
+        "phrases": [
+          "benefits already in hand"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但只顾眼前的人，常常错过更大的机会。",
+        "english": "But those who only focus on the present often miss bigger opportunities.",
+        "phrases": [
+          "only focus on the present",
+          "miss bigger opportunities"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "真正聪明的人，会在眼前利益和长远发展之间找到平衡。",
+        "english": "Truly smart people know how to find a balance between immediate gains and long-term development.",
+        "phrases": [
+          "find a balance between A and B",
+          "immediate gains",
+          "long-term development"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 78,
+    "title": "平衡独处和社交",
+    "sentences": [
+      {
+        "chinese": "很多人认为，朋友越多越好。",
+        "english": "Many people believe that when it comes to friends, the more the better.",
+        "phrases": [
+          "the more the better"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但无效的社交，耗尽我们的时间和精力。",
+        "english": "But meaningless socializing drains our time and energy.",
+        "phrases": [
+          "meaningless socializing",
+          "drain one's time and energy"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "高质量的独处，和高质量的社交同样重要。",
+        "english": "High-quality solitude and high-quality socializing are equally important.",
+        "phrases": [
+          "high-quality solitude",
+          "be equally important"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 79,
+    "title": "平和对待孩子成绩",
+    "sentences": [
+      {
+        "chinese": "很多父母认为，分数在很大程度上决定孩子的一生。",
+        "english": "Many parents believe that grades largely determine a child's entire future.",
+        "phrases": [
+          "largely determine…"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但过度的压力，会加重孩子的心理负担，甚至磨掉学习的兴趣。",
+        "english": "But excessive pressure will increase children's psychological burden and even wear away interest in learning.",
+        "phrases": [
+          "excessive pressure",
+          "increase children's psychological burden",
+          "wear away interest in learning"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "平和的态度，反而能释放孩子的潜力。",
+        "english": "A calm attitude can unlock children's potential actually.",
+        "phrases": [
+          "a calm attitude",
+          "unlock one's potential"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 80,
+    "title": "父母要陪伴孩子成长",
+    "sentences": [
+      {
+        "chinese": "很多父母认为，给孩子赚钱就是最好的爱。",
+        "english": "Many parents believe that earning money for their children is the best love.",
+        "phrases": [
+          "earn money for their children",
+          "the best love"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "但陪伴的缺席，会削弱亲子间的情感纽带。",
+        "english": "But the absence of companionship will weaken the emotional bonds between parents and children.",
+        "phrases": [
+          "the absence of companionship",
+          "weaken the emotional bonds between parents and children"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "只有通过陪伴，才能帮孩子把良好的价值观传承下去。",
+        "english": "Only through companionship can parents pass down good values to their children.",
+        "phrases": [
+          "Only through...can",
+          "good values",
+          "pass down"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "D",
+    "frameworkLabels": [
+      "退一步",
+      "指出不足",
+      "全面看待"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 81,
+    "title": "国潮受到追捧",
+    "sentences": [
+      {
+        "chinese": "过硬的质量，赢回了消费者的信任。",
+        "english": "Outstanding quality has won back consumer trust.",
+        "phrases": [
+          "outstanding quality",
+          "win back consumer trust"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "东方的设计，让国货有了自己的特色。",
+        "english": "Eastern design gives domestic products their own distinctive character.",
+        "phrases": [
+          "Eastern design",
+          "give domestic products their own distinctive character"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "更重要的是，年轻人愿意为文化自信买单。",
+        "english": "More importantly, young people are willing to pay for cultural confidence.",
+        "phrases": [
+          "pay for cultural confidence"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "B",
+    "frameworkLabels": [
+      "客观因素",
+      "客观现象",
+      "主观认识"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 82,
+    "title": "宅家第一，郊游第二",
+    "sentences": [
+      {
+        "chinese": "一周的工作，耗尽了人们的精力。",
+        "english": "A week of work drains people's energy.",
+        "phrases": [
+          "a week of work"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "宅家休息几乎没有任何成本。",
+        "english": "Resting at home has almost no cost.",
+        "phrases": [
+          "rest at home",
+          "have almost no cost"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "郊游让人们呼吸新鲜空气，并改善心情。",
+        "english": "Outings allow people to breathe fresh air and improve their mood.",
+        "phrases": [
+          "breathe fresh air",
+          "improve one's mood"
+        ],
+        "sourceNumber": "④"
+      }
+    ],
+    "frameworkType": "其他逻辑",
+    "frameworkLabels": [
+      "现实状态",
+      "一种选择的成本",
+      "另一选择的益处"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  },
+  {
+    "id": 83,
+    "title": "城市生活变得便利",
+    "sentences": [
+      {
+        "chinese": "过去，缴费、挂号、办证都要排长队。",
+        "english": "In the past, paying bills, making appointments, and handling paperwork all required long queues.",
+        "phrases": [
+          "pay bills, make appointments, and handle paperwork",
+          "all require long queues"
+        ],
+        "sourceNumber": "①"
+      },
+      {
+        "chinese": "今天，一部手机满足了人们大部分的生活需求。",
+        "english": "Today, a smartphone meets most of people's daily needs.",
+        "phrases": [
+          "meet most of people's daily needs"
+        ],
+        "sourceNumber": "②"
+      },
+      {
+        "chinese": "将来，便利的服务会覆盖每一个社区。",
+        "english": "In the future, convenient services will reach every community.",
+        "phrases": [
+          "reach every community"
+        ],
+        "sourceNumber": "③"
+      }
+    ],
+    "frameworkType": "C",
+    "frameworkLabels": [
+      "过去",
+      "现在",
+      "将来"
+    ],
+    "source": "写作语料背诵讲义.pdf"
+  }
+]
