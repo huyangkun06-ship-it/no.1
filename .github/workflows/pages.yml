@@ -38,3 +38,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify published writing recall trainer
+        run: node writing-recall/verify-published.cjs '${{ steps.deployment.outputs.page_url }}'
