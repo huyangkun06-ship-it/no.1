@@ -1,12 +1,13 @@
 "use strict";
-const CACHE = "838-workbench-reader-v11";
+const CACHE = "838-workbench-smart-v12";
 const CORE = [
   "./",
   "./index.html",
-  "./styles.css?v=reader-20261110-2",
-  "./app.js?v=reader-20261110-2",
-  "./data/environment.js?v=reader-20261110-2",
-  "./data/water-excerpts.js?v=reader-20261110-2",
+  "./styles.css?v=smart-20261111-1",
+  "./scheduler.js?v=smart-20261111-1",
+  "./app.js?v=smart-20261111-1",
+  "./data/environment.js?v=smart-20261111-1",
+  "./data/water-excerpts.js?v=smart-20261111-1",
   "./manifest.webmanifest",
   "./icon.svg",
   "../icon-192.png",
