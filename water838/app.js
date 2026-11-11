@@ -9,6 +9,9 @@
     return !!item.history?.length && Number.isFinite(time) && time >= 0 &&
       reviewDay(time) <= reviewDay(now);
   }
+  const scheduler = ReviewScheduler;
+  let beyondBudget = false;
+  let formalReview = false, reviewIds = null, queueDay = null, shownAt = Date.now();
   let storageReadable = true;
   let state = { items: [] };
   try {
@@ -22,6 +25,17 @@
     alert(
       "本地数据读取失败，原始记录已保留。请先下载原始记录，再导入备份恢复。",
     );
+  }
+  // Preserve the exact pre-upgrade JSON before any migration can write.
+  if (storageReadable && !state.scheduleVersion) {
+    try {
+      const raw = localStorage.getItem(KEY);
+      if (raw && !localStorage.getItem(KEY + '.before-smart-review')) {
+        if (!Array.isArray(JSON.parse(raw).items)) throw Error('Invalid backup');
+        localStorage.setItem(KEY + '.before-smart-review', raw);
+        if (localStorage.getItem(KEY + '.before-smart-review') !== raw) throw Error('Backup failed');
+      }
+    } catch (_) { storageReadable = false; alert('升级备份未完成，已阻止写入。请先导出原始记录。'); }
   }
   if (storageReadable && state.bundledVersion !== BUNDLE_VERSION) {
     const previous = state.items
@@ -75,6 +89,7 @@
     try { localStorage.setItem(KEY, JSON.stringify(state)); }
     catch (_) { alert("题库已加载，浏览器空间不足，请导出备份以保留记录。"); }
   }
+  scheduler.migrate(state);
   let current = null,
     queue = [],
     pdfUrl = null;
@@ -224,6 +239,13 @@
       ty = $("typeFilter").value,
       m = $("modeFilter").value,
       now = Date.now();
+    if (m === "due") {
+      if (!reviewIds || queueDay !== reviewDay(now)) {
+        reviewIds = scheduler.plan(state).selected.map(x => x.id); queueDay = reviewDay(now);
+      }
+      return reviewIds.map(id => state.items.find(x => x.id === id)).filter(x => x &&
+        !x.history.some(h => h.kind === 'review' && scheduler.day(h.at) === scheduler.day(Date.now()))).slice(0, beyondBudget ? Infinity : scheduler.plan(state, now).capacity);
+    }
     return state.items.filter(
       (x) =>
         scopeMatches(x, "study") &&
@@ -239,7 +261,9 @@
   function next(step = 1) {
     const p = pool();
     if (!p.length) {
-      $("studyEmpty").textContent = state.items.length
+      $("studyEmpty").textContent = $("modeFilter").value === 'due'
+        ? '本轮已完成或今日预算已用完。未完成到期题仍保留，可返回首页或选择继续预算外复习。'
+        : state.items.length
         ? "当前筛选条件下没有题目，请切换章节或复习范围。"
         : "题库为空。先添加或导入已核对的主观题。";
       $("studyEmpty").classList.remove("hidden");
@@ -267,6 +291,7 @@
   }
   function showQ(x) {
     current = x.id;
+    shownAt = Date.now();
     const list = pool();
     const idx = list.findIndex((y) => y.id === x.id);
     $("studyPosition").textContent =
@@ -358,24 +383,9 @@
         const x = state.items.find((y) => y.id === current);
         if (!x || !x.answer.trim()) return;
         const grade = +b.dataset.grade;
-        let days =
-          grade === 0
-            ? 1
-            : grade === 1
-              ? 2
-              : grade === 2
-                ? 3
-                : x.interval >= 4
-                  ? Math.min(45, Math.round(x.interval * 2))
-                  : 5;
-        x.interval = days;
-        x.next = Date.now() + days * 86400000;
-        x.master = grade === 3;
-        x.history.push({
-          at: Date.now(),
-          grade,
-          response: "",
-        });
+        scheduler.grade(state, x, grade, Date.now(),
+          formalReview && !document.hidden ? (Date.now() - shownAt) / 1000 : null,
+          formalReview && $("modeFilter").value === 'due');
         save();
         next();
       }),
@@ -637,7 +647,11 @@
         : JSON.parse(txt);
       const data = Array.isArray(raw) ? raw : raw.items;
       if (!Array.isArray(data)) throw Error("文件中没有题目数组");
-      const arr = data.map(norm).filter(eligible);
+      const fullBackup = !Array.isArray(raw) && Array.isArray(raw.items) &&
+        !file.name.toLowerCase().endsWith('.csv');
+      const arr = data.map(x => fullBackup && typeof x.id === 'string' &&
+        typeof x.question === 'string' && typeof x.answer === 'string' && Array.isArray(x.history)
+        ? { ...x } : norm(x)).filter(eligible);
       const skipped = data.length - arr.length;
       let merged = $("replaceImport").checked ? [] : state.items.slice();
       const ids = new Set(merged.map((x) => x.id));
@@ -679,8 +693,31 @@
         )
       )
         return;
+      // Keep a recoverable full snapshot before the user-confirmed import.
+      const beforeImport = localStorage.getItem(KEY);
+      if (beforeImport) localStorage.setItem(KEY + '.before-import', beforeImport);
+      // Retain existing learning records even when replacing/importing an older backup.
+      for (const old of state.items.filter(x => x.history?.length)) {
+        const incoming = merged.find(x => x.id === old.id);
+        if (!incoming) { merged.push(old); continue; }
+        const records = new Map();
+        for (const h of [...old.history, ...incoming.history]) records.set(JSON.stringify(h), h);
+        const newestOld = old.history.at(-1)?.at || 0;
+        const newestIncoming = incoming.history.at(-1)?.at || 0;
+        if (newestOld > newestIncoming) {
+          for (const field of ['schedule', 'next', 'interval', 'master']) incoming[field] = old[field];
+        }
+        incoming.history = [...records.values()].sort((a,b) => a.at-b.at);
+      }
       storageReadable = true;
-      state.items = merged;
+      // JSON restores the full top-level scheduling structure as well as items.
+      if (!Array.isArray(raw) && !file.name.toLowerCase().endsWith('.csv')) {
+        state = { ...state, ...raw, items: merged };
+      } else state.items = merged;
+      scheduler.migrate(state);
+      syncReviewSettings();
+      reviewIds = null;
+      formalReview = false;
       save();
       alert("导入完成。");
     } catch (err) {
@@ -761,6 +798,7 @@
     next();
   };
   $("modeFilter").onchange = () => {
+    formalReview = $("modeFilter").value === "due"; beyondBudget = false; reviewIds = null;
     current = null;
     next();
   };
@@ -772,9 +810,14 @@
     $("chapterFilter").value = "";
     $("typeFilter").value = "";
     $("modeFilter").value = "due";
+    formalReview = true; beyondBudget = false;
+    reviewIds = scheduler.plan(state).selected.map(x => x.id); queueDay = reviewDay(Date.now());
+    state.reviewPlan = { day: reviewDay(Date.now()), ids: reviewIds.slice(), beyondBudget: false };
+    for (const x of state.items) if (reviewIds.includes(x.id)) x.schedule.lastScheduledDay = state.reviewPlan.day;
+    save();
     current = null;
     const item = typeof id === "string" && state.items.find((x) => x.id === id);
-    if (item && isDue(item)) showQ(item);
+    if (item && reviewIds.includes(item.id)) showQ(item);
     else next();
     show("study");
   }
@@ -802,8 +845,14 @@
     $("todayMessage").textContent = attempts
       ? `今天已完成 ${attempts} 次主动回忆`
       : "从一道题开始，进入学习状态";
-    $("todaySummary").textContent =
-      `${due} 道题目到期 · ${a.filter((x) => !x.history.length).length} 道题目尚未学习`;
+    const plan = scheduler.plan(state, now), config = state.reviewSettings;
+    const learned = a.filter(x => x.schedule.learnedAt != null && reviewDay(x.schedule.learnedAt) === today).length;
+    const reviewed = a.filter(x => x.history.some(h => h.kind === 'review' && reviewDay(h.at) === today)).length;
+    $("sTotal").textContent = learned;
+    $("sDone").textContent = reviewed;
+    $("sMaster").textContent = (plan.backlogSeconds / (config.minutes * 60)).toFixed(1);
+    $("todaySummary").textContent = `${due} 题到期未完成 · 积压约 ${Math.ceil(plan.backlogSeconds / 60)} 分钟 · 今日预算剩余可安排 ${plan.capacity} 题。` +
+      (plan.backlogSeconds > config.minutes * 60 ? '复习压力较大，可分段完成或手动调整预算；新背数量不限。' : '可以随时停止，未完成题继续保留。');
     const root = $("chapterProgress");
     root.replaceChildren();
     for (const ch of chapters()) {
@@ -893,14 +942,16 @@
     }
   }
   $("continueStudy").onclick = () => {
+    formalReview = false; reviewIds = null;
+    $("modeFilter").value = 'new';
     let id;
     try {
       id = localStorage.getItem("838.lastQuestion");
     } catch (_) {}
     const x = state.items.find((x) => x.id === id);
     show("study");
-    if (x) showQ(x);
-    else next();
+    if (x && !x.history.length) showQ(x);
+    else { current = null; next(); }
   };
   $("startDue").onclick = startReview;
   $("reviewDue").onclick = startReview;
@@ -999,6 +1050,8 @@
       collapsed ? "展开次级导航" : "切换紧凑导航",
     );
   };
+  $("migrationBackup").onclick = () => download('838升级前完整备份.json',
+    localStorage.getItem(KEY + '.before-smart-review') || localStorage.getItem(KEY) || '{}', 'application/json');
   $("rawBackup").onclick = () => {
     try {
       download(
@@ -1076,6 +1129,38 @@
   setInterval(() => {
     if (!document.hidden) refreshReviewStatus();
   }, 60000);
+  const settingsRoot = $("reviewSettings");
+  function syncReviewSettings() {
+    const s = state.reviewSettings;
+    $("reviewMinutes").value = s.minutes;
+    $("reviewSeconds").value = Math.round(s.seconds * 10) / 10;
+    $("reviewSmart").checked = s.smart;
+    $("reviewIntervals").value = s.intervals.join(',');
+    $("reviewSuccess").value = s.success.join(',');
+  }
+  syncReviewSettings();
+  settingsRoot.onsubmit = event => {
+    event.preventDefault();
+    const intervals = $("reviewIntervals").value.split(/[,，]/).map(Number);
+    const success = $("reviewSuccess").value.split(/[,，]/).map(Number);
+    if (intervals.length !== 4 || success.length !== 4 || [...intervals,...success].some(v=>!Number.isFinite(v)||v<1||v>365)) {
+      alert('请分别填写四个 1～365 天的间隔，以逗号分隔。'); return;
+    }
+    state.reviewSettings = scheduler.settings({ ...state.reviewSettings, minutes: +$("reviewMinutes").value,
+      seconds: +$("reviewSeconds").value, smart: $("reviewSmart").checked, intervals, success });
+    reviewIds = null; save(); syncReviewSettings();
+  };
+  $("stopReview").onclick = () => { formalReview = false; reviewIds = null; current = null; show('home'); };
+  $("extraReview").onclick = () => {
+    if (!confirm('继续复习可能超出今日时间预算，是否继续？')) return;
+    formalReview = true; beyondBudget = true;
+    reviewIds = scheduler.plan(state, Date.now(), true).selected.map(x=>x.id); queueDay = reviewDay(Date.now());
+    state.reviewPlan = { day: reviewDay(Date.now()), ids: reviewIds.slice(), beyondBudget: true };
+    for (const x of state.items) if (reviewIds.includes(x.id)) x.schedule.lastScheduledDay = state.reviewPlan.day;
+    save();
+    $("modeFilter").value = 'due'; current = null; next(); show('study');
+  };
+  document.addEventListener('visibilitychange', () => { shownAt = Date.now(); });
   renderStats();
   let lastId;
   try {
