@@ -46,6 +46,7 @@ for (const file of ["app.js", "sw.js"])
   });
 execFileSync(process.execPath, [path.join(__dirname, "water838-environment-validate.cjs")], { stdio: "inherit" });
 execFileSync(process.execPath, [path.join(__dirname, "water838-water-images-validate.cjs")], { stdio: "inherit" });
+execFileSync(process.execPath, [path.join(site, "scripts/validate_knowledge.cjs")], { stdio: "inherit" });
 const outArg = process.argv.indexOf("--out");
 if (outArg !== -1) {
   assert(process.argv[outArg + 1], "Missing output directory");

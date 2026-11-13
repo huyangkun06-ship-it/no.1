@@ -1,0 +1,32 @@
+name: Verify knowledge module
+on:
+  pull_request:
+    paths: ['water838/**', '.github/workflows/knowledge.yml']
+  push:
+    branches: ['feat/838-knowledge-system']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate preserved banks and knowledge build
+        run: |
+          node .github/scripts/water838-build.cjs
+          node --test water838/tests/scheduler.test.cjs
+          python3 water838/scripts/build_knowledge.py
+          git diff --exit-code -- water838/knowledge/data
+      - name: Install isolated browser tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/knowledge-check" playwright@1.58.2
+          node "$RUNNER_TEMP/knowledge-check/node_modules/playwright/cli.js" install --with-deps chromium webkit
+      - name: Serve static site and verify interactions
+        env:
+          NODE_PATH: ${{ runner.temp }}/knowledge-check/node_modules
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/knowledge-http.log 2>&1 &
+          node water838/tests/knowledge.test.cjs
+          BROWSER=webkit node water838/tests/knowledge.test.cjs
