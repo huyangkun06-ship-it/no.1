@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "treeVersion": 1,
+  "title": "838 知识体系",
+  "subjects": [
+    {
+      "id": "environment-intro",
+      "title": "环境学导论",
+      "rootIds": [
+        "env-chapter-01",
+        "env-chapter-02",
+        "env-chapter-03",
+        "env-chapter-04",
+        "env-chapter-05",
+        "env-chapter-06",
+        "env-chapter-07",
+        "env-chapter-08",
+        "env-chapter-09",
+        "env-chapter-10",
+        "env-chapter-11",
+        "env-chapter-12",
+        "env-chapter-13",
+        "env-chapter-14",
+        "env-chapter-15",
+        "env-chapter-16",
+        "env-chapter-17",
+        "env-chapter-18",
+        "env-chapter-19",
+        "env-chapter-20"
+      ]
+    },
+    {
+      "id": "water-pollution",
+      "title": "水污染控制工程",
+      "rootIds": [
+        "water-chapter-01",
+        "water-chapter-02",
+        "water-chapter-03",
+        "water-chapter-04",
+        "water-chapter-05",
+        "water-chapter-06",
+        "water-chapter-07",
+        "water-chapter-08",
+        "water-chapter-09",
+        "water-chapter-10",
+        "water-chapter-11",
+        "water-chapter-12"
+      ]
+    }
+  ],
+  "statistics": {
+    "environmentOriginalChapters": 20,
+    "environmentRecords": 482,
+    "environmentKnowledge": 343,
+    "environmentExercises": 139,
+    "environmentSourceNotes": 504,
+    "environmentFirstSevenSupplements": 20,
+    "waterLogicalChapters": 12,
+    "waterPrimarySections": 163,
+    "waterOrganizedTopics": 39,
+    "waterLegacyQuestions": 211,
+    "sourceGaps": 6,
+    "verified": 0,
+    "pending": 879,
+    "treeNodes": 4470
+  },
+  "sourceGaps": [
+    {
+      "id": "missing-env-fused-map",
+      "document": "环境学导论_20章_融合新增内容.xmind / .md / environment_study_20_chapters.md",
+      "status": "source_incomplete",
+      "note": "本地与Drive未找到，不能声称已导入该融合版。"
+    },
+    {
+      "id": "missing-env-first-seven",
+      "document": "环导新增——前七章",
+      "status": "not_migrated",
+      "note": "未找到同名或可确认等同文件；已有环导变动PDF中的前七章补充已融入，不能视为同一资料。"
+    },
+    {
+      "id": "water-primary-visuals",
+      "document": "水污染控制工程.pdf",
+      "status": "source_incomplete",
+      "note": "Drive可读文本已取得；36,749,782字节原件超过执行器32MiB传输上限，直取链接返回403。主PDF公式、表格、插图未完成原页核验；旧辅助教辅裁图可用。"
+    },
+    {
+      "id": "env-gap-4ea69c7ee687fb",
+      "document": "环导原资料/变动PDF",
+      "status": "source_incomplete",
+      "note": {
+        "source": "changes",
+        "page": 28,
+        "reason": "第12章第1—3节仅列标题，作者明确未收录正文；未生成虚构知识点。"
+      }
+    },
+    {
+      "id": "env-gap-95b6f592ee0264",
+      "document": "环导原资料/变动PDF",
+      "status": "source_incomplete",
+      "note": {
+        "source": "changes",
+        "page": 1,
+        "reason": "人口章重写、低生育/三孩政策等仅在变动说明提及，未给出逐点新版正文；原知识点保留并需对新版教材复核。"
+      }
+    },
+    {
+      "id": "env-gap-6e2ca7956b5ee0",
+      "document": "环导原资料/变动PDF",
+      "status": "source_incomplete",
+      "note": {
+        "source": "changes",
+        "page": 30,
+        "reason": "健康风险评价MES说明称L取决于E和S，与所列公式M·E·S不一致；原文保留待核对。"
+      }
+    }
+  ],
+  "chapterMapping": [
+    {
+      "originalChapter": 1,
+      "originalTitle": "绪论",
+      "newChapter": 1,
+      "newTitle": "绪论",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 2,
+      "originalTitle": "全球环境问题",
+      "newChapter": 2,
+      "newTitle": "全球环境问题",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 3,
+      "originalTitle": "水环境",
+      "newChapter": 3,
+      "newTitle": "水环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 4,
+      "originalTitle": "大气环境",
+      "newChapter": 4,
+      "newTitle": "大气环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 5,
+      "originalTitle": "土壤的组成和基本性质",
+      "newChapter": 5,
+      "newTitle": "土壤的组成和基本性质",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 6,
+      "originalTitle": "固体废物与环境",
+      "newChapter": 6,
+      "newTitle": "固体废物与环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 7,
+      "originalTitle": "物理环境",
+      "newChapter": 7,
+      "newTitle": "物理环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 8,
+      "originalTitle": "人口与环境",
+      "newChapter": 8,
+      "newTitle": "人口与环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 9,
+      "originalTitle": "粮食生产与环境",
+      "newChapter": 9,
+      "newTitle": "食品生产与环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 10,
+      "originalTitle": "能源与环境",
+      "newChapter": 10,
+      "newTitle": "能源与环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 11,
+      "originalTitle": "自然资源的开发利用与环境",
+      "newChapter": 11,
+      "newTitle": "自然资源的开发利用与环境",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 12,
+      "originalTitle": "战争与环境",
+      "newChapter": 12,
+      "newTitle": "环境污染与公众健康",
+      "status": "replaced"
+    },
+    {
+      "originalChapter": 13,
+      "originalTitle": "生态学基础",
+      "newChapter": 13,
+      "newTitle": "生态学基础",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 14,
+      "originalTitle": "生物多样性",
+      "newChapter": 14,
+      "newTitle": "生物多样性",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 15,
+      "originalTitle": "工业生态系统构建",
+      "newChapter": 15,
+      "newTitle": "工农业生态系统保护",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 16,
+      "originalTitle": "农业生态系统",
+      "newChapter": 15,
+      "newTitle": "工农业生态系统保护",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 17,
+      "originalTitle": "城市生态学系统保护",
+      "newChapter": 16,
+      "newTitle": "城乡生态系统保护",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 18,
+      "originalTitle": "农村生态系统保护",
+      "newChapter": 16,
+      "newTitle": "城乡生态系统保护",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 19,
+      "originalTitle": "生态文明理论与实践",
+      "newChapter": 17,
+      "newTitle": "生态文明理论与实践",
+      "status": "mapped"
+    },
+    {
+      "originalChapter": 20,
+      "originalTitle": "可持续发展",
+      "newChapter": 18,
+      "newTitle": "可持续发展",
+      "status": "mapped"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "compare-activated-sludge",
+      "title": "活性污泥法与生物膜法",
+      "nodeIds": [
+        "water-activated-sludge",
+        "water-biofilm-principle"
+      ]
+    },
+    {
+      "id": "compare-plug-flow",
+      "title": "推流式与完全混合式",
+      "nodeIds": [
+        "water-plug-flow",
+        "water-complete-mix"
+      ]
+    },
+    {
+      "id": "compare-trickling-filter",
+      "title": "四种生物膜工艺",
+      "nodeIds": [
+        "water-trickling-filter",
+        "water-rbc",
+        "water-contact-oxidation",
+        "water-fluidized-bed"
+      ]
+    },
+    {
+      "id": "compare-sbr",
+      "title": "SBR与连续流工艺",
+      "nodeIds": [
+        "water-sbr",
+        "water-continuous-flow"
+      ]
+    },
+    {
+      "id": "compare-ao",
+      "title": "A/O与A²/O",
+      "nodeIds": [
+        "water-ao",
+        "water-aao"
+      ]
+    },
+    {
+      "id": "compare-aerobic-pond",
+      "title": "好氧塘、兼性塘与厌氧塘",
+      "nodeIds": [
+        "water-aerobic-pond",
+        "water-facultative-pond",
+        "water-anaerobic-pond"
+      ]
+    },
+    {
+      "id": "compare-uasb",
+      "title": "UASB与厌氧滤池",
+      "nodeIds": [
+        "water-uasb",
+        "water-anaerobic-filter"
+      ]
+    },
+    {
+      "id": "compare-primary-clarifier",
+      "title": "初沉池与二沉池",
+      "nodeIds": [
+        "water-primary-clarifier",
+        "water-secondary-clarifier"
+      ]
+    },
+    {
+      "id": "compare-nitrification",
+      "title": "硝化与反硝化",
+      "nodeIds": [
+        "water-nitrification",
+        "water-denitrification"
+      ]
+    },
+    {
+      "id": "compare-anaerobic",
+      "title": "厌氧与缺氧",
+      "nodeIds": [
+        "water-anaerobic",
+        "water-anoxic"
+      ]
+    },
+    {
+      "id": "compare-srt",
+      "title": "SRT与HRT",
+      "nodeIds": [
+        "water-srt",
+        "water-hrt"
+      ]
+    },
+    {
+      "id": "compare-bod",
+      "title": "BOD与COD",
+      "nodeIds": [
+        "water-bod",
+        "water-cod"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "环境学导论.pdf",
+      "sha256": "88a9ffc6393bab8909b666f971288b62a36efeaa3fc1a8cebee5fb01b4b7f126",
+      "pageCount": 312,
+      "pagesWithSparseText": [
+        59,
+        75,
+        86,
+        92,
+        93,
+        94,
+        96,
+        116,
+        131,
+        135,
+        144,
+        172,
+        189,
+        195,
+        205,
+        207,
+        214,
+        215,
+        235,
+        258,
+        267,
+        268,
+        270,
+        301
+      ],
+      "ocrImageRegions": 114
+    },
+    {
+      "source": "环导变动137718728584015123.1eae00877280d3e.pdf",
+      "sha256": "825fe18fb51a72cbce8fd4216b498caabb1bfebfaf7e5d59cec7f3f8cd77918a",
+      "pageCount": 32,
+      "pagesWithSparseText": [
+        31,
+        32
+      ],
+      "ocrImageRegions": 3
+    },
+    {
+      "source": "水污染控制工程.pdf / Drive文字快照",
+      "sha256": "6e11557681afac695ebe2d792601c9c26d588ea57ae10d1aecbc6740e0d89bbc",
+      "snapshot": "water-primary-text.txt",
+      "visualVerification": "pending"
+    }
+  ]
+}
